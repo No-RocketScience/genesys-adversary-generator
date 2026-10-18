@@ -175,7 +175,7 @@
                       <div>
                         <input name="skill-{{skill|lower|replace('(', '_')|replace(')', '_')}}" onchange="update()"
                           class="edit skill-edit" type="number" min="0" max="5" value="0"
-                          id="skill-{{skill|lower|replace('(', '_')|replace(')', '_')}}">
+                          id="skill-{{skill|lower|replace('(', '_')|replace(')', '_')}}" data-skill-name="{{skill}}">
                       </div>
                     </td>
                   </tr>
@@ -277,7 +277,7 @@
 
         </fieldset> #}
 
-        <fieldset style="display: block;">
+        <fieldset style="display: block;" class="equipment">
           <legend>Equipment</legend>
           {% for category in equipment_list %}
           <fieldset style="display: block;">
@@ -293,10 +293,41 @@
                   {% endfor %}
                 </tr>
                 {% for item in group['items'] %}
+                {% set item_name = item['Name']|lower()|replace(' ', '-') %}
                 <tr>
                   <td class="select">
-                    <input type="checkbox" id="equipment-{{item['Name']|lower()|replace(' ', '-')}}"
-                      name="equipment-{{group['name']|lower()|replace(' ', '-')}}" value="">
+                    <input type="checkbox" class="edit {{category['category']|lower}}" id="equipment-{{item_name}}"
+                      name="equipment-{{item_name}}" onchange="update()">
+                    <span style="display: none;" id="text-equipment-{{item_name}}">
+                      {{ item['Name'] }};
+                      {% if 'Defense' in item %}
+                      Defense: {{ item['Defense']}};
+                      {% endif %}
+                      {% if 'Soak' in item %}
+                      Soak: {{ item['Soak']}};
+                      {% endif %}
+                      {% if 'Skill' in item %}
+                      Skill: {{ item['Skill']}};
+                      {% endif %}
+                      {% if 'Damage' in item %}
+                      Damage: {{ item['Damage']}};
+                      {% endif %}
+                      {% if 'Crit' in item %}
+                      Crit: {{ item['Crit']}};
+                      {% endif %}
+                      {% if 'Range' in item %}
+                      Range: {{ item['Range']}};
+                      {% endif %}
+                      Encumbrance: {{ item['Encumbrance'] }};
+                      {% if 'HardPoints' in item %}
+                      HardPoints: {{ item['HardPoints']}};
+                      {% endif %}
+                      Price: {{ item['Price'] }};
+                      Rarity: {{ item['Rarity'] }};
+                      {% if 'Special' in item %}
+                      Special: {{ item['Special']}};
+                      {% endif %}
+                    </span>
                   </td>
                   {% for key in item.keys() %}
                   <td><label>{{item[key]}}</label></td>

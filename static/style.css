@@ -183,7 +183,7 @@ table input:not(.edit) {
     pointer-events: none;
 }
 
-table input.edit {
+table input.edit:not(type="checkbox") {
     margin-left: auto;
     margin-right: auto;
 }

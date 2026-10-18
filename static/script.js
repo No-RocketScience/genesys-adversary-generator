@@ -37,9 +37,18 @@ function update() {
   document.querySelectorAll(".skill-edit").forEach(e => {
     value = Number(e.value);
     if (value > 0) {
-      skills[e.id.split("-")[1]] = value;
+      skills[e.dataset["skillName"]] = value;
     }
   });
+
+  weapons = "";
+  document.querySelectorAll(".equipment input.edit.weapons:checked")
+    .forEach(w => { weapons += document.getElementById("text-" + w.id).textContent.trim() + " | \n"; });
+  equipment = "";
+  document.querySelectorAll(".equipment input.edit.armor:checked")
+    .forEach(e => { equipment += document.getElementById("text-" + e.id).textContent.trim() + " | \n"; });
+  document.querySelectorAll(".equipment input.edit.gear:checked")
+    .forEach(e => { equipment += document.getElementById("text-" + e.id).textContent.trim() + " | \n"; });
 
   // Condensation of all inputs
   result = {
@@ -50,6 +59,14 @@ function update() {
     "abilities": [],
     "caracteristics": characteristics,
   };
+
+  if (weapons !== "") {
+    result["weapons"] = weapons;
+  }
+
+  if (equipment !== "") {
+    result["equipment"] = equipment;
+  }
 
   for (var i = 0, n = choices.length; i < n; i++)
     for (var item in choices[i]) {

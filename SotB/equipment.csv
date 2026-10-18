@@ -37,7 +37,7 @@ Stun Grenade	Ranged (Light)	8	5	Short	1	70	4	Blast 8, Disorient 3, Limited Ammo 
 
 Brawl Weapons
 Brass Knuckles	Brawl	+1	4	Engaged	1	1	40	1	Disorient 3
-Chromecrushers	Brawl +	3	4	Engaged	2	1	250 (R)	3	Linked 1
+Chromecrushers	Brawl	+3	4	Engaged	2	1	250 (R)	3	Linked 1
 Palm Stunner	Brawl	5	5	Engaged	0	0	70	3	Disorient 2, Slow-Firing 2, Stun Damage
 Power Gauntlet	Brawl	+4	4	Engaged	3	2	1,120 (R)	6	Concussive 2, Knockdown, Prepare 1
 
@@ -63,7 +63,7 @@ Personal Exosuit	0	+3	5	4	5,000 (R)	6
 Plasteel Carapace	1	+2	4	3	750 (R)	5
 Riot Armor	0	+2	3	2	550	5
 
-Item	Encum	Price	Rarity
+Name	Encumbrance	Price	Rarity
 
 Carrying and Storage
 Cross-Body Bag	+3	30	1

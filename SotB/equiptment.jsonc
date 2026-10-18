@@ -442,8 +442,8 @@
           },
           {
             "Name": "Chromecrushers",
-            "Skill": "Brawl +",
-            "Damage": 3,
+            "Skill": "Brawl",
+            "Damage": "+3",
             "Crit": 4,
             "Range": "Engaged",
             "Encumbrance": 2,
@@ -574,32 +574,32 @@
         "name": "Carrying and Storage",
         "items": [
           {
-            "Item": "Cross-Body Bag",
-            "Encum": 3,
+            "Name": "Cross-Body Bag",
+            "Encumbrance": 3,
             "Price": 30,
             "Rarity": 1
           },
           {
-            "Item": "Load-Bearing Gear",
-            "Encum": 3,
+            "Name": "Load-Bearing Gear",
+            "Encumbrance": 3,
             "Price": 45,
             "Rarity": 3
           },
           {
-            "Item": "MAL Container",
-            "Encum": 15,
+            "Name": "MAL Container",
+            "Encumbrance": 15,
             "Price": "10,000",
             "Rarity": 8
           },
           {
-            "Item": "Modular Backpack",
-            "Encum": 5,
+            "Name": "Modular Backpack",
+            "Encumbrance": 5,
             "Price": 100,
             "Rarity": 3
           },
           {
-            "Item": "Utility Belt",
-            "Encum": 2,
+            "Name": "Utility Belt",
+            "Encumbrance": 2,
             "Price": 20,
             "Rarity": 1
           }
@@ -609,32 +609,32 @@
         "name": "Clandestine and Black Ops",
         "items": [
           {
-            "Item": "Disguise Kit",
-            "Encum": 4,
+            "Name": "Disguise Kit",
+            "Encumbrance": 4,
             "Price": 250,
             "Rarity": 5
           },
           {
-            "Item": "Infiltrator Goggles",
-            "Encum": 1,
+            "Name": "Infiltrator Goggles",
+            "Encumbrance": 1,
             "Price": 300,
             "Rarity": 6
           },
           {
-            "Item": "Lockbreaker",
-            "Encum": 1,
+            "Name": "Lockbreaker",
+            "Encumbrance": 1,
             "Price": 125,
             "Rarity": 5
           },
           {
-            "Item": "Lockpick Set",
-            "Encum": 1,
+            "Name": "Lockpick Set",
+            "Encumbrance": 1,
             "Price": 75,
             "Rarity": 5
           },
           {
-            "Item": "Snap-Locks",
-            "Encum": 0,
+            "Name": "Snap-Locks",
+            "Encumbrance": 0,
             "Price": 5,
             "Rarity": 3
           }
@@ -644,20 +644,20 @@
         "name": "Comms",
         "items": [
           {
-            "Item": "Burst Transmitter",
-            "Encum": 1,
+            "Name": "Burst Transmitter",
+            "Encumbrance": 1,
             "Price": 440,
             "Rarity": 6
           },
           {
-            "Item": "Field Radio",
-            "Encum": 1,
+            "Name": "Field Radio",
+            "Encumbrance": 1,
             "Price": 250,
             "Rarity": 5
           },
           {
-            "Item": "Personal Comlink",
-            "Encum": 0,
+            "Name": "Personal Comlink",
+            "Encumbrance": 0,
             "Price": 25,
             "Rarity": 4
           }
@@ -667,44 +667,44 @@
         "name": "Computers and Computer Accessories",
         "items": [
           {
-            "Item": "Big Rig",
-            "Encum": 8,
+            "Name": "Big Rig",
+            "Encumbrance": 8,
             "Price": "2,000",
             "Rarity": 7
           },
           {
-            "Item": "BMI",
-            "Encum": 0,
+            "Name": "BMI",
+            "Encumbrance": 0,
             "Price": 480,
             "Rarity": 4
           },
           {
-            "Item": "Monocam",
-            "Encum": 0,
+            "Name": "Monocam",
+            "Encumbrance": 0,
             "Price": 120,
             "Rarity": 2
           },
           {
-            "Item": "PAD",
-            "Encum": 1,
+            "Name": "PAD",
+            "Encumbrance": 1,
             "Price": 200,
             "Rarity": 2
           },
           {
-            "Item": "Portable Rig",
-            "Encum": 3,
+            "Name": "Portable Rig",
+            "Encumbrance": 3,
             "Price": 750,
             "Rarity": 5
           },
           {
-            "Item": "Reader",
-            "Encum": 0,
+            "Name": "Reader",
+            "Encumbrance": 0,
             "Price": 175,
             "Rarity": 2
           },
           {
-            "Item": "Smartspecs",
-            "Encum": 1,
+            "Name": "Smartspecs",
+            "Encumbrance": 1,
             "Price": 90,
             "Rarity": 3
           }
@@ -714,44 +714,44 @@
         "name": "Meds and Drugs",
         "items": [
           {
-            "Item": "Emergency Medkit",
-            "Encum": 1,
+            "Name": "Emergency Medkit",
+            "Encumbrance": 1,
             "Price": 100,
             "Rarity": 2
           },
           {
-            "Item": "Happy Patch",
-            "Encum": 0,
+            "Name": "Happy Patch",
+            "Encumbrance": 0,
             "Price": 10,
             "Rarity": 1
           },
           {
-            "Item": "Low-Fi",
-            "Encum": 0,
+            "Name": "Low-Fi",
+            "Encumbrance": 0,
             "Price": 50,
             "Rarity": 2
           },
           {
-            "Item": "Portable Clinic Kit",
-            "Encum": 3,
+            "Name": "Portable Clinic Kit",
+            "Encumbrance": 3,
             "Price": 700,
             "Rarity": 4
           },
           {
-            "Item": "Slap-Patch",
-            "Encum": 0,
+            "Name": "Slap-Patch",
+            "Encumbrance": 0,
             "Price": 25,
             "Rarity": 2
           },
           {
-            "Item": "Stim",
-            "Encum": 0,
+            "Name": "Stim",
+            "Encumbrance": 0,
             "Price": 5,
             "Rarity": 1
           },
           {
-            "Item": "Sting",
-            "Encum": 0,
+            "Name": "Sting",
+            "Encumbrance": 0,
             "Price": 50,
             "Rarity": 3
           }
@@ -761,86 +761,86 @@
         "name": "Tools and General Gear",
         "items": [
           {
-            "Item": "Airbelt Pack",
-            "Encum": 1,
+            "Name": "Airbelt Pack",
+            "Encumbrance": 1,
             "Price": 650,
             "Rarity": 3
           },
           {
-            "Item": "Climbing Harness",
-            "Encum": 2,
+            "Name": "Climbing Harness",
+            "Encumbrance": 2,
             "Price": 400,
             "Rarity": 4
           },
           {
-            "Item": "Emergency Repair Patch",
-            "Encum": 0,
+            "Name": "Emergency Repair Patch",
+            "Encumbrance": 0,
             "Price": 25,
             "Rarity": 2
           },
           {
-            "Item": "Flashlight",
-            "Encum": 0,
+            "Name": "Flashlight",
+            "Encumbrance": 0,
             "Price": 10,
             "Rarity": 1
           },
           {
-            "Item": "Forensic Kit",
-            "Encum": 4,
+            "Name": "Forensic Kit",
+            "Encumbrance": 4,
             "Price": 475,
             "Rarity": 5
           },
           {
-            "Item": "Handheld Scanner",
-            "Encum": 1,
+            "Name": "Handheld Scanner",
+            "Encumbrance": 1,
             "Price": 100,
             "Rarity": 2
           },
           {
-            "Item": "Las-Scanner",
-            "Encum": 1,
+            "Name": "Las-Scanner",
+            "Encumbrance": 1,
             "Price": 170,
             "Rarity": 4
           },
           {
-            "Item": "Makerbox",
-            "Encum": 5,
+            "Name": "Makerbox",
+            "Encumbrance": 5,
             "Price": "1,000",
             "Rarity": 6
           },
           {
-            "Item": "Micro-Welder",
-            "Encum": 1,
+            "Name": "Micro-Welder",
+            "Encumbrance": 1,
             "Price": 80,
             "Rarity": 2
           },
           {
-            "Item": "O2 Bottle",
-            "Encum": 1,
+            "Name": "O2 Bottle",
+            "Encumbrance": 1,
             "Price": 35,
             "Rarity": 2
           },
           {
-            "Item": "Portable Toolkit",
-            "Encum": 4,
+            "Name": "Portable Toolkit",
+            "Encumbrance": 4,
             "Price": 200,
             "Rarity": 2
           },
           {
-            "Item": "Respirator",
-            "Encum": 1,
+            "Name": "Respirator",
+            "Encumbrance": 1,
             "Price": 40,
             "Rarity": 1
           },
           {
-            "Item": "Rope",
-            "Encum": 1,
+            "Name": "Rope",
+            "Encumbrance": 1,
             "Price": 5,
             "Rarity": 1
           },
           {
-            "Item": "Space Suit",
-            "Encum": 6,
+            "Name": "Space Suit",
+            "Encumbrance": 6,
             "Price": 500,
             "Rarity": 3
           }
