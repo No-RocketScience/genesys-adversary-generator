@@ -1,0 +1,1709 @@
+{
+  "skills": [
+    {
+      "name": "athletics",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "athletics": 1
+      }
+    },
+    {
+      "name": "brawl",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "brawl": 1
+      }
+    },
+    {
+      "name": "charm",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "charm": 1
+      }
+    },
+    {
+      "name": "coercion",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "coercion": 1
+      }
+    },
+    {
+      "name": "computers (hacking)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "computers (hacking)": 1
+      }
+    },
+    {
+      "name": "computers (sysops)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "computers (sysops)": 1
+      }
+    },
+    {
+      "name": "cool",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "cool": 1
+      }
+    },
+    {
+      "name": "coordination",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "coordination": 1
+      }
+    },
+    {
+      "name": "deception",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "deception": 1
+      }
+    },
+    {
+      "name": "discipline",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "discipline": 1
+      }
+    },
+    {
+      "name": "driving",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "driving": 1
+      }
+    },
+    {
+      "name": "gunnery",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "gunnery": 1
+      }
+    },
+    {
+      "name": "knowledge (science)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "knowledge (science)": 1
+      }
+    },
+    {
+      "name": "knowledge (society)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "knowledge (society)": 1
+      }
+    },
+    {
+      "name": "knowledge (the net)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "knowledge (the net)": 1
+      }
+    },
+    {
+      "name": "leadership",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "leadership": 1
+      }
+    },
+    {
+      "name": "mechanics",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "mechanics": 1
+      }
+    },
+    {
+      "name": "medicine",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "medicine": 1
+      }
+    },
+    {
+      "name": "melee",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "melee": 1
+      }
+    },
+    {
+      "name": "negotiation",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "negotiation": 1
+      }
+    },
+    {
+      "name": "operating",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "operating": 1
+      }
+    },
+    {
+      "name": "perception",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "perception": 1
+      }
+    },
+    {
+      "name": "piloting",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "piloting": 1
+      }
+    },
+    {
+      "name": "ranged (heavy)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "ranged (heavy)": 1
+      }
+    },
+    {
+      "name": "ranged (light)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "ranged (light)": 1
+      }
+    },
+    {
+      "name": "resilience",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "resilience": 1
+      }
+    },
+    {
+      "name": "skulduggery",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "skulduggery": 1
+      }
+    },
+    {
+      "name": "stealth",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "stealth": 1
+      }
+    },
+    {
+      "name": "streetwise",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "streetwise": 1
+      }
+    },
+    {
+      "name": "survival",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "survival": 1
+      }
+    },
+    {
+      "name": "vigilance",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "vigilance": 1
+      }
+    },
+    {
+      "name": "athletics",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "athletics": 2
+      }
+    },
+    {
+      "name": "brawl",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "brawl": 2
+      }
+    },
+    {
+      "name": "charm",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "charm": 2
+      }
+    },
+    {
+      "name": "coercion",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "coercion": 2
+      }
+    },
+    {
+      "name": "computers (hacking)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "computers (hacking)": 2
+      }
+    },
+    {
+      "name": "computers (sysops)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "computers (sysops)": 2
+      }
+    },
+    {
+      "name": "cool",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "cool": 2
+      }
+    },
+    {
+      "name": "coordination",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "coordination": 2
+      }
+    },
+    {
+      "name": "deception",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "deception": 2
+      }
+    },
+    {
+      "name": "discipline",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "discipline": 2
+      }
+    },
+    {
+      "name": "driving",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "driving": 2
+      }
+    },
+    {
+      "name": "gunnery",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "gunnery": 2
+      }
+    },
+    {
+      "name": "knowledge (science)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "knowledge (science)": 2
+      }
+    },
+    {
+      "name": "knowledge (society)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "knowledge (society)": 2
+      }
+    },
+    {
+      "name": "knowledge (the net)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "knowledge (the net)": 2
+      }
+    },
+    {
+      "name": "leadership",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "leadership": 2
+      }
+    },
+    {
+      "name": "mechanics",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "mechanics": 2
+      }
+    },
+    {
+      "name": "medicine",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "medicine": 2
+      }
+    },
+    {
+      "name": "melee",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "melee": 2
+      }
+    },
+    {
+      "name": "negotiation",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "negotiation": 2
+      }
+    },
+    {
+      "name": "operating",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "operating": 2
+      }
+    },
+    {
+      "name": "perception",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "perception": 2
+      }
+    },
+    {
+      "name": "piloting",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "piloting": 2
+      }
+    },
+    {
+      "name": "ranged (heavy)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "ranged (heavy)": 2
+      }
+    },
+    {
+      "name": "ranged (light)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "ranged (light)": 2
+      }
+    },
+    {
+      "name": "resilience",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "resilience": 2
+      }
+    },
+    {
+      "name": "skulduggery",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "skulduggery": 2
+      }
+    },
+    {
+      "name": "stealth",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "stealth": 2
+      }
+    },
+    {
+      "name": "streetwise",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "streetwise": 2
+      }
+    },
+    {
+      "name": "survival",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "survival": 2
+      }
+    },
+    {
+      "name": "vigilance",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "vigilance": 2
+      }
+    },
+    {
+      "name": "athletics",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "athletics": 3
+      }
+    },
+    {
+      "name": "brawl",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "brawl": 3
+      }
+    },
+    {
+      "name": "charm",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "charm": 3
+      }
+    },
+    {
+      "name": "coercion",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "coercion": 3
+      }
+    },
+    {
+      "name": "computers (hacking)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "computers (hacking)": 3
+      }
+    },
+    {
+      "name": "computers (sysops)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "computers (sysops)": 3
+      }
+    },
+    {
+      "name": "cool",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "cool": 3
+      }
+    },
+    {
+      "name": "coordination",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "coordination": 3
+      }
+    },
+    {
+      "name": "deception",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "deception": 3
+      }
+    },
+    {
+      "name": "discipline",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "discipline": 3
+      }
+    },
+    {
+      "name": "driving",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "driving": 3
+      }
+    },
+    {
+      "name": "gunnery",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "gunnery": 3
+      }
+    },
+    {
+      "name": "knowledge (science)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "knowledge (science)": 3
+      }
+    },
+    {
+      "name": "knowledge (society)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "knowledge (society)": 3
+      }
+    },
+    {
+      "name": "knowledge (the net)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "knowledge (the net)": 3
+      }
+    },
+    {
+      "name": "leadership",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "leadership": 3
+      }
+    },
+    {
+      "name": "mechanics",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "mechanics": 3
+      }
+    },
+    {
+      "name": "medicine",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "medicine": 3
+      }
+    },
+    {
+      "name": "melee",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "melee": 3
+      }
+    },
+    {
+      "name": "negotiation",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "negotiation": 3
+      }
+    },
+    {
+      "name": "operating",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "operating": 3
+      }
+    },
+    {
+      "name": "perception",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "perception": 3
+      }
+    },
+    {
+      "name": "piloting",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "piloting": 3
+      }
+    },
+    {
+      "name": "ranged (heavy)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "ranged (heavy)": 3
+      }
+    },
+    {
+      "name": "ranged (light)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "ranged (light)": 3
+      }
+    },
+    {
+      "name": "resilience",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "resilience": 3
+      }
+    },
+    {
+      "name": "skulduggery",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "skulduggery": 3
+      }
+    },
+    {
+      "name": "stealth",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "stealth": 3
+      }
+    },
+    {
+      "name": "streetwise",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "streetwise": 3
+      }
+    },
+    {
+      "name": "survival",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "survival": 3
+      }
+    },
+    {
+      "name": "vigilance",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "vigilance": 3
+      }
+    },
+    {
+      "name": "athletics",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "athletics": 4
+      }
+    },
+    {
+      "name": "brawl",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "brawl": 4
+      }
+    },
+    {
+      "name": "charm",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "charm": 4
+      }
+    },
+    {
+      "name": "coercion",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "coercion": 4
+      }
+    },
+    {
+      "name": "computers (hacking)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "computers (hacking)": 4
+      }
+    },
+    {
+      "name": "computers (sysops)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "computers (sysops)": 4
+      }
+    },
+    {
+      "name": "cool",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "cool": 4
+      }
+    },
+    {
+      "name": "coordination",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "coordination": 4
+      }
+    },
+    {
+      "name": "deception",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "deception": 4
+      }
+    },
+    {
+      "name": "discipline",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "discipline": 4
+      }
+    },
+    {
+      "name": "driving",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "driving": 4
+      }
+    },
+    {
+      "name": "gunnery",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "gunnery": 4
+      }
+    },
+    {
+      "name": "knowledge (science)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "knowledge (science)": 4
+      }
+    },
+    {
+      "name": "knowledge (society)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "knowledge (society)": 4
+      }
+    },
+    {
+      "name": "knowledge (the net)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "knowledge (the net)": 4
+      }
+    },
+    {
+      "name": "leadership",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "leadership": 4
+      }
+    },
+    {
+      "name": "mechanics",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "mechanics": 4
+      }
+    },
+    {
+      "name": "medicine",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "medicine": 4
+      }
+    },
+    {
+      "name": "melee",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "melee": 4
+      }
+    },
+    {
+      "name": "negotiation",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "negotiation": 4
+      }
+    },
+    {
+      "name": "operating",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "operating": 4
+      }
+    },
+    {
+      "name": "perception",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "perception": 4
+      }
+    },
+    {
+      "name": "piloting",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "piloting": 4
+      }
+    },
+    {
+      "name": "ranged (heavy)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "ranged (heavy)": 4
+      }
+    },
+    {
+      "name": "ranged (light)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "ranged (light)": 4
+      }
+    },
+    {
+      "name": "resilience",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "resilience": 4
+      }
+    },
+    {
+      "name": "skulduggery",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "skulduggery": 4
+      }
+    },
+    {
+      "name": "stealth",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "stealth": 4
+      }
+    },
+    {
+      "name": "streetwise",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "streetwise": 4
+      }
+    },
+    {
+      "name": "survival",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "survival": 4
+      }
+    },
+    {
+      "name": "vigilance",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "vigilance": 4
+      }
+    },
+    {
+      "name": "athletics",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "athletics": 5
+      }
+    },
+    {
+      "name": "brawl",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "brawl": 5
+      }
+    },
+    {
+      "name": "charm",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "charm": 5
+      }
+    },
+    {
+      "name": "coercion",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "coercion": 5
+      }
+    },
+    {
+      "name": "computers (hacking)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "computers (hacking)": 5
+      }
+    },
+    {
+      "name": "computers (sysops)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "computers (sysops)": 5
+      }
+    },
+    {
+      "name": "cool",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "cool": 5
+      }
+    },
+    {
+      "name": "coordination",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "coordination": 5
+      }
+    },
+    {
+      "name": "deception",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "deception": 5
+      }
+    },
+    {
+      "name": "discipline",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "discipline": 5
+      }
+    },
+    {
+      "name": "driving",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "driving": 5
+      }
+    },
+    {
+      "name": "gunnery",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "gunnery": 5
+      }
+    },
+    {
+      "name": "knowledge (science)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "knowledge (science)": 5
+      }
+    },
+    {
+      "name": "knowledge (society)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "knowledge (society)": 5
+      }
+    },
+    {
+      "name": "knowledge (the net)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "knowledge (the net)": 5
+      }
+    },
+    {
+      "name": "leadership",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "leadership": 5
+      }
+    },
+    {
+      "name": "mechanics",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "mechanics": 5
+      }
+    },
+    {
+      "name": "medicine",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "medicine": 5
+      }
+    },
+    {
+      "name": "melee",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "melee": 5
+      }
+    },
+    {
+      "name": "negotiation",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "negotiation": 5
+      }
+    },
+    {
+      "name": "operating",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "operating": 5
+      }
+    },
+    {
+      "name": "perception",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "perception": 5
+      }
+    },
+    {
+      "name": "piloting",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "piloting": 5
+      }
+    },
+    {
+      "name": "ranged (heavy)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "ranged (heavy)": 5
+      }
+    },
+    {
+      "name": "ranged (light)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "ranged (light)": 5
+      }
+    },
+    {
+      "name": "resilience",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "resilience": 5
+      }
+    },
+    {
+      "name": "skulduggery",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "skulduggery": 5
+      }
+    },
+    {
+      "name": "stealth",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "stealth": 5
+      }
+    },
+    {
+      "name": "streetwise",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "streetwise": 5
+      }
+    },
+    {
+      "name": "survival",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "survival": 5
+      }
+    },
+    {
+      "name": "vigilance",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "skills": {
+        "vigilance": 5
+      }
+    }
+  ]
+}

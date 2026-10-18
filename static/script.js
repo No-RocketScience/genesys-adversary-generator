@@ -1,7 +1,7 @@
 const data = JSON.parse(json_data);
 
 
-function click_row(id){ 
+function click_row(id) {
   element = document.getElementById(id);
   if (element.type == 'radio')
     element.checked = true
@@ -10,33 +10,53 @@ function click_row(id){
   update()
 };
 
-function update(){
+function update() {
   choices = [];
 
   // find all checked elements
-  var inputs = document.querySelectorAll('table input')
-  for (var i=0, n=inputs.length, input; i < n; i++){
+  var inputs = document.querySelectorAll('table input:not(.edit)')
+  for (var i = 0, n = inputs.length, input; i < n; i++) {
     input = inputs[i];
-    if (input.checked) 
+    if (input.checked)
       choices.push(data[input.name][input.value]);
   }
-  
+
+  characteristics = { "brawn": 2, "agility": 2, "intellect": 2, "cunning": 2, "willpower": 2, "presence": 2 };
+  document.querySelectorAll(".characteristic-edit").forEach(e => {
+    value = Number(e.value);
+    if (value != 2) {
+      characteristics[e.id.split("-")[1]] = value;
+    }
+  });
+  choices.push({
+    "caracs": characteristics
+  });
+
+
+  skills = {};
+  document.querySelectorAll(".skill-edit").forEach(e => {
+    value = Number(e.value);
+    if (value > 0) {
+      skills[e.id.split("-")[1]] = value;
+    }
+  });
 
   // Condensation of all inputs
-  result = {"power_level": {"combat": 0, "social": 0, "general": 0},
-    "defense": {"strain_threshold": 0, "wound_threshold": 0, "soak": 0, "melee_defense": 0, "ranged_defense": 0},
-    "skills": {},
-    "talents" : [],
+  result = {
+    "power_level": { "combat": 0, "social": 0, "general": 0 },
+    "defense": { "strain_threshold": 0, "wound_threshold": 0, "soak": 0, "melee_defense": 0, "ranged_defense": 0 },
+    "skills": skills,
+    "talents": [],
     "abilities": [],
-    "caracteristics": {"brawn": 0, "agility": 0, "intellect": 0, "cunning": 0, "willpower": 0, "presence": 0},
+    "caracteristics": characteristics,
   };
 
   for (var i = 0, n = choices.length; i < n; i++)
-    for (var item in choices[i]){
+    for (var item in choices[i]) {
       values = choices[i][item];
 
-      if (item == 'caracs'){
-        result['caracteristics'] = values 
+      if (item == 'caracs') {
+        result['caracteristics'] = values
         result['defense']['soak'] += values['brawn']
 
       } else if (item == 'power_level')
@@ -44,7 +64,7 @@ function update(){
           result["power_level"][name] += values[name];
 
       else if (item == 'skills')
-        for (var name in values){
+        for (var name in values) {
           prev = (name in result["skills"]) ? result["skills"][name] : 0;
           result["skills"][name] = Math.max(prev, values[name]);
         }
@@ -60,101 +80,101 @@ function update(){
 
       else if (item == 'equipment')
         result["equipment"] = values
-        
-      else if (item == "defense"){
+
+      else if (item == "defense") {
         for (var name in values)
           result["defense"][name.replace(' ', '_')] += values[name];
-        
-      }; 
+
+      };
     };
-  
+
   adversary_type = document.querySelector('input[name=type]:checked').value;
-  if (adversary_type == 'minion'){
+  if (adversary_type == 'minion') {
     if (result.caracteristics.brawn == 1)
       result.defense["wound_threshold"] += 3
     else result.defense["wound_threshold"] += 5
-  } 
+  }
   else if (adversary_type == 'rival')
     result.defense["wound_threshold"] += 8 + result.caracteristics.brawn
   else {
     result.defense["wound_threshold"] += 12 + result.caracteristics.brawn;
     result.defense.strain_threshold += 10 + result.caracteristics.willpower;
   }
-  
-    
-    // Affichage
+
+
+  // Affichage
 
   var st = document.querySelector('.st')
   if (nemesis.checked)
     st.style.display = 'unset'
   else
     st.style.display = 'none';
-  
-    
+
+
   var caracs = result['caracteristics'];
   var text;
-  for (var id in caracs){
+  for (var id in caracs) {
     text = document.querySelector('.nb.' + id);
-    text.textContent = caracs[id]; 
+    text.textContent = caracs[id];
   };
 
   var level = result['power_level'];
-  
-  for (var id in level){
+
+  for (var id in level) {
     text = document.querySelector('.nb.' + id);
-    text.textContent = level[id]; 
+    text.textContent = level[id];
   };
-  
+
   text = document.querySelector('.skills');
-    var skill_array = [];
-    var skills = result['skills'];
-    for (name in skills)
-      skill_array.push(name + ' ' + skills[name]);
-    text.textContent = skill_array.sort().join(', ') + '.';
-    if (Object.values(skills).length == 0) 
-      text.textContent = 'None.';
+  var skill_array = [];
+  var skills = result['skills'];
+  for (name in skills)
+    skill_array.push(name + ' ' + skills[name]);
+  text.textContent = skill_array.sort().join(', ') + '.';
+  if (Object.values(skills).length == 0)
+    text.textContent = 'None.';
 
   text = document.querySelector('.talents');
-    var talents = result['talents'];
-    text.innerHTML = talents.sort().join(', ') + '.';
-    if (Object.values(talents).length == 0) 
-      text.innerHTML = 'None.';
+  var talents = result['talents'];
+  text.innerHTML = talents.sort().join(', ') + '.';
+  if (Object.values(talents).length == 0)
+    text.innerHTML = 'None.';
 
   text = document.querySelector('.abilities');
-    var talents = result['abilities'];
-    text.innerHTML = talents.sort().join(', ') + '.';
-    if (Object.values(talents).length == 0) 
-      text.innerHTML = 'None.';
+  var talents = result['abilities'];
+  text.innerHTML = talents.sort().join(', ') + '.';
+  if (Object.values(talents).length == 0)
+    text.innerHTML = 'None.';
 
-  text = document.querySelector('.weapons'); 
-  if ('weapons' in result) 
+  text = document.querySelector('.weapons');
+  if ('weapons' in result)
     text.textContent = result['weapons']
   else
     text.innerHTML = 'None.';
 
   text = document.querySelector('.equipment');
-  if ('equipment' in result) 
+  if ('equipment' in result)
     text.textContent = result['equipment']
   else
     text.innerHTML = 'None.';
 
   var defense = result.defense;
-  
-  for (var id in defense){
+
+  for (var id in defense) {
     text = document.getElementsByClassName(id)[0]
-    text.textContent = defense[id]; 
+    text.textContent = defense[id];
   };
-  
+
   update_url();
   warning();
   template();
 
-}; 
+};
 
-function update_url(){
+function update_url() {
   var form = document.getElementById('type');
   var params = new URLSearchParams(new FormData(form));
-  
+
   var url = window.location.pathname + '?' + params.toString();
   history.replaceState("", "", url);
 };
@@ -163,34 +183,34 @@ function update_name() {
   name_adver = document.querySelector('input[placeholder="Name"]').value;
   var field = document.getElementById('name');
   field.innerText = (name_adver == "") ? 'Name' : name_adver;
-  
+
   update_url();
   //template();
 };
 
-function loading(){
+function loading() {
   searchParams = new URLSearchParams(window.location.search);
 
   for (const [key, value] of searchParams) {
-    var input = document.querySelector('input[name="' + key + '"][value="' + value + '"]') ;
-    if (input === null){
+    var input = document.querySelector('input[name="' + key + '"][value="' + value + '"]');
+    if (input === null) {
       // probably a text input
-      var input = document.querySelector('input[name="' + key + '"]') ;
+      var input = document.querySelector('input[name="' + key + '"]');
       input.value = value;
-    } else 
+    } else
       input.checked = true;
   };
 };
 
-function warning(){
+function warning() {
   warnings = []
 
   // find all checked defense elements
   var defense_inputs = document.querySelectorAll('table input[name="defense"]');
   var nb_checked = 0;
-  for (var i=0, n=defense_inputs.length, input; i < n; i++){
+  for (var i = 0, n = defense_inputs.length, input; i < n; i++) {
     input = defense_inputs[i];
-    if (input.checked) 
+    if (input.checked)
       nb_checked++
   }
 
@@ -227,24 +247,24 @@ function warning(){
       list.appendChild(li);
     };
   } else document.getElementById('warn').style.display = "none";
-  
+
 };
 
-function template(){
+function template() {
   //if (display_template){
   var content = ["{{" + adversary_type];
-  
+
   content.push("name=" + name_adver);
-  
+
   var caracs = result['caracteristics'];
-  for (var id in caracs){
+  for (var id in caracs) {
     content.push(id + "=" + caracs[id])
   };
 
   var level = result['power_level'];
   for (var id in level)
     content.push(id + "=" + level[id]);
-  
+
   var skills = result['skills'];
   if (Object.values(skills).length > 0) {
     var skill_array = [];
@@ -254,17 +274,17 @@ function template(){
   };
 
   var talents = result['talents'];
-  if (Object.values(talents).length > 0) 
+  if (Object.values(talents).length > 0)
     content.push('talents=' + talents.sort().join(', ') + '.');
 
   var talents = result['abilities'];
-  if (Object.values(talents).length > 0) 
+  if (Object.values(talents).length > 0)
     content.push('abilities=' + talents.sort().join(', ') + '.');
 
-  if ('weapons' in result) 
+  if ('weapons' in result)
     content.push('weapons=' + result['weapons']);
 
-  if ('equipment' in result) 
+  if ('equipment' in result)
     content.push('equipment=' + result['equipment']);
 
   var defense = result.defense;
@@ -283,36 +303,36 @@ function template(){
   //}
 }
 
-function toogle_template(){
+function toogle_template() {
   if (typeof display_template === 'undefined')
     display_template = false;
-  else 
+  else
     display_template = !display_template;
 
   var area = document.querySelector('textarea')
-  var copy_button =  document.getElementById('copy');
+  var copy_button = document.getElementById('copy');
   if (display_template) {
     area.style.display = 'unset';
     area.style.height = area.scrollHeight + "px";
     area.focus();
     //area.select();
-  copy_button.style.display = 'unset';
-      
+    copy_button.style.display = 'unset';
+
   } else {
     area.style.display = 'none';
-  copy_button.style.display = 'none';
+    copy_button.style.display = 'none';
   }
   return area
 
 }
 
-function copy(){
+function copy() {
   var area = document.querySelector('textarea')
   area.select();
   document.execCommand("copy");
   area.setSelectionRange(0, 0);
 }
-  
+
 loading();
 toogle_template();
 update_name();

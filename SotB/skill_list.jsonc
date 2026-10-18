@@ -1,0 +1,55 @@
+{
+  "skill_list": [
+    {
+      "type": "general",
+      "skills": [
+        "Athletics",
+        "Computers (Hacking)",
+        "Computers (Sysops)",
+        "Cool",
+        "Coordination",
+        "Discipline",
+        "Driving",
+        "Mechanics",
+        "Medicine",
+        "Operating",
+        "Perception",
+        "Piloting",
+        "Resilience",
+        "Skulduggery",
+        "Stealth",
+        "Streetwise",
+        "Survival",
+        "Vigilance"
+      ]
+    },
+    {
+      "type": "combat",
+      "skills": [
+        "Brawl",
+        "Gunnery",
+        "Melee",
+        "Ranged (Heavy)",
+        "Ranged (Light)"
+      ]
+    },
+    {
+      "type": "social",
+      "skills": [
+        "Charm",
+        "Coercion",
+        "Deception",
+        "Leadership",
+        "Negotiation"
+      ]
+    },
+    {
+      "type": "knowledge",
+      "skills": [
+        "Knowledge (Science)",
+        "Knowledge (Society)",
+        "Knowledge (The Net)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1203 @@
+// (?'talent'.+?)\t(?'tier'.+?)\t(?'activation'.+?)\t(?'ranked'.+?)\t(?'desc'.+?)\t(?'source'.+)
+// {\n    "talent": "T$tier\\n$talent (Ranked: $ranked)",\n    "power_level": {\n        "combat": 0,\n        "social": 0,\n        "general": 0\n    },\n    "desc": "$activation; $desc\\nSource: $source"},
+{
+  "talents": [
+    {
+      "talent": "Adversary 1",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Upgrade the difficulty of all combat checks targeting this character once per rank of Adversary."
+    },
+    {
+      "talent": "Adversary 2",
+      "power_level": {
+        "combat": 1,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Upgrade the difficulty of all combat checks targeting this character once per rank of Adversary."
+    },
+    {
+      "talent": "Adversary 3",
+      "power_level": {
+        "combat": 2,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Upgrade the difficulty of all combat checks targeting this character once per rank of Adversary."
+    },
+    {
+      "talent": "T1 \nBought Info (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Action); When making any knowledge skill check, your character can instead use this talent to spend an amount of currency equal to fifty times the difficulty of the check and automatically succeed on the knowledge check with one uncanceled ✸ (instead of rolling). At your GM's discretion, your character may not be able to use Bought Info if the information is particularly sensitive or difficult to find, or buying it doesn't make narrative sense. Source: Core Rulebook"
+    },
+    {
+      "talent": "T1 \nClever Retort (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Out of Turn); Once per encounter, your character may use this talent to add automatic ✇✇ to another character's social skill check. Source: Core Rulebook"
+    },
+    {
+      "talent": "T1 \nCorporate Drone (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Your character gains Knowledge (Society) or Negotiation as a career skill. In addition, once per session, your character may collect a small favor from any other member of a single corporation (chosen when you take this talent), even if they do not owe your character a favor. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T1 \nCustom Code (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When your character selects this talent they choose one icebreaker or piece of ice that they own. If they choose an icebreaker, whenever they use that icebreaker to override ice, they at ⋀ to the results. If they choose a piece of ice, whenever someone else attempts to override it, they add ✇ to the results. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T1 \nCustom Rig (Ranked: Yes)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When your character selects this talent they choose one computer (such as a rig, PAD, or spinal modem) that they own. The amount of ice or icebreakers (your character's choice) that they can have on that computer is increased by 1 per rank of Custom Rig. (This may be a mix of ice and icebreakers, as long as the combined total increase does not exceed your character's ranks in Custom Rig). If your character loses their affected computer, they may choose a new computer to be affected by this talent. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T1 \nCustomer Service Experience (Ranked: Yes)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); After your character makes a Charm check, they may suffer 1 strain to use this talent to cancel ✇ equal to your character's ranks in Customer Service Experience. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T1 \nDeep Pockets (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Maneuver); Once per session, your character may use this talent to produce a small but narratively useful item from their pockets, backpack, or similar receptacle (it turns out the item had been there the whole time).  Your GM has final say as to what items can be produced with Deep Pockets, but generally it them should cost less than 100 credits and have an encumbrance of 0 or 1. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T1 \nDefensive Sysops (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When attempting to defend a computer system against intrusion (or when someone attempts to hack a computer owned or programmed by your character) your character adds ■■ to their opponent's checks. If your character has access to the computer system when the intrusion takes place, they are automatically aware of the intrusion. Source: Core Rulebook"
+    },
+    {
+      "talent": "T1 \nDesperate Recovery (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Before your character heals strain at the end of an encounter, if their strain is more than half of their strain threshold, they heal two additional strain. Source: Core Rulebook"
+    },
+    {
+      "talent": "T1 \nDisenfrancisto (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When you take this talent, your character gains Streetwise or Survival (your choice) as a career skill. In addition, once per session your character may collect a small favor from any other disenfrancisto, even if they do not owe your character a favor. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T1 \nDuelist (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Your character adds ■ to their melee combat checks while engaged with a single opponent. Your character adds ■ to their melee combat checks while engaged with three or more opponents. Source: Core Rulebook"
+    },
+    {
+      "talent": "T1 \nDurable (Ranked: Yes)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Your character reduces any Critical Injury result they suffer by 10 per rank of Durable, to a minimum of 01. Source: Core Rulebook"
+    },
+    {
+      "talent": "T1 \nForager (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Your character removes up to ■■ from any skill checks they make to find food, water, or shelter. Checks to forage or search the area that your character makes take half the time they would normally. Source: Core Rulebook"
+    },
+    {
+      "talent": "T1 \nFormer Professor (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When you take this talent, your character gains one Knowledge skill (of your choice) as a career skill. In addition, once per session your character may collect a small favor from a member of an institute of higher learning, even if they do not owe your character a favor. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T1 \nGrit (Ranked: Yes)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Each rank of Grit increases your character's strain threshold by one. Source: Core Rulebook"
+    },
+    {
+      "talent": "T1 \nHamstring Shot (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Action); Once per round, your character may use this talent to perform a ranged combat check against one non-vehicle target within range of the weapon used. If the check is successful, halve the damage inflicted by the attack (before reducing damage by the target's soak). The target is immobilized until the end of its next turn. Source: Core Rulebook"
+    },
+    {
+      "talent": "T1 \nHand on the Throttle (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); Once per round while driving or piloting a vehicle, your character may use this talent to increase or decrease its speed by 1, to a minimum of 0 or a maximum of the vehicle's max speed. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T1 \nIaijutsu Training (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; The first time during an encounter that your character draws a Melee weapon, increase the weapon's damage by 2 for the remainder of the turn. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T1 \nJump Up (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); Once per round during your character's turn, your character may use this talent to stand from a prone or seated position as an incidental. Source: Core Rulebook"
+    },
+    {
+      "talent": "T1 \nKnack for It (Ranked: Yes)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When you purchase this talent for your character, select one skill. Your character removes ■■ from any checks they make using this skill. Each additional time you purchase this talent for your character, select two additional skills. Your character also removes ■■ from any checks they make using these skills. You cannot select combat or magic skills when choosing skills for this talent. Source: Core Rulebook"
+    },
+    {
+      "talent": "T1 \nKnockout Punch (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Your character adds the Stun quality to their Brawl combat checks with a rating equal to two plus your character’s ranks in Coordination (this does not stack with other instances of the Stun quality). Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T1 \nKnow Somebody (Ranked: Yes)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); Once per session, when attempting to purchase a legally available item, your character may use this talent to reduce its rarity by one per rank of Know Somebody. Source: Core Rulebook"
+    },
+    {
+      "talent": "T1 \nLet’s Ride (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); Once per round during your character's turn, your character can use this talent to mount or dismount from a vehicle or animal, or move from one position in a vehicle to another (such as from the cockpit to a gun turret) as an incidental. In addition, if your character suffers a short-range fall (see Table I.6-9: Falling Damage on page 112) from a vehicle or animal, they suffer no damage and land on their feet. Source: Core Rulebook"
+    },
+    {
+      "talent": "T1 \nNet Search (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Maneuver); When your character has access to the Network, they can use this talent to upgrade the ability of the next Knowledge check they make that turn twice, and the difficulty of the check once. ⦻ means that they learn some seemingly relevant and believable information that turns out to be completely (and possibly maliciously) false. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T1 \nOne With Nature (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); When in the wilderness, your character may make a Simple (—) Survival check, instead of Discipline or Cool, to recover strain at the end of an encounter (see page 117). Source: Core Rulebook"
+    },
+    {
+      "talent": "T1 \nParry (Ranked: Yes)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Out of Turn); When your character suffers a hit from a melee combat check, after damage is calculated but before soak is applied (so immediately after Step 3 of Perform a Combat check, page 102), your character may suffer 3 strain to use this talent to reduce the damage of the hit by two plus their ranks in Parry. This talent can only be used once per hit, and your character needs to be wielding a Melee weapon. Source: Core Rulebook"
+    },
+    {
+      "talent": "T1 \nProper Upbringing (Ranked: Yes)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); When your character makes a social skill check in polite company (as determined by your GM), they may suffer a number of strain to use this talent to add an equal number of ⋀ to the check. The number may not exceed your character's ranks in Proper Upbringing. Source: Core Rulebook"
+    },
+    {
+      "talent": "T1 \nQuick Draw (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); Once per round on your character's turn, they may use this talent to draw or holster an easily accessible weapon or item as an incidental. Quick Draw also reduces a weapon's Prepare rating by one, to a minimum of one. Source: Core Rulebook"
+    },
+    {
+      "talent": "T1 \nQuick Strike (Ranked: Yes)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Your character adds ■ for each rank of Quick Strike to any combat checks they make against any targets that have not yet taken their turn in the current encounter. Source: Core Rulebook"
+    },
+    {
+      "talent": "T1 \nRapid Reaction (Ranked: Yes)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Out of Turn); Your character may suffer a number of strain to use this talent to add an equal number of ✸ to a Vigilance or Cool check they make to determine Initiative order. The number may not exceed your character's ranks in Rapid Reaction. Source: Core Rulebook"
+    },
+    {
+      "talent": "T1 \nResourceful Mechanic (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When your character makes a Mechanics check to repair system strain or hull trauma on a vehicle, they repair one additional system strain or hull trauma per rank of Resourceful Mechanic. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T1 \nSecond Wind (Ranked: Yes)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); Once per encounter, your character may use this talent to heal an amount of strain equal to their ranks in Second Wind. Source: Core Rulebook"
+    },
+    {
+      "talent": "T1 \nStreet Fighter (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); When your character disorients or knocks their target prone when making a Brawl combat check, they may use this talent to cause the target to suffer wounds equal to your character's ranks in Skulduggery. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T1 \nSurgeon (Ranked: Yes)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When your character makes a Medicine check to heal wounds, the target heals one additional wound per rank of Surgeon. Source: Core Rulebook"
+    },
+    {
+      "talent": "T1 \nSurgeon (Improved) (Ranked: Yes)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Your character must have the Surgeon talent to benefit from this talent. Whenever this character attempts to heal any Critical Injury, lower the difficulty of the check one per rank of Surgeon to a minimum of Easy (⧫). Source: Core Rulebook"
+    },
+    {
+      "talent": "T1 \nSwift (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Your character does not suffer the penalties for moving through difficult terrain (they move through difficult terrain at normal speed without spending additional maneuvers). Source: Core Rulebook"
+    },
+    {
+      "talent": "T1 \nToughened (Ranked: Yes)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Each rank of Toughened increases your character's wound threshold by two. Source: Core Rulebook"
+    },
+    {
+      "talent": "T1 \nTri-Maf Contact (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When you take this talent, your character gains Melee or Skulduggery (your choice) as a career skill. In addition, once per session your character may collect a small favor from a member of a single orgcrime group (chosen when you take this talent), even if they do not owe your character a favor. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T1 \nUnion Member (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Your character gains Athletics, Mechanics, or Operating (your choice) as a career skill. In addition, once per session, your character may collect a small favor from a member of Humanity Labor or Human First, even if they do not owe your character a favor. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T1 \nUnremarkable (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Other characters add ✕ to any checks made to find or identify your character in a crowd. Source: Core Rulebook"
+    },
+    {
+      "talent": "T1 \nWorlds War Vet (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When you take this talent, your character gains Ranged (Heavy) or Resilience as a career skill. In addition, once per session, your character may collect a small favor from a current or former member of a single country's military (chosen when you take this talent), even if they do not owe your character's a favor. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T1 \nYears on the Force (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When you take this talent, your character gains Perception or Ranged (Light) as a career skill. In addition, once per session your character may collect a small favor from a current or former member of the NAPD or New Angeles city government, even if they do no owe your character a favor. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T2 \nBad Cop (Ranked: Yes)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); Your character may spend ⋀⋀ from a Coercion or Deception check to use this talent to upgrade the ability of a single ally's subsequent social skill check a number of times equal to your character's ranks in Bad Cop. The check must target the same character as your character's initial check, and it must take place during the same encounter. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T2 \nBasic Military Training (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Athletics, Ranged (Heavy), and Resilience become career skills. Source: Core Rulebook"
+    },
+    {
+      "talent": "T2 \nBig Guns (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Your character's encumbrance threshold is 10 plus their Brawn, instead of 5 plus their Brawn. Your character reduces the Cumbersome rating of any weapon she carries by 1, to a minimum of 3. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T2 \nCodeslinger (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When your character performs the activate program maneuver in a hacking encounter, they can choose not to deactivate one other active icebreaker. They may have two icebreakers active at once. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T2 \nCombat Medicine (Ranked: Yes)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); Before making a Medicine check, your character may add ✸ equal to their ranks in Combat Medicine to the results. After the check is resolved, the target suffers 2 strain for each rank your character has in Combat Medicine. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T2 \nCoordinated Assault (Ranked: Yes)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Maneuver); Once per turn, your character may use this talent to have a number of allies engaged with your character equal to your ranks in https://genesysref.netlify.app/skill/leadership_crb add ⋀ to all combat checks they make until the end of your character's next turn. The range of this talent increases by one band per rank of Coordinated Assault beyond the first. Source: Core Rulebook"
+    },
+    {
+      "talent": "T2 \nCounteroffer (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Action); Once per session, your character may use this talent to choose one non-nemesis adversary within medium range and make an opposed Negotiation versus Discipline check. If successful, the target becomes staggered until the end of their next turn. At your GM's discretion, you may spend ❂ on this check to have the adversary become an ally until the end of the encounter. However, the duration of this may be shortened or extended depending on whether your GM feels your offer is appealing to the adversary and whether your character follows through on their offer! Source: Core Rulebook"
+    },
+    {
+      "talent": "T2 \nDaring Aviator (Ranked: Yes)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); Before your character makes a Driving or Piloting check, they may add a number of ✇ to the results to use this talent to add an equal number of ✸. The number may not exceed your character's ranks in Daring Aviator. Source: Core Rulebook"
+    },
+    {
+      "talent": "T2 \nDefensive Stance (Ranked: Yes)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Maneuver); Once per round, your character may suffer a number of strain no greater than their ranks in Defensive Stance to use this talent. Then, until the end of your character's next turn, upgrade the difficulty of all melee combat checks targeting your character a number of times equal to the strain suffered. Source: Core Rulebook"
+    },
+    {
+      "talent": "T2 \nDefensive Sysops (Improved) (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); Your character must have purchased the https://app.notion.com/p/Defensive-Sysops-b17efa021745835a8a600114351eba77?pvs=21 talent to benefit from this talent. Before adding ■■ from Defensive Sysops to a check, use this talent to add ✕✇ to the results of the check instead. Source: Core Rulebook"
+    },
+    {
+      "talent": "T2 \nDetermined Driver (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); You may spend a Story Point to use this talent to have your character heal system strain on a vehicle they are currently driving, piloting, or operating equal to their ranks in Driving, Piloting, or Operating (choose the skill used to direct the vehicle). Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T2 \nDual Wielder (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Maneuver); Once per round, your character may use this talent to decrease the difficulty of the next combined combat check (see Two-Weapon Combat, on page 108) they make during the same turn by one. Source: Core Rulebook"
+    },
+    {
+      "talent": "T2 \nFan the Hammer (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); Once per encounter before making a combat check with a pistol (your GM has the final say on whether a weapon is a pistol or not), your character may use this talent to add the Auto-fire quality to the pistol when resolving the check. If your character does, the weapon runs out of ammo exactly as with an Out of Ammo result (see Table I.6-3: Spending Threat and Despair in Combat on page 104). Source: Core Rulebook"
+    },
+    {
+      "talent": "T2 \nGood Cop (Ranked: Yes)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); Your character may spend ⋀⋀ from a Charm or Negotiation check to use this talent to upgrade the ability of a single ally's subsequent social skill check a number of times equal to your character's ranks in Good Cop. The check must target the same character as your character's initial check, and it must take place during the same encounter.  Only one character may affect a check with this talent. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T2 \nHaughty Demeanor (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Other characters add ✇ to social skill checks targeting your character. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T2 \nHeightened Awareness (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Allies within short range of your character add ■ to their Perception and Vigilance checks. Allies engaged with your character add ■■ instead. Source: Core Rulebook"
+    },
+    {
+      "talent": "T2 \nInspiring Rhetoric (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Action); Your character may use this talent to make an Average (⧫⧫) Leadership check. For each ✸ the check generates, one ally within short range heals one strain. For each ⋀, one ally benefiting from Inspiring Rhetoric heals one additional strain. Source: Core Rulebook"
+    },
+    {
+      "talent": "T2 \nInventor (Ranked: Yes)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); When your character makes a check to construct new items or modify existing ones, use this talent to add a number of ■ to the check equal to ranks of Inventor. In addition, your character may attempt to reconstruct devices that they have heard described but have not seen and do not have any kinds of plans or schematics for. Source: Core Rulebook"
+    },
+    {
+      "talent": "T2 \nLucky Strike (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); When your character purchases this talent, choose one characteristic. After your character makes a successful combat check, you may spend one Story Point to use this talent to add damage equal to your character's ranks in that characteristic to one hit of the combat check. Source: Core Rulebook"
+    },
+    {
+      "talent": "T2 \nNethunter (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When your character successfully traces another character during a Network encounter, your character gains one additional trace. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T2 \nParkour! (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Maneuver); Once per round, your character may suffer 1 strain to use this talent and move to any location within Short range.  This includes locations that are vertically distant or have no easy access route, but there must be an object to move across or path to move along. Your GM may rule some locations cannot be reached (such as ones behind locked doors or walls). Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T2 \nProbing Question (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; If your character knows an opponent’s Flaw or Fear motivation, when your character inflicts strain on that opponent using a social skill, the opponent suffers 3 additional strain. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T2 \nQuick Fix (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Maneuver); You may spend a Story Point to allow your character to use this talent to temporarily repair one damaged item they are engaged with. For a number of rounds equal to your character's ranks in Mechanics, the item may be used without penalty (see page 89 of the Genesys Core Rulebook), even if it is unusable. When the effect ends, the item is damaged one additional step; if it was already suffering from major damage, it is destroyed and cannot be repaired. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T2 \nScathing Tirade (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Action); Your character may use this talent to make an Average (⧫⧫) Coercion check. For each ✸ the check generates, one enemy within short range suffers 1 strain. For each ⮝, one enemy affected by Scathing Tirade suffers 1 additional strain. Source: Core Rulebook"
+    },
+    {
+      "talent": "T2 \nSide Step (Ranked: Yes)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Maneuver); Once per round, your character may suffer a number of strain no greater than their ranks in Side Step to use this talent. Until the end of your character's next turn, upgrade the difficulty of all ranged combat checks targeting your character a number of times equal to the strain suffered. Source: Core Rulebook"
+    },
+    {
+      "talent": "T2 \nSpecial Use Permit (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Your character does not treat any Ranged (Heavy) weapons as restricted (R).  This also means your character can carry a Ranged (Heavy) weapon that normally would be restricted in public without being arrested. However, they can still be arrested for using such a weapon in an unlawful manner. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T2 \nTactical Focus (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When performing a combat check with a Ranged (Heavy) weapon, if your character did not perform a maneuver to ready or stow a weapon or item during this turn, they add ⋀ to the results. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T2 \nTwo-Handed Stance (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When performing a combat check with a Ranged (Light) weapon, if your character has nothing in their other hand, they add ⋀ to the results. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T2 \nUndercity Contacts (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); Once per session, you may spend one Story Point use this talent to let your character learn if a character of your choice is in New Angeles, and if so, what district.  At your GM's discretion, the information may take up to an hour to come back to your character. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T3 \nAnimal Companion (Ranked: Yes)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Your character creates a bond with a single animal approved by your GM. This animal must be silhouette 0 (no larger than a mid-sized dog). The bond persists as long as your character chooses, although at your GM's discretion, the bond may also be broken due to abusive treatment or other extenuating circumstances.  As long as the bond persists, the animal follows your character, and you dictate the animal's overall behavior (although, since the animal is only bonded with the character, not dominated, it may still perform inconvenient actions such as scratching furniture, consuming rations, and marking territory). Once per round in structured encounters, your character may spend one maneuver to direct their animal in performing one action and one maneuver during your character's turn. The animal must be within hearing and visual range of your character (generally medium range) to do this. Otherwise, the animal does not contribute to the encounter. The specifics of its behavior are up to you and your GM.  For every additional rank of Animal Companion your character has, increase the allowed silhouette of the companion by one (this may mean your character gets a new companion, or their companion grows in size).  This talent can also change in flavor depending on the nature of your game setting. While an animal companion may make sense in many settings, in a futuristic setting it may make more sense for the \"animal\" to be a robot or drone, for example. Source: Core Rulebook"
+    },
+    {
+      "talent": "T3 \nApplied Research (Ranked: Yes)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); Your character may use this talent before making a check to use any knowledge skill and Intellect instead of the skill and characteristic the check would normally require. Your character may use this talent a number of times per session equal to their ranks in Applied Research.  When your character uses this talent, you should explain how their mastery of knowledge lets them accomplish this task. In addition, your GM may rule that a particular knowledge skill makes the most sense in a given situation, and require your character to use that specific knowledge skill. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T3 \nBad Habit (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Maneuver); Your character may use this talent to become disoriented for the remainder of the encounter. At the beginning of each of your character’s turns, if they are still disoriented due to this talent, they heal 2 strain. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T3 \nBarrel Roll (Ranked: Yes)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Out of Turn); Your character can only use this talent while piloting a starfighter or airplane of Silhouette 3 or less. When your vehicle suffers a hit from a ranged combat check, after damage is calculated but before armor is applied, your character may have their vehicle suffer 3 system strain to use this talent. Then, reduce the damage suffered by a number equal to their ranks in Piloting. Source: Core Rulebook"
+    },
+    {
+      "talent": "T3 \nDistinctive Style (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); When making a Computers check to hack a system or break into a secured network, before rolling, your character may use this talent to add ✸✸✇✇ to the results. If you are using the optional hacking rules on page 232 and your check generates ✇✇, your GM should spend it on the I Know You! option in Table III.2-22: Spending Symbols in Hacking Encounters on page 234 of the Genesys Core Rulebook. Source: Core Rulebook"
+    },
+    {
+      "talent": "T3 \nDodge (Ranked: Yes)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Out of Turn); When your character is targeted by a combat check (ranged or melee), they may suffer a number of strain no greater than their ranks in Dodge to use this talent. Then, upgrade the difficulty of the combat check targeting your character a number of times equal to the strain suffered. Source: Core Rulebook"
+    },
+    {
+      "talent": "T3 \nDumb Luck (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); Once per session, you may spend a Story Point to use this talent after your character suffers a Critical Injury but before the result is rolled. Their opponent must roll two results, and you select which applies to your character. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T3 \nEagle Eyes (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); Once per encounter before making a ranged combat check, you may use this talent to increase your weapon's range by one range band (to a maximum of extreme range). This lasts for the duration of the combat check. Source: Core Rulebook"
+    },
+    {
+      "talent": "T3 \nField Commander (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Action); Your character may use this talent to make an Average (⧫⧫) Leadership check. If successful, a number of allies equal to your character's Presence may immediately suffer 1 strain to perform one maneuver (out of turn). If there are any questions as to which allies take their maneuvers first, your character is the final arbiter. Source: Core Rulebook"
+    },
+    {
+      "talent": "T3 \nForgot to Count? (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Out of Turn); When an opponent makes a ranged combat check, you can spend ✇✇ from that check to use this talent to cause their weapon to run out of ammo (see Table I.6-3: Spending Threat and Despair in Combat on page 104), as long as the weapon can normally run out of ammunition. Source: Core Rulebook"
+    },
+    {
+      "talent": "T3 \nFull Throttle (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Action); While driving or flying, your character may use this talent to make a Hard (⧫⧫⧫) Piloting or Driving check. If successful, the top speed of the vehicle increases by one (to a maximum of 5) for a number of rounds equal to your character's Cunning. The specifics of this talent require the optional vehicle rules, on page 220. If your game does not use these rules, this talent simply makes the vehicle go much faster than normal, with the specifics up to your GM. Source: Core Rulebook"
+    },
+    {
+      "talent": "T3 \nGrenadier (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); When your character makes a ranged combat check with a weapon that has the Blast item quality, you may spend one Story Point to use this talent to trigger the weapon's Blast quality, instead of spending ⋀ (even if the attack misses). In addition, your character treats grenades as having a range of medium. Source: Core Rulebook"
+    },
+    {
+      "talent": "T3 \nHard Boiled (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); When your character makes a check to recover strain at the end of an encounter (as describe on page 117 of the Genesys Core Rulebook), your character may make a Simple (-) Resilience check instead of Discipline or Cool. If your character does so, they heal 1 strain per ✸ and 1 wound per ⋀. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T3 \nHeroic Will (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Out of Turn); When you purchase this talent for your character, choose two characteristics. You may spend a Story Point to use this talent to have your character ignore the effects of all Critical Injuries on any skill checks using those two characteristics until the end of the current encounter. (Your character still suffers the Critical Injuries; they just ignore the effects. See page 114.) Source: Core Rulebook"
+    },
+    {
+      "talent": "T3 \nHold it Steady (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Out of Turn); Before performing a combat check using a weapon with the Auto-fire quality, your character may use this talent to use the Auto-fire quality without increasing the difficulty of the combat check. If they do so, each time they trigger an additional hit during the attack, they suffer 2 strain. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T3 \nInspiring Rhetoric (Improved) (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Your character must have purchased the https://app.notion.com/p/Inspiring-Rhetoric-8f3efa02174583debec101d236920e6c?pvs=21 talent to benefit from this talent. Allies affected by your character's Inspiring Rhetoric add ■ to all skill checks they make for a number of rounds equal to your character's ranks in Leadership. Source: Core Rulebook"
+    },
+    {
+      "talent": "T3 \nLaugh it Off (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Out of Turn); When your character is targeted by a social check that they may use this talent to spend ✇✇✇ or ⦻ to reduce any strain the check inflicts by a number equal to their ranks in Charm. If they do, the character who targeted them suffers an amount of strain equal to the amount of strain reduced. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T3 \nMartial Weapons Master (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Action); While armed with a Melee weapon, your character may use this talent to make an Average (⧫⧫) Melee check. If successful, your character may force one engaged target to either drop one weapon they are holding or move one range band in a direction of your choosing.  If your character forces a named rival or nemesis into dangerous terrain (or off a ledge or cliff) using this talent, your GM can spend a Story Point to allow them to catch themselves at the edge and fall prone instead. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T3 \nNatural (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); When your character purchases this talent, choose two skills. Once per session, your character may use this talent to reroll one skill check that uses one of those two skills. Source: Core Rulebook"
+    },
+    {
+      "talent": "T3 \nNet Warrior (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Action); While accessing a system using a brain-machine interface (BMI), your character may use this talent to make an opposed Computers (Hacking) versus Computers (Sysops) check targeting one other character on the system that they are aware of. The target suffers 1 strain per ✸, and if they are using a BMI, they also suffer 1 wound per ✸. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T3 \nNimble (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); At the start of your character's turn, you may spend one Story Point to use this talent to allow your character to perform a move maneuver as an incidental. (This does not count against the limit of two maneuvers per turn.) If you use this talent, your character can only perform one additional move maneuver during this turn. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T3 \nPainkiller Specialization (Ranked: Yes)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When your character uses painkillers (or their equivalent, depending on the setting), the target heals one additional wound per rank of Painkiller Specialization. The sixth painkiller and beyond each day still has no effect. Source: Core Rulebook"
+    },
+    {
+      "talent": "T3 \nParry (Improved) (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); Your character must have purchased the https://app.notion.com/p/Parry-2fcefa021745827495af818afb20a046?pvs=21 talent to benefit from this talent. When your character suffers a hit from a melee combat check and uses Parry to reduce the damage from that hit, after the attack is resolved, you may spend ⦻ or ✇✇✇ from the attacker's check to use this talent. Then, your character automatically hits the attacker once with a Brawl or Melee weapon your character is wielding. The hit deals the weapon's base damage, plus any damage from applicable talents or abilities. Your character can't use this talent if the original attack incapacitates them. Source: Core Rulebook"
+    },
+    {
+      "talent": "T3 \nRapid Archery (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Maneuver); While your character is armed with a bow (or similar weapon, at your GM's discretion) they may suffer 2 strain to use this talent. During the next ranged combat check your character makes this turn, the bow gains the Linked quality with a value equal to their ranks in the Ranged skill. Source: Core Rulebook"
+    },
+    {
+      "talent": "T3 \nScathing Tirade (Improved) (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Your character must have purchased the https://app.notion.com/p/Scathing-Tirade-147efa0217458259a1e8012346c375a1?pvs=21 talent to benefit from this talent. Enemies affected by your character's Scathing Tirade add ■ to all skill checks they make for a number of rounds equal to your character's ranks in Coercion. Source: Core Rulebook"
+    },
+    {
+      "talent": "T3 \nSnare (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Action); Once per session, your character may use this talent to make a Hard (⧫⧫⧫) Computers (Sysops) check. If they succeed, once before the end of the encounter, you may spend a Story Point to force one character in the encounter to make a Daunting (⧫⧫⧫⧫) Vigilance check as an incidental. If they fail, they are staggered until the end of their next turn, plus one additional turn per ✇✇. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T3 \nSuppressing Fire (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Maneuver); If your character does not make a combat check during their turn, they may use this talent to target one character (or minion group) within long range. That character must upgrade the difficulty of any ranged combat checks they make once until the end of your character's next turn. Your character may choose to affect one additional character for each additional rank of Suppressing Fire.  Your character must be holding a ranged weapon to use this talent.  Your GM can also rule that your character can't use this talent if they have no line of fire or range to the target. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T3 \nTakedown (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Action); Your character may use this talent to make an opposed Brawl vs. Resilience check targeting one engaged opponent. If the check succeeds, the target is knocked prone and immobilized until the end of your character's next turn. If the target is a minion or rival, your character may spend ⛯ to incapacitate (but not kill) the target instead. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T3 \nUndercity Contacts (Improved) (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); Your character must have purchased the https://app.notion.com/p/Undercity-Contacts-88defa02174583d8a9cf811baad52a65?pvs=21 talent to benefit from this talent. When you use Undercity Contacts, you may choose to spend two Story Points instead of one. If you do, your character learns the target's specific location. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T3 \nYou Owe Me One (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); Once per session, you may spend two Story Points to use this talent to have one NPC in the current encounter owe your character a favor. If the favor is not resolved by the end of the encounter, it is forgotten. It's up to you and your GM to determine exactly why the NPC owes your character a favor. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T4 \nBurn Through (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); After making a successful break ice action, your character may suffer 3 strain to use this talent. If they do, they may perform a second override ice action on the same system as an incidental. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T4 \nCan’t We Talk About This? (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Action); Your character can use this talent to make an opposed Charm or Deception versus Discipline check targeting a single non-nemesis adversary within medium range. If the check succeeds, the target cannot attack your character (or perform hostile actions against your character) until the end of their next turn. You may spend ⋀⋀ to increase the length of the effect by one additional turn, and spend ❂ to extend the benefits to all of their identified allies within short range. The effect ends immediately if your character or a known ally attacks the target. In addition, your GM may rule that some targets are immune to this ability. An automated sentry turret, for example, has no interest in resolving a conflict through talking, nor would someone consumed by rage and the desire for revenge against your character. Source: Core Rulebook"
+    },
+    {
+      "talent": "T4 \nDeadeye (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); After your character inflicts a Table Critical Injury with a ranged weapon and rolls the result, your character may suffer 2 strain to use this talent. Then, you may select any Critical Injury of the same severity to apply to the target instead. Source: Core Rulebook"
+    },
+    {
+      "talent": "T4 \nDefensive (Ranked: Yes)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Each rank of Defensive increases your character's melee defense and ranged defense by one. Source: Core Rulebook"
+    },
+    {
+      "talent": "T4 \nDefensive Driving (Ranked: Yes)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Increase the defense of any vehicle your character pilots by one per rank of Defensive Driving. The specifics of this talent require the optional vehicle rules, on page 220. If your game does not use these rules, this talent adds ■ per rank to combat checks targeting your character's vehicle or your character while piloting it. Source: Core Rulebook"
+    },
+    {
+      "talent": "T4 \nElementary (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Action); Once per session, your character may use this talent to make a Hard (⧫⧫⧫) Perception check while present at a crime scene. If they succeed, they identify all prominent physical characteristics of one person who was at the crime scene when the crime was committed (as long as the crime was committed in the past 48 hours). This could include a person's height, weight, body type, clothing, and if they are human or not. Your character may identify all the physical characteristics of one additional person present at the crime scene per additional ✸. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T4 \nEnduring (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Each rank of Enduring increases your character's soak value by one. Source: Core Rulebook"
+    },
+    {
+      "talent": "T4 \nField Commander (Improved) (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Your character must have purchased the https://app.notion.com/p/Field-Commander-e73efa02174582eab29701eac24078b2?pvs=21 talent to benefit from this talent. When your character uses the Field Commander talent, your character affects a number of allies equal to twice the character's Presence. In addition, you may spend ❂ to allow one ally to suffer 1 strain to perform an action, instead of a maneuver. Source: Core Rulebook"
+    },
+    {
+      "talent": "T4 \nHow Convenient! (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Action); Once per session, your character may use this talent to make a Hard (⧫⧫⧫) Mechanics check. If successful, one device involved in the current encounter (subject to your GM's approval) spontaneously fails. This can be because of your character's actions, or it can simply be incredibly convenient timing! Source: Core Rulebook"
+    },
+    {
+      "talent": "T4 \nInspiring Rhetoric (Supreme) (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); Your character must have purchased the https://app.notion.com/p/Inspiring-Rhetoric-8f3efa02174583debec101d236920e6c?pvs=21 talent to benefit from this talent. Your character may choose to suffer 1 strain to use the Inspiring Rhetoric talent as a maneuver, instead of as an action. Source: Core Rulebook"
+    },
+    {
+      "talent": "T4 \nMad Inventor (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Action); Once per session, your character may use this talent to make a Mechanics check to attempt to cobble together the functional equivalent of any item using spare parts or salvage. The difficulty of the check is based on the item's rarity; see Table I.4-1: Mad Inventor Item Rarity in the Genesys Core Rulebook. Your GM will modify the check based on the circumstances and might decide that some items simply can't be created with what's available (if you are being held in a prison cell, for instance). Your GM may spend ⦻ on the check to indicate the item ends up being dangerous to the user and anyone around them in some way. For instance, a pistol might explode instead of running out of ammo, or a breathing mask might make the user light-headed. Source: Core Rulebook"
+    },
+    {
+      "talent": "T4 \nOffensive Driving (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Action); While driving or piloting a vehicle, your character may use this talent to select one other vehicle within medium range and make an opposed Driving or Piloting versus Driving or Piloting check (depending on whether your character and their opponent are using Driving or Piloting to control their vehicle) targeting the other vehicle's driver or pilot. If successful, roll twice on the Table Table III.2-19 Vehicle Critical Hit Result, on page 230 of the Genesys Core Rulebook. Choose one Critical Hit result to apply to your character's vehicle, and the other to apply to the other vehicle. You may spend ⛯ to add +20 to one Critical Hit result. Your GM may spend ⦻ to add +20 to both Critical Hit results. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T4 \nOvercharge (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Action); Once per encounter, your character may use this talent to make a Hard (⧫⧫⧫) Mechanics check and choose one of their cybernetic implants that grants them one of the following: +1 to a characteristic rating, +1 rank to a skill, +1 rank of a ranked talent. If your character succeeds, until the end of the encounter, the chosen cybernetic instead provides +2 to the affected characteristic rating (to a maximum of 7), skill (to a maximum of 5), or ranked talent. Your GM may spend ⦻ or ✇✇✇ from the check to have the overcharged cybernetic short out at the end of the encounter; it provides no benefit until your character spends several hours making an Average (⧫⧫) Mechanics check. Source: Core Rulebook"
+    },
+    {
+      "talent": "T4 \nParkour! (Improved) (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); Your character must have purchased the https://app.notion.com/p/Parkour-918efa02174583a5ba76814185e76bce?pvs=21 talent to benefit from this talent. Once per round, when using the Parkour! talent, your character may suffer 4 strain instead of 1 strain to move to any location within medium range instead of short range. All other restrictions of Parkour! apply to this movement. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T4 \nQuick Witted (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Out of Turn); Once per encounter, after another character makes a social skill check, your character may use this talent to make an Average (⧫⧫) Vigilance check. If successful, you may add a number of ✸ or ⋀ (your choice) equal to your character's ranks in Charm to the other character's check. If your character fails, your character suffers 3 strain. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T4 \nScathing Tirade (Supreme) (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); Your character must have purchased the https://app.notion.com/p/Scathing-Tirade-147efa0217458259a1e8012346c375a1?pvs=21 talent to benefit from this talent. Your character may choose to suffer 1 strain to use the Scathing Tirade talent as a maneuver, instead of as an action. Source: Core Rulebook"
+    },
+    {
+      "talent": "T4 \nUrban Combatant (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Out of Turn); When your character is targeted by a combat check while in an urban environment, you may spend one Story Point to use this talent before the dice pool is rolled. If you do so, your character's opponent removes all ■ added to the check, and instead adds an equal number of ✕ to the results.. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T4 \nYou Owe Me One (Improved) (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); Your character must have purchased the https://app.notion.com/p/You-Owe-Me-One-f5aefa021745836bab95815198085d49?pvs=21 talent to benefit from this talent. Once per session, you may spend two Story Points to use You Owe Me One to have one NPC in the current encounter owe your character a big favor instead of a favor. If the big favor is not resolved by the end of the encounter, it is forgotten. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T5 \nDedication (Ranked: Yes)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Each rank of Dedication increases one of your character's characteristics by one. This talent cannot increase a characteristic above 5. You cannot increase the same characteristic with Dedication twice. Source: Core Rulebook"
+    },
+    {
+      "talent": "T5 \nDire Animal Companion (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Your character must have purchased the https://app.notion.com/p/Animal-Companion-d43efa021745829b9a90815b4ad5fd2d?pvs=21 talent to benefit from this talent. If your character has at least one rank in the Primal skill, the animal companion they have bonded with through the Animal Companion talent increases its Brawn by one, to a maximum of 5, and its wound threshold by four. If it is a nemesis, it increases its strain threshold by four. If it is a minion or rival, it becomes a nemesis and gains a strain threshold of 6. If it is silhouette 0, it becomes silhouette 1. Your character also chooses to increase either its Agility or its Willpower by one, to a maximum of 5, and its Brawl, Discipline, Perception, or Survival by one, to a maximum of 5. Source: Expanded Player's Guide"
+    },
+    {
+      "talent": "T5 \nDrone Master (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Your character may control two drones or minion groups of drones no larger than your character's Willpower (either via the rules found on page 233 of Android: Shadow of the Beanstalk or via the Animal Companion talent, found on page 77 of the Genesys Core Rulebook). Your character resolves each drone's (or minion group's) turn individually, choosing the order in which they activate. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T5 \nGhost in the Machine (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Action); As long as they have some sort of access point to the Network, your character may use this talent to make a Hard (⧫⧫⧫) Computers (Hacking) check. If they succeed, they may select one drone, vehicle, or piece of equipment involved in the current encounter and dictate its actions until the start of your character's next turn.  Alternatively, your character can select someone with cybernetic implants or who is wearing powered armor or an exosuit and manipulate it until the beginning of your character's next turn. This must be approved by your GM but could include shutting off cybereyes, directing the movements of cyberlimbs, or causing an exosuit to eject its occupant.  Your character may spend ⋀⋀⋀ on the check to extend the effects for one additional round, or they may spend ❂ to extend the effects for the remainder of the encounter. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T5 \nIndomitable (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Out of Turn); Once per encounter, when your character would be incapacitated due to exceeding their wound or strain threshold, you may spend a Story Point to use this talent. Then, your character is not incapacitated until the end of their next turn. If your character reduces their strain or wounds to below their threshold before the end of their next turn, they are not incapacitated. Source: Core Rulebook"
+    },
+    {
+      "talent": "T5 \nMaster (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); When you purchase this talent for your character, choose one skill. Once per round, your character may suffer 2 strain to use this talent to reduce the difficulty of the next check they make using that skill by two, to a minimum of Easy (⧫). Source: Core Rulebook"
+    },
+    {
+      "talent": "T5 \nMaster Plan (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Action); Once per session, your character may use this talent to make a Hard (⧫⧫⧫) Discipline check. If they succeed, they reveal that whatever terrible circumstances they currently find themselves in are all part of a brilliant plan that they established at an earlier point. They then choose one non-nemesis adversary in the encounter and reveal them to be a close friend or ally who has positioned themselves to help your character at this exact moment.   The details of which character turns out to be an ally depend on the type of encounter and your GM’s approval. However, the ally could also have done their work beforehand, such as loading a squadron of drones with blank ammunition, shutting down power to a security system, or planting a tracer in an opponent’s vehicle. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T5 \nOvercharge (Improved) (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Your character must have purchased the https://app.notion.com/p/Overcharge-a86efa02174582ef9082016a9fdb8275?pvs=21 talent to benefit from this talent. When using the Overcharge talent, your character may spend ⋀⋀ or ❂ from the Mechanics check to immediately take one additional action. This talent can only be used once per check. Source: Core Rulebook"
+    },
+    {
+      "talent": "T5 \nRuinous Repartee (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Action); Once per encounter, your character may use this talent to make an opposed Charm or Coercion versus Discipline check targeting one character within medium range (or within earshot). If successful, the target suffers strain equal to twice your character's Presence, plus one additional strain per ✸. Your character heals strain equal to the strain inflicted. If incapacitated due to this talent, the target could flee the scene in shame, collapse in a dejected heap, or throw themself at your character in fury, depending on your GM and the nature of your character's witty barbs. Source: Core Rulebook"
+    },
+    {
+      "talent": "T5 \nTrick of the Light (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental); When making a combat check with a laser or maser weapon, your character may use this talent to spend ⋀ to inflict one additional hit with this weapon, dealing base damage plus damage equal to the total number of ✸ scored on the check. This hit may target the original target or another target within short range of the original target. Source: Shadow of the Beanstalk"
+    },
+    {
+      "talent": "T5 \nWeb of Knowledge (Ranked: No)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Action); Once per session your character may make an Average (⧫⧫) Knowledge (Net) check during a Network encounter. If you succeed, your character knows the names, strengths, and other qualities of all ice (active or deactivated) on one system that you currently have access to, as well as all other characters (sysops and runners) that currently are accessing that system.  Your character may spend ⋀⋀⋀ or ❂ from this check (whether or not they succeeded) to add ✸ to all Computer checks involving that system that they make for the remainder of the encounter. Source: Shadow of the Beanstalk"
+    }
+  ]
+}

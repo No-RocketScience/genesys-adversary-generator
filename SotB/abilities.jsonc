@@ -1,0 +1,1376 @@
+//(?'ability'.+?)\t(?'desc'.+?)\t(?'type'.+?)\t(?'activation'.+?)\t(?'source'.+?)\t(?'combat'.+?)\t(?'social'.+?)\t(?'general'.+)
+//{\n    "ability": "$ability",\n    "power_level": {\n        "combat": $combat,\n        "social": $social,\n        "general": $general\n    },\n    "desc": "$activation; $desc\\nSource: $source",\n    "ex": "$type"\n},
+{
+  "abilities": [
+    {
+      "ability": "...And I'm Always Right",
+      "power_level": {
+        "combat": 2,
+        "social": 0,
+        "general": 1
+      },
+      "desc": "Action; May make a Hard Leadership check; if successful, allies within medium range may perform a second maneuver during their turn without suffering strain; this character may spend ⋀ to increase the damage of affected allies' attacks by an amount equal to the ⋀ spent; both of these effects last until the end of this character's next turn.\nSource: Expanded Player's Guide",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "...They Pull You Back In",
+      "power_level": {
+        "combat": 0,
+        "social": 1,
+        "general": 0
+      },
+      "desc": "Action; After calling in a favor, this character may make an opposed Coercion versus Discipline check; if successful the target still owes this character a favor; :g!: means the target now owes a favor of one magnitude great than before.\nSource: Shadow of the Beanstalk",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "All Seeing Eye",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 1
+      },
+      "desc": "Passive; If this character has access to a server, increase the strength of all sentry ice on that server by 2.\nSource: Shadow of the Beanstalk",
+      "ex": "Any"
+    },
+    {
+      "ability": "Ambush Predator",
+      "power_level": {
+        "combat": 1,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When attacking a target that has not yet acted during the current encounter, this creature adds :gB::gB: to its combat checks.\nSource: Expanded Player's Guide",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Amphibious",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 1
+      },
+      "desc": "Passive; This creature may breathe underwater and never suffers movement penalties for traveling through water.\nSource: Expanded Player's Guide",
+      "ex": "Any"
+    },
+    {
+      "ability": "And Stay Down",
+      "power_level": {
+        "combat": 1,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When making a Brawl or Melee combat check targeting a prone opponent, add :g*::g^::g^: to the results.\nSource: Shadow of the Beanstalk",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "Apex Predator",
+      "power_level": {
+        "combat": 2,
+        "social": 1,
+        "general": 0
+      },
+      "desc": "Passive; At the start of their first turn in the encounter, all opponents must make a Hard Discipline check as an out-of-turn incidental. If they fail, they are immobilized until the start of their next turn instead. If you’re using the fear rules (see GCRB page 243), this counts as a fear check, and other effects may apply as well.\nSource: Genesys Core Rulebook",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "Apparent Precognition",
+      "power_level": {
+        "combat": 1,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Once per encounter when making a combat check, may use Discipline and Willpower instead of the normal skill and characteristic.\nSource: Shadow of the Beanstalk",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "Aquatic",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 1
+      },
+      "desc": "Passive; Suffers no penalties for moving through water and can breathe underwater, but cannot move or survive on land.\nSource: Expanded Player's Guide",
+      "ex": "Any"
+    },
+    {
+      "ability": "Been There, Done That",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 1
+      },
+      "desc": "Passive; When providing assistance, this character adds :g*::g^: to the results instead of a :gB:.\nSource: Expanded Player's Guide",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Bioroid",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 2
+      },
+      "desc": "Passive; This character does not need to breathe, eat, or drink; they can survive in vacuum and underwater; is immune to poisons and toxins; and cannot knowingly endanger humans.\nSource: Shadow of the Beanstalk",
+      "ex": "Any"
+    },
+    {
+      "ability": "Bone-Chilling Roar",
+      "power_level": {
+        "combat": 2,
+        "social": 1,
+        "general": 0
+      },
+      "desc": "Maneuver; Once per encounter, may suffer 3 strain and spend a maneuver to force all other character within long range (or within earshot) to make a Daunting Discipline check as an out-of-turn incidental. If they fail, they must use their maneuver to move farther away; if they fail with ✇, they must also downgrade their action to an additional maneuver to move even farther away. If you're using the fear rules found on page 243 of the Genesys Core Rulebook, this can be a fear check instead.\nSource: Shadow of the Beanstalk",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "Broken Nisei Conditioning",
+      "power_level": {
+        "combat": 1,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When this character inflicts a Critical Injury or Critical Hit, roll twice and choose the more severe result.\nSource: Shadow of the Beanstalk",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Burn It Down",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 1
+      },
+      "desc": "Passive; This character adds :g^::g^: to the results of checks they make targeting authority figures.\nSource: Shadow of the Beanstalk",
+      "ex": "Any"
+    },
+    {
+      "ability": "Caissa Icebreaker Suite",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 1
+      },
+      "desc": "Passive; When encountering ice, reduce that ice’s strength by 2 and increase the :g%: required to activate negative effects by 1.\nSource: Shadow of the Beanstalk",
+      "ex": "Any"
+    },
+    {
+      "ability": "Can’t Stop Experimenting!",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 2
+      },
+      "desc": "Incidental (Out of Turn); While this character is present in an encounter, the GM may spend :g$: from any check to force all other characters to make a Hard Vigilance or Coordination check as an out-of-turn incidental; anyone who fails suffers 4 wounds and 4 strain.\nSource: Expanded Player's Guide",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Catlike",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 1
+      },
+      "desc": "Maneuver; This character may make a maneuver to move normally up and down vertical surfaces, across ropes, and over otherwise impassable structures.\nSource: Shadow of the Beanstalk",
+      "ex": "Any"
+    },
+    {
+      "ability": "Catlike Agility",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 1
+      },
+      "desc": "Incidental; Once per turn, this character may spend a Story Point to move to any location within short range as an incidental, including locations that are vertically distant or have no easy access route.\nSource: Shadow of the Beanstalk",
+      "ex": "Any"
+    },
+    {
+      "ability": "Causing Chaos",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 1
+      },
+      "desc": "Action; During a Network encounter, may spend an action to make a Hard Knowledge (The Net) check; if successful, opponents must upgrade the difficulty of checks made on the system for the rest of the encounter twice, and allies must upgrade the difficulty of checks made on the system for the rest of the encounter once.\nSource: Shadow of the Beanstalk",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Charismatic Menace",
+      "power_level": {
+        "combat": 1,
+        "social": 1,
+        "general": 0
+      },
+      "desc": "Passive; Allies within short range add :g*: to checks they make; opponents within short range add :g%: to checks they make.\nSource: Shadow of the Beanstalk",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "Combat Bioroid",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 2
+      },
+      "desc": "Passive; This character does not need to breathe, eat, or drink; can survive in vacuum and underwater, and is immune to poisons and toxins.\nSource: Shadow of the Beanstalk",
+      "ex": "Any"
+    },
+    {
+      "ability": "Community Volunteer",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; This character may use Knowledge (Society) instead of Charm, Coercion, or Negotiation during social interactions with undercity residents.\nSource: Shadow of the Beanstalk",
+      "ex": "Minion"
+    },
+    {
+      "ability": "Construct",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 2
+      },
+      "desc": "Passive; Does not need to breathe, eat, or drink, and can survive in vacuum and underwater; immune to poisons and toxins.\nSource: Genesys Core Rulebook",
+      "ex": "Any"
+    },
+    {
+      "ability": "Consuming Swarm",
+      "power_level": {
+        "combat": 2,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Maneuver; This character may spend a maneuver to make an opposed Coordination versus Coordination check targeting one engaged opponent to immobilize that opponent until the end of their next turn. At the start of their next turn, the opponent suffers 3 wounds, and the swarm heals 3 wounds.\nSource: Genesys Core Rulebook",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Corporate Oversight",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 1
+      },
+      "desc": "Passive; When performing the assist maneuver, this character adds :g*::g%::g%: to the result instead of adding :gB:.\nSource: Shadow of the Beanstalk",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Crush",
+      "power_level": {
+        "combat": 1,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Action; While engaged with a vehicle, this character may make a Hard Athletics check as an action; if the check is successful, the vehicle suffers a Critical Hit and may not move during the following round.\nSource: Expanded Player's Guide",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Crushing Bite",
+      "power_level": {
+        "combat": 1,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Incidental; May spend :g!: from a successful Brawl check to increase the base damage of its jaw attack to 14.\nSource: Expanded Player's Guide",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "Cybereyes",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 1
+      },
+      "desc": "Passive; This character may see in infrared and may remove up to :gK::gK: added to this character’s check due to darkness.\nSource: Shadow of the Beanstalk",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Dark Vision",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 1
+      },
+      "desc": "Passive; When making skill checks, this character removes up to :gK::gK: imposed due to darkness.\nSource: Genesys Core Rulebook",
+      "ex": "Any"
+    },
+    {
+      "ability": "Datasniffers",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 1
+      },
+      "desc": "Incidental (Out of Turn); May spend :g%::g%::g%: or :g$: from any character’s check to have this character learn their present location.\nSource: Shadow of the Beanstalk",
+      "ex": "Any"
+    },
+    {
+      "ability": "Death Roll",
+      "power_level": {
+        "combat": 1,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When this character makes a successful Brawl combat check against an immobilized target, it may inflict a Critical Injury without spending ⮝ or ⛯; it may still spend ⮝⮝⮝ or ⛯ to add +10 to the results.\nSource: Expanded Player's Guide",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "Destroy Terrain",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 1
+      },
+      "desc": "Action; When engaged with a silhouette 2 or smaller terrain feature that is providing cover or obstructs movement—such as a section of fence, foxhole, door, or sandbagged emplacement—this character may spend an action and make a Hard Mechanics check; if successful, the terrain feature is destroyed and no longer provides or obstructs movement.\nSource: Expanded Player's Guide",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Determined Hunter",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 1
+      },
+      "desc": "Passive; After successfully tracing another character during a Network encounter, gains one additional trace.\nSource: Shadow of the Beanstalk",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "Direct Access",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 2
+      },
+      "desc": "Passive; When jacking in from within the same building as the target server, this character automatically succeeds when making any check to access the system.\nSource: Shadow of the Beanstalk",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "Disperse!",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 1
+      },
+      "desc": "Action; Once per encounter, as an action, may force all non-allied characters within medium range to make an Average Discipline check as an out-of-turn incidental; those who fail must spend their next turn moving away from this character or minion group and attempting to leave the encounter if possible.\nSource: Shadow of the Beanstalk",
+      "ex": "Minion"
+    },
+    {
+      "ability": "Dominate",
+      "power_level": {
+        "combat": 1,
+        "social": 1,
+        "general": 1
+      },
+      "desc": "Action; May use the Dominate action once per encounter, making an opposed Charm vs. Discipline check targeting one character in short range; if successful, the target is immobilized for 1 round per uncanceled :g*:, and this character may spend :g!: to stagger the target until the end of their next turn.\nSource: Genesys Core Rulebook",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "Drone Master",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 2
+      },
+      "desc": "Passive; This character may control two rival drones or minion groups of up to 5 drone minions; may spend a maneuver to direct all controlled drones to perform an action and maneuver during their turn.\nSource: Shadow of the Beanstalk",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "Dubious of Authority",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When targeted by a Coercion or Leadership check, this character may oppose this check with Deception and Cunning (instead of Discipline and Willpower).\nSource: Genesys Core Rulebook",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Early Warning",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 1
+      },
+      "desc": "Passive; This character adds :gB: to its checks to determine Initiative.\nSource: Shadow of the Beanstalk",
+      "ex": "Minion"
+    },
+    {
+      "ability": "Edutainment",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 1
+      },
+      "desc": "Passive; When assisting or making a combined Knowledge check, add :gB: to the check.\nSource: Shadow of the Beanstalk",
+      "ex": "Any"
+    },
+    {
+      "ability": "Eight-legged",
+      "power_level": {
+        "combat": 1,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Cannot be knocked prone or immobilized.\nSource: Expanded Player's Guide",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "Encumbrance Capacity X",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 1
+      },
+      "desc": "Passive; Add X to this creature’s encumbrance threshold.\nSource: Expanded Player's Guide",
+      "ex": "Any"
+    },
+    {
+      "ability": "Enhanced Auto-Bracing",
+      "power_level": {
+        "combat": 1,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Using the Auto-fire quality does not increase the difficulty of combat checks; each time this character triggers an additional hit, they suffer 1 strain.\nSource: Shadow of the Beanstalk",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Enhanced Strength",
+      "power_level": {
+        "combat": 1,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Incidental; This character may suffer 1 strain to add :g*: to Athletics or Brawl checks.\nSource: Shadow of the Beanstalk",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "Environmental Vulnerability",
+      "power_level": {
+        "combat": -1,
+        "social": -1,
+        "general": -1
+      },
+      "desc": "Passive; When exposed to extreme heat, cold, or another environmental effect (pick one), this adversary adds ■■ to all skill checks it makes.\nSource: Expanded Player's Guide",
+      "ex": "Any"
+    },
+    {
+      "ability": "Evolutionary Niche",
+      "power_level": {
+        "combat": 1,
+        "social": 0,
+        "general": 1
+      },
+      "desc": "Passive; Before using this character, choose one of the following abilities: Arthropod: Has a thick exoskeleton and adds +2 to its soak value, Aquatic: Never treats water as difficult terrain and can breathe underwater, Arboreal: Treats vertical surfaces and forested areas as normal terrain, or Avian: May fly, as per page 100 of the Genesys Core Rulebook.\nSource: Expanded Player's Guide",
+      "ex": "Any"
+    },
+    {
+      "ability": "Explains Things",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 1
+      },
+      "desc": "Passive; Allies within short range add :gA: to Knowledge (Æmber) checks they make.\nSource: Shadow of the Beanstalk",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "Exploratory Romp",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 1
+      },
+      "desc": "Action; This character may spend an action to make a Hard Computer (Hacking) check; if successful, this character and allies learn the identity of one piece of ice on a server per :g*:. \nSource: Shadow of the Beanstalk",
+      "ex": "Any"
+    },
+    {
+      "ability": "Extreme G-modded Physique",
+      "power_level": {
+        "combat": 1,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Incidental; Before making an Athletics, Brawl, Melee, or Resilience check, may suffer 1 strain to add :g*::g*: to the results.\nSource: Shadow of the Beanstalk",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "Famous",
+      "power_level": {
+        "combat": 1,
+        "social": 1,
+        "general": 0
+      },
+      "desc": "Action; Once per encounter, may spend a Story Point to force one opponent within earshot to make a Hard Discipline check as an out-of-turn incidental. If they fail, they must fulfill one of this character’s requests, such as letting them past a checkpoint, stop attacking them, etc.\nSource: Shadow of the Beanstalk",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "Flames of Fury",
+      "power_level": {
+        "combat": 1,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Increase the damage of [equipped weapon] by +1 for each additional minion in this minion group, to a maximum of +7.\nSource: Expanded Player's Guide",
+      "ex": "Minion"
+    },
+    {
+      "ability": "Flush Target",
+      "power_level": {
+        "combat": 1,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Incidental; After making a combat check targeting a character in cover, may spend :g^::g^: or :g!: to force the character to immediately move out of cover as an out-of-turn incidental.\nSource: Expanded Player's Guide",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Flyer",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 1
+      },
+      "desc": "Passive; This character can fly. See the Flying sidebar on page 100 of the Genesys Core Rulebook.\nSource: Genesys Core Rulebook",
+      "ex": "Any"
+    },
+    {
+      "ability": "Focus Fire",
+      "power_level": {
+        "combat": 1,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When making a combat check, add :g^: to the results for every other character in the minion group.\nSource: Shadow of the Beanstalk",
+      "ex": "Minion"
+    },
+    {
+      "ability": "For the Colony!",
+      "power_level": {
+        "combat": 1,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Incidental (Out of Turn); Once per round when targeted by a combat check, may choose one ally within short range; the attack then targets that character instead of this character.\nSource: Genesys Core Rulebook",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "Full Weight of the Law",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When making a Coercion check to inflict strain during a social encounter, this character inflicts 2 additional strain.\nSource: Shadow of the Beanstalk",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Golden Goose",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Opponents must make a Hard Discipline check as an action and succeed before being able to make combat checks targeting this character.\nSource: Shadow of the Beanstalk",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "Good at Needling",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; If this character knows an opponent’s Flaw Motivation, when this character inflicts strain on the opponent, the opponent suffers 4 additional strain.\nSource: Genesys Core Rulebook",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "High-Altitude Drop",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Incidental; When falling any distance, may make an Easy Discipline check as an incidental; on a success, this character does not suffer any damage from falling and lands on their feet.\nSource: Shadow of the Beanstalk",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Honor and Grit",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Incidental (Out of Turn); When this character exceeds their wound threshold, they can immediately attempt a Hard Discipline check as an out-of-turn incidental, healing 1 wound per :g*:; if this reduces their current wounds below their wound threshold, this character gets back on their feet to continue fighting.\nSource: Genesys Core Rulebook",
+      "ex": "Rival"
+    },
+    {
+      "ability": "I Know What You’re Thinking",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Incidental; When targeting an opponent with a social skill check, downgrade the difficulty a number of times equal to the number of :gC: in the pool (effectively replacing all :gC: with :gD:). When targeted by a social skill check, downgrade the ability of the check a number of times equal to the number of :gP: in the pool (effectively replacing all :gP: with :gA:).\nSource: Genesys Core Rulebook",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "I’ll Tell My Parents!",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When this character inflicts strain using a social skill check, they inflict 2 additional strain.\nSource: Shadow of the Beanstalk",
+      "ex": "Any"
+    },
+    {
+      "ability": "Impressively Flexible",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Incidental; May spend a Story Point to gain access to a formerly secure room or other location through a previously unnoticed vent shaft, slightly open window, or similar entry point.\nSource: Shadow of the Beanstalk",
+      "ex": "Rival"
+    },
+    {
+      "ability": "In the Know",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Incidental; Whenever this character learns a Motivation of another character in the encounter, this character may have that character suffer 2 strain and may heal 2 strain.\nSource: Shadow of the Beanstalk",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Jack of All Trades",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Incidental; Once per session, may spend a Story Point to increase ranks in one skill by two for the remainder of the encounter.\nSource: Expanded Player's Guide",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Know Your Foe",
+      "power_level": {
+        "combat": 0,
+        "social": 1,
+        "general": 0
+      },
+      "desc": "Passive; If this adversary knows an opponent’s (pick one facet) Motivation, when this adversary inflicts strain on the opponent, the opponent suffers 3 additional strain.\nSource: Expanded Player's Guide",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Knowledge is Dangerous",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Adds :g*::g%: to the results of Knowledge (Science) checks other characters make in the encounter.\nSource: Shadow of the Beanstalk",
+      "ex": "Any"
+    },
+    {
+      "ability": "Lawful Authority",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Add :g*: to the results of any social skill checks made when interacting with residents of the local area.\nSource: Shadow of the Beanstalk",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Leading Question",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Action; Once per encounter, may spend a Story Point to learn one Motivation of any one other character in the encounter.\nSource: Shadow of the Beanstalk",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Let Me Get You Something",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Incidental; Once per encounter, this character may give another character 100 [money] to downgrade the difficulty of the next social check they make targeting that character.\nSource: Expanded Player's Guide",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Let’s Make a Deal",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; If this character knows an opponent’s Desire Motivation, when this character inflicts strain on the opponent, the opponent suffers 4 additional strain.\nSource: Expanded Player's Guide",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "Local Politics",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Incidental; Once per session, may choose one character operating in their area of influence (community, precinct, or county, for example); until the end of the session, the target must upgrade the difficulty of any social skill checks they make to interact with inhabitants of this area once.\nSource: Genesys Core Rulebook",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Los Scorpiones Boss",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Maneuver; May spend a maneuver to direct all allied characters in the current encounter; each may immediately perform a free maneuver or add :g*: to the results of their next check.\nSource: Shadow of the Beanstalk",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Loyal Followers",
+      "power_level": {
+        "combat": 1,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Incidental (Out of Turn); Once per round when this adversary is targeted by a combat check, they may choose one ally within short range, and the attack then targets the ally instead of this adversary.\nSource: Expanded Player's Guide",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "Lunar Off-Roading",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; This character adds :gB::gB: to any Driving or Survival checks made on the lunar surface.\nSource: Shadow of the Beanstalk",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Many Hands Make Light the Load",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; If this character provides assistance when another character makes a Mechanics check to repair a vehicle, increase the hull trauma or system strain repaired by 2; if the check is being made to repair a Critical Hit, reduce the difficulty of the check by 1, to a minimum of Easy; this is in addition to the other benefits of assistance.\nSource: Expanded Player's Guide",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Max Throttle",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When piloting or driving a vehicle, its max speed is increased by 1.\nSource: Shadow of the Beanstalk",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "Mechanical",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 2
+      },
+      "desc": "Passive; This character does not need to breathe, eat, or drink; can survive in vacuum and underwater, and is immune to poisons and toxins.\nSource: Expanded Player's Guide",
+      "ex": "Any"
+    },
+    {
+      "ability": "Mental Weakness",
+      "power_level": {
+        "combat": 0,
+        "social": -1,
+        "general": 0
+      },
+      "desc": "Passive; If an opponent knows the adversary's (pick one type) Motivation, when the opponent inflicts strain on the adversary, the adversary suffers 2 additional strain.\nSource: Expanded Player's Guide",
+      "ex": "Any"
+    },
+    {
+      "ability": "Might Makes Right",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; After this character inflicts a Critical Injury, decrease the difficulty of all Coercion and Leadership checks they make by one, to a minimum of Easy, until the end of the encounter; this ability may be triggered multiple times.\nSource: Expanded Player's Guide",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "Mind Bleed",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Action; As an action, may make an Opposed Discipline vs. Discipline check against one living target within medium range. If successful, the target suffers 2 wounds and 2 strain per :g*:, and this character may spend :g^::g^::g^::g^: or :g!: to inflict a Critical Injury.\nSource: Genesys Core Rulebook",
+      "ex": "Any"
+    },
+    {
+      "ability": "Mob Mentality",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Add :gB: to all checks this character makes if part of a group of three or more minions.\nSource: Shadow of the Beanstalk",
+      "ex": "Minion"
+    },
+    {
+      "ability": "Momentum",
+      "power_level": {
+        "combat": 1,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; If this character performed a move maneuver, they add 3 to the damage of one hit of any successful Brawl or Melee combat checks they make during the same turn.\nSource: Expanded Player's Guide",
+      "ex": "Any"
+    },
+    {
+      "ability": "Multitentacled",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Incidental; After making a successful combat check, this creature may spend 3 strain to inflict one additional hit with its thrashing tentacles against one other target within short range that is no more difficult to hit than original target, dealing base damage +1 per :g*:; it may do so up to three times.\nSource: Expanded Player's Guide",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "Mutating",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Incidental; At the start of each encounter, may suffer 1 wound to gain one species feature generated at random from Table 1-8: Species Features (page 47, SotC).\nSource: Shadow of the Beanstalk",
+      "ex": "Any"
+    },
+    {
+      "ability": "Natural Weapons",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Choose one of the weapon profiles from the Small Beast or Creature equipment arrays and add it to your adversary's weapons. Do not record this ability on their profile.\nSource: Expanded Player's Guide",
+      "ex": "Any"
+    },
+    {
+      "ability": "Neurotoxin",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; If this creature inflicts wounds with a combat check, the target must make a Hard Resilience check; upon failure, the target suffers 5 wounds, plus 1 strain per :g%:; :g$: means the target must make another Resilience check at the same difficulty at the start of their next turn or suffer the same effects.\nSource: Expanded Player's Guide",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Nisei Line",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Action; As an action, may make a Hard Discipline check targeting one character within medium range. If successful, this character learns the target's Strength, Flaw, Fear, and Desire Motivations and all current goals (in addition to other information at the GM's discretion).\nSource: Shadow of the Beanstalk",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "Non-Lethal Apprehension",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Only needs to spend :g^: to trigger Disorient, Knockdown, and Stun qualities.\nSource: Shadow of the Beanstalk",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "Office Drone",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When this character makes a social skill check, they add :g*::g%: to the result.\nSource: Shadow of the Beanstalk",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Ominous Reputation",
+      "power_level": {
+        "combat": 1,
+        "social": 2,
+        "general": 0
+      },
+      "desc": "Passive; When an opponent targets this character with a check, the opponent suffers 2 strain.\nSource: Shadow of the Beanstalk",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "One Step Ahead",
+      "power_level": {
+        "combat": 2,
+        "social": 1,
+        "general": 0
+      },
+      "desc": "Incidental (Out of Turn); Once per round, after an opponent performs an action or maneuver, may spend one Story Point to perform an action or a maneuver as an out-of-turn incidental.\nSource: Genesys Core Rulebook",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Our City",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; May always use Streetwise to oppose when the target of a social skill check, and spend :g%::g%::g%: or :g$: from such checks to make their opponent and all characters within short range who are friendly to their opponent become disoriented until the end of the encounter or become badly lost if they are on the move in an urban area.\nSource: Shadow of the Beanstalk",
+      "ex": "Any"
+    },
+    {
+      "ability": "Pack Fighter",
+      "power_level": {
+        "combat": 1,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; If this creature makes a successful combat check, the next ally making a combat check against the same target during the same round adds :g^::g^: to the result.\nSource: Expanded Player's Guide",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Personalized Icebreaker Suit",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Always considered to have a strength 4 icebreaker that can affect barriers, sentries, and code gates. If break ice action fails, may spend :g^::g^::g^::g^: or :g!: to not suffer any effects of failing to break ice.\nSource: Shadow of the Beanstalk",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Pit Trap Programs",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Action; May make an opposed Computers (Hacking) versus Computers (Sysops) check targeting another user on a system; if successful, that user is staggered for one round per :g*:.\nSource: Shadow of the Beanstalk",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "Pounce",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Incidental (Out of Turn); May spend :g^::g^: from an initiative check to perform a free maneuver before the first round of combat.\nSource: Expanded Player's Guide",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Psychic",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Maneuver; As a maneuver, may make an Average Vigilance check to learn the surface thoughts of all other characters in medium range.\nSource: Shadow of the Beanstalk",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "Questionable Hygiene",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When making a Medicine check, must spend :g%::g%::g%: or :g$: to decrease the target’s strain and wound threshold by 2 each until the end of the current session.\nSource: Shadow of the Beanstalk",
+      "ex": "Any"
+    },
+    {
+      "ability": "Quiet Code",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When making a Computer (Hacking) check, :g%: may not be spent to alert other users to this character’s presence.\nSource: Shadow of the Beanstalk",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Red Tape (A)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Incidental (Out of Turn); During social encounters, may spend :g%::g%::g%: generated by an opponent to discover (or invent) a legal violation that requires a fine, fee, or additional authorization form that the opponent must complete before accomplishing their goals.\nSource: Shadow of the Beanstalk",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Red Tape (B)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Action; Once per encounter, as an action, make an opposed Knowledge versus Cool check targeting one character in the encounter; if successful, the target increases the difficulty of all social skill checks they make by two, to a maximum of Formidable, until the end of the encounter.\nSource: Expanded Player's Guide",
+      "ex": "Minion"
+    },
+    {
+      "ability": "Reinforce",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Maneuver; As a maneuver, may increase the strength of one active piece of ice by 1 until the end of the character’s next turn.\nSource: Shadow of the Beanstalk",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Research Team Member",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Incidental (Out of Turn); When providing skill assistance, may reroll up to two of the dice in the pool before resolving the check.\nSource: Shadow of the Beanstalk",
+      "ex": "Any"
+    },
+    {
+      "ability": "Rile Them Up",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Action; Once per encounter, may make an Average Charm check targeting a group of bystanders or other neutral NPCs at medium range; if the check is successful, one of the bystanders (plus one per additional :g*:) becomes a Human First Extremist; these NPCs form a single minion group and join the ongoing encounter. These NPCs may have been regular people convinced by the rep or they may have been members of Human First all along.\nSource: Shadow of the Beanstalk",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Shrewd Negotiator",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Incidental; When making an opposed Negotiation or Streetwise check to purchase or sell an item, may suffer 2 strain to add :g*: to the results.\nSource: Shadow of the Beanstalk",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "Sniffer Programs",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Add :gK::gK: to any opponent’s checks made on a system that this character has control of.\nSource: Shadow of the Beanstalk",
+      "ex": "Any"
+    },
+    {
+      "ability": "Strategic Coordination",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Action; Once per encounter, may make a Daunting Leadership check; if successful, until the end of the encounter, all allies in the encounter may perform an additional move maneuver on their turn without downgrading their action or suffering strain—but they still may only perform two maneuvers during their turn.\nSource: Expanded Player's Guide",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "Strength in Numbers",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Adds :gB: to combat checks when there are at least two other friendly nemeses, rivals, or minion groups engaged in the encounter. Add :gK: to combat checks when there are no other friendly nemeses, rivals, or minion groups engaged in the encounter.\nSource: Genesys Core Rulebook",
+      "ex": "Minion"
+    },
+    {
+      "ability": "Subtle Death",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Incidental; When making a Brawl check, may spend :g^::g^: or :g!: to apply a dose of contact poison to the target; the target must immediately make a Hard Resilience check as an incidental; if they fail, they suffer 5 wounds plus 1 wound per :g%:; :g!: means they must make the check again at the start of their next turn, as the poison remains in their system.\nSource: Shadow of the Beanstalk",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "Swarm",
+      "power_level": {
+        "combat": 1,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Halve the damage dealt to this character before applying soak, unless the weapon has the Blast or Burn quality (regardless of whether the quality is activated).\nSource: Expanded Player's Guide",
+      "ex": "Any"
+    },
+    {
+      "ability": "Sweep Attack (A)",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Incidental; This character may spend :g^: from a Brawl check to hit one additional engaged opponent that would be no more difficult to attack than the original target, dealing base damage +1 damage per :g*:.\nSource: Genesys Core Rulebook",
+      "ex": "Any"
+    },
+    {
+      "ability": "Swordbreaker Programs",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Action; May make a Hard Computers (Sysops) check targeting one opponent on the system to damage one of their active icebreakers one step, plus one additional step per :g^:.\nSource: Shadow of the Beanstalk",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Tactical Direction",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Maneuver; May spend a maneuver to direct one friendly minion group within medium range; that group may immediately perform a free maneuver or add :gB: to its next check.\nSource: Genesys Core Rulebook",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "Take a Breath",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Incidental (Out of Turn); Once per encounter, may suffer 2 strain as an out-of-turn incidental during an ally’s turn; the ally loses a maneuver and either heals 6 strain or may reroll a fear check they just failed.\nSource: Expanded Player's Guide",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "Takedown",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Action; As an action, may make an Average Athletics check targeting one engaged opponent; if successful, target is knocked prone, suffers 4 strain, and may not stand from prone during their next turn.\nSource: Shadow of the Beanstalk",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Telepresence",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Can operate independently, or can be controlled directly by an operator via wireless link; if being controlled, this character counts as having ranks in a skill equal to the controller’s ranks in that skill.\nSource: Shadow of the Beanstalk",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Templar Cybernetic Implant",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Maneuver; Once per encounter as a maneuver, may make a Simple (-) Discipline check to heal 1 wound per :g*:.\nSource: Shadow of the Beanstalk",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Terrifying X",
+      "power_level": {
+        "combat": 1,
+        "social": 1,
+        "general": 1
+      },
+      "desc": "Passive; At the start of the encounter, all of their opponents must make a fear check as an out-of-turn incidental, as per page 243 of the Genesys Core Rulebook. The difficulty is equal to the rating of this ability. If there are multiple sources of fear in the encounter, the opponents only make one fear check against the most terrifying enemy.\nSource: Genesys Core Rulebook",
+      "ex": "Any"
+    },
+    {
+      "ability": "They’re All Over Me!",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Enemies who start their turn engaged with this character lose their free maneuver.\nSource: Shadow of the Beanstalk",
+      "ex": "Any"
+    },
+    {
+      "ability": "Threat of Ban",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Incidental (Out of Turn); While in this character’s establishment, may spend :g%: from checks targeting this character to have the character making the check suffer 2 strain instead of 1.\nSource: Shadow of the Beanstalk",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "Threatening",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When providing assistance on another character's Coercion checks, add :g*: to results for each minion in the group beyond the first.\nSource: Shadow of the Beanstalk",
+      "ex": "Minion"
+    },
+    {
+      "ability": "Time to Heal",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; If this character is caring for a character who is benefiting from natural rest, the resting character heals 2 wounds each night and decreases the difficulty of any Resilience checks they make to heal Critical Injuries by 1, to a minimum of Easy.\nSource: Expanded Player's Guide",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Tinkerer",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Action; With access to any sort of tools or parts, may make an Average Mechanics check. If successful, creates an item with rarity equal to the number of ✸.\nSource: Shadow of the Beanstalk",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "Too Clever",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When interacting with this character, characters may spend :g^: to recover 2 strain, and GMs may spend :g%: to inflict 2 strain.\nSource: Shadow of the Beanstalk",
+      "ex": "Minion"
+    },
+    {
+      "ability": "Too Cute",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When any character makes a check to recover strain while engaged with this character, they recover 2 additional strain.\nSource: Shadow of the Beanstalk",
+      "ex": "Any"
+    },
+    {
+      "ability": "Toss",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Incidental; After making a combat check, this creature may spend :g!: to move the target up to short range, inflict 4 strain, and knock the target prone.\nSource: Expanded Player's Guide",
+      "ex": "Nemesis"
+    },
+    {
+      "ability": "Uncomfortable Inspection",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When searching a character or their possessions, that character suffers 2 strain.\nSource: Shadow of the Beanstalk",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Unflappable",
+      "power_level": {
+        "combat": 0,
+        "social": 1,
+        "general": 0
+      },
+      "desc": "Passive; When targeted by a social skill check that inflicts strain, reduce the strain suffered by 2 to a minimum of 1.\nSource: Shadow of the Beanstalk",
+      "ex": "Any"
+    },
+    {
+      "ability": "Unnatural Resilience",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Incidental (Out of Turn); After suffering a Critical Injury, may spend one Story Point to reduce the Critical Injury result by 50; if this reduces the Critical Injury result to less than 01, the character does not suffer a Critical Injury.\nSource: Expanded Player's Guide",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Values Enforcer",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When making any social skill or combat check targeting an opponent of the church, add :g*::g%: to the result.\nSource: Shadow of the Beanstalk",
+      "ex": "Any"
+    },
+    {
+      "ability": "Virus Suite",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When performing the burn system action, reduce difficulty of check by 2, and damage the system one additional step for every additional :g*: (instead of :g*::g*:). \nSource: Shadow of the Beanstalk",
+      "ex": "Any"
+    },
+    {
+      "ability": "Way Too Cute",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When an opponent targets this character with a combat check, they suffer 4 strain.\nSource: Shadow of the Beanstalk",
+      "ex": "Any"
+    },
+    {
+      "ability": "We Belong Dead",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; Characters targeting this character with a social skill check suffer 3 strain.\nSource: Expanded Player's Guide",
+      "ex": "Rival"
+    },
+    {
+      "ability": "Wunderkind",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Action; Once per session may spend an action to make a Hard Computer (Sysops) check; if successful all ice or icebreakers controlled by this character or one ally increase their strength by 2 for the remainder of the encounter.\nSource: Shadow of the Beanstalk",
+      "ex": "Any"
+    },
+    {
+      "ability": "Yee-hah!",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Incidental (Out of Turn); May spend :g^::g^::g^: or :g!: from a success combat check using their liquid-metal lasso to inflict one hit from the weapon on one other target within short range of the original target, inflicting base damage +1 per :g*:.\nSource: Shadow of the Beanstalk",
+      "ex": "Any"
+    },
+    {
+      "ability": "You Thought You Were Out...",
+      "power_level": {
+        "combat": 0,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Passive; When making a Coercion check to maintain a favor after calling it in, the check is an Average Coercion check instead of an opposed check.\nSource: Shadow of the Beanstalk",
+      "ex": "Nemesis"
+    }
+  ]
+}
