@@ -2631,7 +2631,876 @@
       "ex": "Nemesis"
     }
   ],
-  "equipment": [],
+  "equipment": [
+    {
+      "category": "Weapons",
+      "groups": [
+        {
+          "name": "Slugthrowers",
+          "items": [
+            {
+              "name": "Assault Rifle",
+              "skill": "Ranged (Heavy)",
+              "damage": 8,
+              "crit": 3,
+              "range": "Long",
+              "encumbrance": 4,
+              "hardpoints": 3,
+              "price": "1,000",
+              "restricted": true,
+              "rarity": 7,
+              "special": "Auto-fire"
+            },
+            {
+              "name": "Bullpup Carbine",
+              "skill": "Ranged (Heavy)",
+              "damage": 7,
+              "crit": 3,
+              "range": "Medium",
+              "encumbrance": 3,
+              "hardpoints": 2,
+              "price": 825,
+              "rarity": 7,
+              "special": "Accurate 1, Auto-fire"
+            },
+            {
+              "name": "Combat Shotgun",
+              "skill": "Ranged (Heavy)",
+              "damage": 8,
+              "crit": 3,
+              "range": "Short",
+              "encumbrance": 4,
+              "hardpoints": 2,
+              "price": "1,000",
+              "restricted": true,
+              "rarity": 5,
+              "special": "Auto-fire, Blast 5,Inaccurate 1, Vicious 2"
+            },
+            {
+              "name": "Hand Cannon",
+              "skill": "Ranged (Light)",
+              "damage": 7,
+              "crit": 3,
+              "range": "Medium",
+              "encumbrance": 1,
+              "hardpoints": 3,
+              "price": 345,
+              "rarity": 3,
+              "special": "Inaccurate 1, Limited Ammo 4"
+            },
+            {
+              "name": "Light Pistol",
+              "skill": "Ranged (Light)",
+              "damage": 5,
+              "crit": 4,
+              "range": "Short",
+              "encumbrance": 1,
+              "hardpoints": 1,
+              "price": 100,
+              "rarity": 2,
+              "special": ""
+            },
+            {
+              "name": "Pistol",
+              "skill": "Ranged (Light)",
+              "damage": 6,
+              "crit": 3,
+              "range": "Medium",
+              "encumbrance": 1,
+              "hardpoints": 2,
+              "price": 300,
+              "rarity": 2,
+              "special": ""
+            },
+            {
+              "name": "Rifle",
+              "skill": "Ranged (Heavy)",
+              "damage": 8,
+              "crit": 3,
+              "range": "Long",
+              "encumbrance": 4,
+              "hardpoints": 3,
+              "price": 875,
+              "rarity": 4,
+              "special": "Accurate 1"
+            },
+            {
+              "name": "Shotgun",
+              "skill": "Ranged (Heavy)",
+              "damage": 8,
+              "crit": 3,
+              "range": "Short",
+              "encumbrance": 3,
+              "hardpoints": 2,
+              "price": 900,
+              "rarity": 4,
+              "special": "Blast 5, Knockdown, Vicious 2"
+            },
+            {
+              "name": "Submachine Gun",
+              "skill": "Ranged (Light)",
+              "damage": 5,
+              "crit": 3,
+              "range": "Medium",
+              "encumbrance": 2,
+              "hardpoints": 1,
+              "price": "400",
+              "restricted": true,
+              "rarity": 4,
+              "special": "Auto-fire"
+            }
+          ]
+        },
+        {
+          "name": "Mass Drivers",
+          "items": [
+            {
+              "name": "Auto-Fletcher",
+              "skill": "Ranged (Light)",
+              "damage": 3,
+              "crit": 2,
+              "range": "Medium",
+              "encumbrance": 2,
+              "hardpoints": 1,
+              "price": 500,
+              "rarity": 5,
+              "special": "Auto-fire, Pierce 2, Vicious 2"
+            },
+            {
+              "name": "Fletcher",
+              "skill": "Ranged (Heavy)",
+              "damage": 4,
+              "crit": 2,
+              "range": "Medium",
+              "encumbrance": 3,
+              "hardpoints": 3,
+              "price": "675",
+              "restricted": true,
+              "rarity": 5,
+              "special": "Blast 4, Pierce 2, Vicious 3"
+            },
+            {
+              "name": "Fletcher Pistol",
+              "skill": "Ranged (Light)",
+              "damage": 4,
+              "crit": 2,
+              "range": "Medium",
+              "encumbrance": 1,
+              "hardpoints": 2,
+              "price": 450,
+              "rarity": 4,
+              "special": "Pierce 2, Vicious 2"
+            },
+            {
+              "name": "Gauss Rifle",
+              "skill": "Ranged (Heavy)",
+              "damage": 10,
+              "crit": 2,
+              "range": "Extreme",
+              "encumbrance": 5,
+              "hardpoints": 3,
+              "price": "2,000",
+              "restricted": true,
+              "rarity": 7,
+              "special": "Cumbersome 3, Pierce 5, Slow-Firing 1"
+            }
+          ]
+        },
+        {
+          "name": "Energy Weapons",
+          "items": [
+            {
+              "name": "Laser Pistol",
+              "skill": "Ranged (Light)",
+              "damage": 6,
+              "crit": 3,
+              "range": "Short",
+              "encumbrance": 1,
+              "hardpoints": 2,
+              "price": 650,
+              "rarity": 8,
+              "special": "Accurate 1, Burn 1"
+            },
+            {
+              "name": "Laser Rifle",
+              "skill": "Ranged (Heavy)",
+              "damage": 8,
+              "crit": 3,
+              "range": "Medium",
+              "encumbrance": 4,
+              "hardpoints": 2,
+              "price": "900",
+              "restricted": true,
+              "rarity": 8,
+              "special": "Accurate 1, Burn 1"
+            },
+            {
+              "name": "Synap Pistol",
+              "skill": "Ranged (Light)",
+              "damage": 5,
+              "crit": 6,
+              "range": "Short",
+              "encumbrance": 1,
+              "hardpoints": 2,
+              "price": 375,
+              "rarity": 2,
+              "special": "Disorient 4, Stun 3, Stun damage"
+            }
+          ]
+        },
+        {
+          "name": "Fire Support Weapons",
+          "items": [
+            {
+              "name": "Guided Missile Launcher",
+              "skill": "Gunnery",
+              "damage": 20,
+              "crit": 3,
+              "range": "Strategic",
+              "encumbrance": 6,
+              "hardpoints": 3,
+              "price": "25,000",
+              "restricted": true,
+              "rarity": 8,
+              "special": "Blast 10, Breach 2, Cumbersome 5, Guided 4, Limited Ammo 1, Prepare 1"
+            },
+            {
+              "name": "Heavy Fletcher",
+              "skill": "Gunnery",
+              "damage": 6,
+              "crit": 2,
+              "range": "Medium",
+              "encumbrance": 6,
+              "hardpoints": 3,
+              "price": "1,400",
+              "restricted": true,
+              "rarity": 5,
+              "special": "Cumbersome 3, Blast 6, Pierce 4, Vicious 3"
+            },
+            {
+              "name": "Heavy Gauss Rifle",
+              "skill": "Gunnery",
+              "damage": 15,
+              "crit": 2,
+              "range": "Extreme",
+              "encumbrance": 7,
+              "hardpoints": 3,
+              "price": "4,000",
+              "restricted": true,
+              "rarity": 8,
+              "special": "Breach 1, Cumbersome 5, Slow-Firing 1"
+            },
+            {
+              "name": "Laser Cannon",
+              "skill": "Gunnery",
+              "damage": 10,
+              "crit": 3,
+              "range": "Long",
+              "encumbrance": 6,
+              "hardpoints": 2,
+              "price": "1,675",
+              "restricted": true,
+              "rarity": 9,
+              "special": "Accurate 1, Burn 1, Cumbersome 4, Sunder"
+            },
+            {
+              "name": "Light Machine Gun",
+              "skill": "Gunnery",
+              "damage": 10,
+              "crit": 3,
+              "range": "Long",
+              "encumbrance": 6,
+              "hardpoints": 4,
+              "price": "1,750",
+              "restricted": true,
+              "rarity": 6,
+              "special": "Auto-fire, Cumbersome 3, Pierce 2, Vicious 2"
+            },
+            {
+              "name": "Maser",
+              "skill": "Gunnery",
+              "damage": 5,
+              "crit": 3,
+              "range": "Short",
+              "encumbrance": 6,
+              "hardpoints": 2,
+              "price": "1,275",
+              "restricted": true,
+              "rarity": 6,
+              "special": "Breach 1, Cumbersome 5, Unwieldy 2, Vicious 5"
+            },
+            {
+              "name": "Micro-Missile Launcher",
+              "skill": "Gunnery",
+              "damage": 12,
+              "crit": 4,
+              "range": "Long",
+              "encumbrance": "5",
+              "hardpoints": 2,
+              "price": "3,000",
+              "restricted": true,
+              "rarity": 7,
+              "special": "Blast 10, Cumbersome 4, Guided 3, Limited Ammo 3, Prepare 1"
+            }
+          ]
+        },
+        {
+          "name": "Explosives and Ordnance",
+          "items": [
+            {
+              "name": "Glop Grenade",
+              "skill": "Ranged (Light)",
+              "damage": 1,
+              "crit": 6,
+              "range": "Short",
+              "encumbrance": 1,
+              "price": 50,
+              "rarity": 5,
+              "special": "Blast 1, Ensnare 4, Limited Ammo 1"
+            },
+            {
+              "name": "Monofilament Grenade",
+              "skill": "Ranged (Light)",
+              "damage": 7,
+              "crit": 3,
+              "range": "Short",
+              "encumbrance": 1,
+              "price": "85",
+              "restricted": true,
+              "rarity": 4,
+              "special": "Blast 7, Limited Ammo 1, Vicious 2"
+            },
+            {
+              "name": "Stun Grenade",
+              "skill": "Ranged (Light)",
+              "damage": 8,
+              "crit": 5,
+              "range": "Short",
+              "encumbrance": 1,
+              "price": 70,
+              "rarity": 4,
+              "special": "Blast 8, Disorient 3, Limited Ammo 1, Stun damage"
+            }
+          ]
+        },
+        {
+          "name": "Melee Weapons",
+          "items": [
+            {
+              "name": "Charged Crystal Katana",
+              "skill": "Melee",
+              "damage": "+3",
+              "crit": 2,
+              "range": "Engaged",
+              "encumbrance": 3,
+              "hardpoints": 2,
+              "price": 600,
+              "rarity": 10,
+              "special": "Defensive 1, Pierce 3, Reinforced, Unwieldy 3"
+            },
+            {
+              "name": "Monoblade",
+              "skill": "Melee",
+              "damage": "+1",
+              "crit": 2,
+              "range": "Engaged",
+              "encumbrance": 1,
+              "hardpoints": 1,
+              "price": 225,
+              "rarity": 3,
+              "special": "Pierce 2"
+            },
+            {
+              "name": "Plasma Cutter",
+              "skill": "Melee",
+              "damage": 12,
+              "crit": 3,
+              "range": "Engaged",
+              "encumbrance": 5,
+              "hardpoints": 3,
+              "price": 725,
+              "rarity": 5,
+              "special": "Burn 1, Prepare 1, Sunder, Unwieldy 2"
+            },
+            {
+              "name": "Sledgehammer",
+              "skill": "Melee",
+              "damage": "+4",
+              "crit": 4,
+              "range": "Engaged",
+              "encumbrance": 4,
+              "hardpoints": 4,
+              "price": 200,
+              "rarity": 2,
+              "special": "Cumbersome 2, Knockdown"
+            },
+            {
+              "name": "Stun Baton",
+              "skill": "Melee",
+              "damage": "+2",
+              "crit": 5,
+              "range": "Engaged",
+              "encumbrance": 1,
+              "hardpoints": 2,
+              "price": 125,
+              "rarity": 2,
+              "special": "Disorient 3, Stun damage"
+            },
+            {
+              "name": "Stun Gun",
+              "skill": "Melee",
+              "damage": 6,
+              "crit": 5,
+              "range": "Engaged",
+              "encumbrance": 1,
+              "hardpoints": 1,
+              "price": 200,
+              "rarity": 3,
+              "special": "Stun 4, Stun damage"
+            },
+            {
+              "name": "Waterknife",
+              "skill": "Melee",
+              "damage": 10,
+              "crit": 3,
+              "range": "Engaged",
+              "encumbrance": 4,
+              "hardpoints": 1,
+              "price": 850,
+              "rarity": 4,
+              "special": "Prepare 1, Sunder, Unwieldy 3, Vicious 3"
+            }
+          ]
+        },
+        {
+          "name": "Brawl Weapons",
+          "items": [
+            {
+              "name": "Brass Knuckles",
+              "skill": "Brawl",
+              "damage": "+1",
+              "crit": 4,
+              "range": "Engaged",
+              "encumbrance": 1,
+              "hardpoints": 1,
+              "price": 40,
+              "rarity": 1,
+              "special": "Disorient 3"
+            },
+            {
+              "name": "Chromecrushers",
+              "skill": "Brawl",
+              "damage": "+3",
+              "crit": 4,
+              "range": "Engaged",
+              "encumbrance": 2,
+              "hardpoints": 1,
+              "price": "250",
+              "restricted": true,
+              "rarity": 3,
+              "special": "Linked 1"
+            },
+            {
+              "name": "Palm Stunner",
+              "skill": "Brawl",
+              "damage": 5,
+              "crit": 5,
+              "range": "Engaged",
+              "encumbrance": 0,
+              "hardpoints": 0,
+              "price": 70,
+              "rarity": 3,
+              "special": "Disorient 2, Slow-Firing 2, Stun damage"
+            },
+            {
+              "name": "Power Gauntlet",
+              "skill": "Brawl",
+              "damage": "+4",
+              "crit": 4,
+              "range": "Engaged",
+              "encumbrance": 3,
+              "hardpoints": 2,
+              "price": "1,120",
+              "restricted": true,
+              "rarity": 6,
+              "special": "Concussive 2, Knockdown, Prepare 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Armor",
+      "groups": [
+        {
+          "name": "Clothing",
+          "items": [
+            {
+              "name": "Durable Clothing",
+              "defense": 0,
+              "soak": 1,
+              "encumbrance": 1,
+              "hardpoints": 1,
+              "price": 50,
+              "rarity": 1
+            },
+            {
+              "name": "Concealed Buckyweave",
+              "defense": 1,
+              "soak": 1,
+              "encumbrance": 1,
+              "hardpoints": 2,
+              "price": 320,
+              "rarity": 5
+            },
+            {
+              "name": "Environmental Hardsuit",
+              "defense": 0,
+              "soak": 1,
+              "encumbrance": 4,
+              "hardpoints": 2,
+              "price": 260,
+              "rarity": 4
+            },
+            {
+              "name": "Optical Camouflage Suit",
+              "defense": 2,
+              "soak": 0,
+              "encumbrance": 2,
+              "hardpoints": 1,
+              "price": "580",
+              "restricted": true,
+              "rarity": 7
+            }
+          ]
+        },
+        {
+          "name": "Armor",
+          "items": [
+            {
+              "name": "Light Body Armor",
+              "defense": 0,
+              "soak": 2,
+              "encumbrance": 2,
+              "hardpoints": 1,
+              "price": 500,
+              "rarity": 5
+            },
+            {
+              "name": "Personal Exosuit",
+              "defense": 0,
+              "soak": 3,
+              "encumbrance": 5,
+              "hardpoints": 4,
+              "price": "5,000",
+              "restricted": true,
+              "rarity": 6
+            },
+            {
+              "name": "Plasteel Carapace",
+              "defense": 1,
+              "soak": 2,
+              "encumbrance": 4,
+              "hardpoints": 3,
+              "price": "750",
+              "restricted": true,
+              "rarity": 5
+            },
+            {
+              "name": "Riot Armor",
+              "defense": 0,
+              "soak": 2,
+              "encumbrance": 3,
+              "hardpoints": 2,
+              "price": 550,
+              "rarity": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Gear",
+      "groups": [
+        {
+          "name": "Carrying and Storage",
+          "items": [
+            {
+              "name": "Cross-Body Bag",
+              "encumbrance": 3,
+              "price": 30,
+              "rarity": 1
+            },
+            {
+              "name": "Load-Bearing Gear",
+              "encumbrance": 3,
+              "price": 45,
+              "rarity": 3
+            },
+            {
+              "name": "MAL Container",
+              "encumbrance": 15,
+              "price": "10,000",
+              "rarity": 8
+            },
+            {
+              "name": "Modular Backpack",
+              "encumbrance": 5,
+              "price": 100,
+              "rarity": 3
+            },
+            {
+              "name": "Utility Belt",
+              "encumbrance": 2,
+              "price": 20,
+              "rarity": 1
+            }
+          ]
+        },
+        {
+          "name": "Clandestine and Black Ops",
+          "items": [
+            {
+              "name": "Disguise Kit",
+              "encumbrance": 4,
+              "price": 250,
+              "rarity": 5
+            },
+            {
+              "name": "Infiltrator Goggles",
+              "encumbrance": 1,
+              "price": 300,
+              "rarity": 6
+            },
+            {
+              "name": "Lockbreaker",
+              "encumbrance": 1,
+              "price": 125,
+              "rarity": 5
+            },
+            {
+              "name": "Lockpick Set",
+              "encumbrance": 1,
+              "price": 75,
+              "rarity": 5
+            },
+            {
+              "name": "Snap-Locks",
+              "encumbrance": 0,
+              "price": 5,
+              "rarity": 3
+            }
+          ]
+        },
+        {
+          "name": "Comms",
+          "items": [
+            {
+              "name": "Burst Transmitter",
+              "encumbrance": 1,
+              "price": 440,
+              "rarity": 6
+            },
+            {
+              "name": "Field Radio",
+              "encumbrance": 1,
+              "price": 250,
+              "rarity": 5
+            },
+            {
+              "name": "Personal Comlink",
+              "encumbrance": 0,
+              "price": 25,
+              "rarity": 4
+            }
+          ]
+        },
+        {
+          "name": "Computers and Computer Accessories",
+          "items": [
+            {
+              "name": "Big Rig",
+              "encumbrance": 8,
+              "price": "2,000",
+              "rarity": 7
+            },
+            {
+              "name": "BMI",
+              "encumbrance": 0,
+              "price": 480,
+              "rarity": 4
+            },
+            {
+              "name": "Monocam",
+              "encumbrance": 0,
+              "price": 120,
+              "rarity": 2
+            },
+            {
+              "name": "PAD",
+              "encumbrance": 1,
+              "price": 200,
+              "rarity": 2
+            },
+            {
+              "name": "Portable Rig",
+              "encumbrance": 3,
+              "price": 750,
+              "rarity": 5
+            },
+            {
+              "name": "Reader",
+              "encumbrance": 0,
+              "price": 175,
+              "rarity": 2
+            },
+            {
+              "name": "Smartspecs",
+              "encumbrance": 1,
+              "price": 90,
+              "rarity": 3
+            }
+          ]
+        },
+        {
+          "name": "Meds and Drugs",
+          "items": [
+            {
+              "name": "Emergency Medkit",
+              "encumbrance": 1,
+              "price": 100,
+              "rarity": 2
+            },
+            {
+              "name": "Happy Patch",
+              "encumbrance": 0,
+              "price": 10,
+              "rarity": 1
+            },
+            {
+              "name": "Low-Fi",
+              "encumbrance": 0,
+              "price": 50,
+              "rarity": 2
+            },
+            {
+              "name": "Portable Clinic Kit",
+              "encumbrance": 3,
+              "price": 700,
+              "rarity": 4
+            },
+            {
+              "name": "Slap-Patch",
+              "encumbrance": 0,
+              "price": 25,
+              "rarity": 2
+            },
+            {
+              "name": "Stim",
+              "encumbrance": 0,
+              "price": 5,
+              "rarity": 1
+            },
+            {
+              "name": "Sting",
+              "encumbrance": 0,
+              "price": 50,
+              "rarity": 3
+            }
+          ]
+        },
+        {
+          "name": "Tools and General Gear",
+          "items": [
+            {
+              "name": "Airbelt Pack",
+              "encumbrance": 1,
+              "price": 650,
+              "rarity": 3
+            },
+            {
+              "name": "Climbing Harness",
+              "encumbrance": 2,
+              "price": 400,
+              "rarity": 4
+            },
+            {
+              "name": "Emergency Repair Patch",
+              "encumbrance": 0,
+              "price": 25,
+              "rarity": 2
+            },
+            {
+              "name": "Flashlight",
+              "encumbrance": 0,
+              "price": 10,
+              "rarity": 1
+            },
+            {
+              "name": "Forensic Kit",
+              "encumbrance": 4,
+              "price": 475,
+              "rarity": 5
+            },
+            {
+              "name": "Handheld Scanner",
+              "encumbrance": 1,
+              "price": 100,
+              "rarity": 2
+            },
+            {
+              "name": "Las-Scanner",
+              "encumbrance": 1,
+              "price": 170,
+              "rarity": 4
+            },
+            {
+              "name": "Makerbox",
+              "encumbrance": 5,
+              "price": "1,000",
+              "rarity": 6
+            },
+            {
+              "name": "Micro-Welder",
+              "encumbrance": 1,
+              "price": 80,
+              "rarity": 2
+            },
+            {
+              "name": "O2 Bottle",
+              "encumbrance": 1,
+              "price": 35,
+              "rarity": 2
+            },
+            {
+              "name": "Portable Toolkit",
+              "encumbrance": 4,
+              "price": 200,
+              "rarity": 2
+            },
+            {
+              "name": "Respirator",
+              "encumbrance": 1,
+              "price": 40,
+              "rarity": 1
+            },
+            {
+              "name": "Rope",
+              "encumbrance": 1,
+              "price": 5,
+              "rarity": 1
+            },
+            {
+              "name": "Space Suit",
+              "encumbrance": 6,
+              "price": 500,
+              "rarity": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "defense": [
     {
       "name": "Dodgy",
@@ -2730,6 +3599,491 @@
       "defense": {
         "strain threshold": 10
       }
+    }
+  ],
+  "body_mods": [
+    {
+      "category": "Cybernetics",
+      "items": [
+        {
+          "name": "Bone Lacing",
+          "description": "Skeleton reinforced with buckyweave and lightweight alloys.",
+          "price": 1000,
+          "rarity": 5,
+          "skills": [],
+          "strain": -1,
+          "effect": "Whenever you suffer a Critical Injury, you may roll twice on the Critical Injury Result table and choose which result to use."
+        },
+        {
+          "name": "Cybereyes",
+          "description": "Prosthetic eyes with enhanced sight, often with night-vision or infrared.",
+          "price": 500,
+          "rarity": 4,
+          "skills": [
+            {
+              "Perception": 1
+            }
+          ],
+          "strain": -1,
+          "effect": "Remove setback dice caused by smoke or darkness on any checks. Can display information from your PAD on the cybereyes."
+        },
+        {
+          "name": "Cyberlimb Agility",
+          "description": "High-tech prosthetic replacing an organic limb.",
+          "price": 2000,
+          "rarity": 4,
+          "skills": [],
+          "characteristics": [
+            {
+              "Agility": 1
+            }
+          ],
+          "strain": -1,
+          "effect": "Increases Brawn or Agility by 1 (your choice). Strain threshold -1 if you have one or more cybernetic arms, and a further -1 if you have one or more cybernetic legs."
+        },
+        {
+          "name": "Cyberlimb Brawn",
+          "description": "High-tech prosthetic replacing an organic limb.",
+          "price": 2000,
+          "rarity": 4,
+          "skills": [],
+          "characteristics": [
+            {
+              "Brawn": 1
+            }
+          ],
+          "strain": -1,
+          "effect": "Increases Brawn or Agility by 1 (your choice). Strain threshold -1 if you have one or more cybernetic arms, and a further -1 if you have one or more cybernetic legs."
+        },
+        {
+          "name": "Cybernetic Heart",
+          "description": "Mechanical replacement heart (a Cyberorgan).",
+          "price": 500,
+          "rarity": 5,
+          "skills": [],
+          "strain": -1,
+          "effect": "Increases wound threshold by 2. Special exception to the +1 cybernetic limit; wound threshold cannot be increased by more than 2 with cybernetics."
+        },
+        {
+          "name": "Cybernetic Lungs",
+          "description": "Mechanical replacement lungs (a Cyberorgan).",
+          "price": 500,
+          "rarity": 5,
+          "skills": [
+            {
+              "Athletics": 1
+            }
+          ],
+          "strain": -1,
+          "effect": "Survive up to five minutes in an unbreathable atmosphere (not vacuum) without suffocating."
+        },
+        {
+          "name": "Cybernetic Liver",
+          "description": "Mechanical replacement liver (a Cyberorgan).",
+          "price": 500,
+          "rarity": 5,
+          "skills": [
+            {
+              "Resilience": 1
+            }
+          ],
+          "strain": -1,
+          "effect": "Immune to the effects of alcohol."
+        },
+        {
+          "name": "Enhanced Hearing",
+          "description": "Cybernetics that improve hearing to superhuman levels.",
+          "price": 500,
+          "rarity": 4,
+          "skills": [
+            {
+              "Vigilance": 1
+            }
+          ],
+          "strain": -1,
+          "effect": "Remove setback dice caused by loud noises or sound-based attacks on any checks."
+        },
+        {
+          "name": "Enhanced Reflexes",
+          "description": "Nanomachines and nerve therapy supercharge the nervous system.",
+          "price": 800,
+          "rarity": 5,
+          "skills": [
+            {
+              "Coordination": 1
+            },
+            {
+              "Vigilance": 1
+            }
+          ],
+          "strain": -1
+        },
+        {
+          "name": "Neuro-Regulator",
+          "description": "Microelectronic circuits wired into the brain, increasing focus and suppressing fear.",
+          "price": 1500,
+          "rarity": 6,
+          "skills": [],
+          "characteristics": [
+            {
+              "Willpower": 1
+            }
+          ],
+          "strain": -1,
+          "effect": "Increases Willpower by 1. You may lose the good sense to flee dangerous situations, and at the GM's discretion suffer a setback die on social skill checks for seeming robotic."
+        },
+        {
+          "name": "Pain Editor",
+          "description": "Neural shunts that let you ignore the effects of pain.",
+          "price": 400,
+          "rarity": 6,
+          "skills": [],
+          "strain": -1,
+          "effect": "Once per encounter when you suffer a Critical Injury, activate as an out-of-turn incidental: until the end of the encounter, ignore any skill check penalties from that Critical Injury (GM may rule it doesn't apply to e.g. blindness or loss of a limb). At the end of the encounter you suffer the penalties again."
+        },
+        {
+          "name": "Skulljack",
+          "description": "Surgically implanted access point (essentially a BMI) to connect to and control computers; wired or wireless.",
+          "price": 1250,
+          "rarity": 5,
+          "skills": [
+            {
+              "Knowledge (Science)": 1
+            },
+            {
+              "Knowledge (Society)": 1
+            },
+            {
+              "Knowledge (The Net)": 1
+            }
+          ],
+          "strain": -1,
+          "effect": "Provides all benefits of a BMI. In a Network encounter, 'go deep' as a maneuver: you can only interact with the Network until you 'go shallow' as a maneuver, but may perform a second maneuver each turn during Network encounters without spending strain. Wireless signals can sometimes be suppressed or intercepted."
+        },
+        {
+          "name": "Spinal Modem",
+          "description": "Portable-computer-grade processor built into the spine and linked directly to the brain.",
+          "price": 1350,
+          "rarity": 7,
+          "restricted": true,
+          "skills": [
+            {
+              "Knowledge (Science)": 1
+            },
+            {
+              "Knowledge (Society)": 1
+            },
+            {
+              "Knowledge (The Net)": 1
+            }
+          ],
+          "strain": -1,
+          "effect": "Is a computer that can have up to two icebreakers and one piece of ice active during Network encounters; has wireless and wired ports. Provides all benefits of a BMI, including 'go deep' / 'go shallow' maneuvers and a free second maneuver each turn in Network encounters. You can never disconnect from the Network (can always be traced or targeted by hackers)."
+        },
+        {
+          "name": "Sub-Dermal Armor",
+          "description": "Thin buckyweave and ballistic gel plates implanted beneath the skin.",
+          "price": 1000,
+          "rarity": 5,
+          "skills": [],
+          "strain": -1,
+          "effect": "Increases soak by 1."
+        }
+      ]
+    },
+    {
+      "category": "G-Mods",
+      "items": [
+        {
+          "name": "Cat Claws",
+          "description": "Sharp, retractable claws grow under the nails.",
+          "price": 400,
+          "rarity": 6,
+          "effect": "Suffer 1 strain to have unarmed Brawl attacks deal +1 damage and have Critical rating 3 until the end of the encounter. Unnoticeable without thorough medical inspection when retracted."
+        },
+        {
+          "name": "Chameleon Skin",
+          "description": "Change skin color at will; initially only solid colors within normal human skin tones, with practice nearly any color and patterns.",
+          "price": 400,
+          "rarity": 6,
+          "effect": "Suffer 1 strain before a Stealth check or a check to apply or adopt a disguise to add a Success to the results."
+        },
+        {
+          "name": "Enhanced Healing",
+          "description": "Supercharged natural healing.",
+          "price": 500,
+          "rarity": 5,
+          "effect": "Suffer 1 strain before a Resilience check to recover from Critical Injuries to add a Success to the results. When healing via natural rest, increase wounds healed by 1."
+        },
+        {
+          "name": "Enhanced Muscles: Coordination",
+          "description": "Musculature enhanced for coordination and reflexes. Only one type of enhanced muscles allowed.",
+          "price": 1500,
+          "rarity": 6,
+          "effect": "Suffer 1 strain before a Coordination or Ranged (Light) check to add a Success to the results."
+        },
+        {
+          "name": "Enhanced Muscles: Strength",
+          "description": "Musculature enhanced for raw strength. Only one type of enhanced muscles allowed.",
+          "price": 1000,
+          "rarity": 6,
+          "effect": "Suffer 1 strain before an Athletics, Brawl, or Melee check to add a Success to the results."
+        },
+        {
+          "name": "Enhanced Olfactory Receptors",
+          "description": "Highly sensitive sense of smell that can be triggered at will.",
+          "price": 500,
+          "rarity": 6,
+          "effect": "Suffer 1 strain before a Survival check to add a Success to the results."
+        },
+        {
+          "name": "Follicle Control",
+          "description": "Control over body hair growth, length and color (slow and messy).",
+          "price": 300,
+          "rarity": 7,
+          "effect": "Suffer 1 strain to shed hair over the following minute, or 1 strain to stimulate hair growth (stubble ~4-5 hours, shaggy 12+ hours, shoulder length 1+ day, mid-back 2+ days). Can choose any natural hair color when growing."
+        },
+        {
+          "name": "Geno-Sculpted Physique",
+          "description": "Cosmetic changes to eye color, muscle definition, facial features, and minor height/weight; grants no actual strength.",
+          "price": 800,
+          "rarity": 5,
+          "effect": "Suffer 1 strain before a Charm or Leadership check to add a Success to the results."
+        },
+        {
+          "name": "Nighteyes",
+          "description": "Altered eyes give passive night vision but make the user sensitive to bright light.",
+          "price": 800,
+          "rarity": 6,
+          "effect": "Suffer 1 strain before a Vigilance or Perception check in dark conditions to add a Success to the results. In bright conditions, add a Success and a Threat to the results instead."
+        },
+        {
+          "name": "Tooth Buds",
+          "description": "Canines regrow as long, sharp fangs; strengthened jaw. Hard to fully close the mouth (lisping, drooling).",
+          "price": 600,
+          "rarity": 6,
+          "effect": "Unarmed Brawl attacks (biting) deal +2 damage and have Vicious 1. Add a boost die to all Coercion checks and a setback die to all Charm checks."
+        },
+        {
+          "name": "Toxin Filters",
+          "description": "Harmless tumor-like growths filter toxins; cannot get drunk or high, generally impervious to atmospheric toxins.",
+          "price": 400,
+          "rarity": 6,
+          "effect": "Suffer 1 strain before a Resilience check to resist poisons, toxins, or addiction to add a Success to the results. May suffer 1 strain to cancel the effects of a drug in your system (no effect on slap-patches)."
+        }
+      ]
+    }
+  ],
+  "ice": [
+    {
+      "category": "Barrier",
+      "items": [
+        {
+          "name": "Fire Wall",
+          "strength": 6,
+          "price": 400,
+          "rarity": 3
+        },
+        {
+          "name": "Great Wall",
+          "strength": 6,
+          "price": 600,
+          "rarity": 4
+        },
+        {
+          "name": "Hadrian's Wall",
+          "strength": 8,
+          "price": 650,
+          "rarity": 5
+        },
+        {
+          "name": "Heimdall 1.0",
+          "strength": 7,
+          "price": 1000,
+          "rarity": 6,
+          "restricted": true
+        },
+        {
+          "name": "Ice Wall",
+          "strength": 5,
+          "price": 250,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "category": "Sentry",
+      "items": [
+        {
+          "name": "Archer",
+          "strength": 5,
+          "price": 850,
+          "rarity": 5,
+          "restricted": true
+        },
+        {
+          "name": "Hawk's Eye",
+          "strength": 4,
+          "price": 475,
+          "rarity": 4
+        },
+        {
+          "name": "Janus 1.0",
+          "strength": 9,
+          "price": 5000,
+          "rarity": 8,
+          "restricted": true
+        },
+        {
+          "name": "Sentinel",
+          "strength": 3,
+          "price": 100,
+          "rarity": 2
+        },
+        {
+          "name": "Shinobi",
+          "strength": 3,
+          "price": 550,
+          "rarity": 3,
+          "restricted": true
+        }
+      ]
+    },
+    {
+      "category": "Code-Gate",
+      "items": [
+        {
+          "name": "Authenticator",
+          "strength": 3,
+          "price": 300,
+          "rarity": 2
+        },
+        {
+          "name": "Enigma",
+          "strength": 3,
+          "price": 400,
+          "rarity": 2
+        },
+        {
+          "name": "Pop-Up",
+          "strength": 2,
+          "price": 25,
+          "rarity": 1
+        },
+        {
+          "name": "Syn 2.2",
+          "strength": 6,
+          "price": 1250,
+          "rarity": 5
+        },
+        {
+          "name": "Tollbooth",
+          "strength": 3,
+          "price": 200,
+          "rarity": 2
+        },
+        {
+          "name": "Viktor 2.0",
+          "strength": 4,
+          "price": 1000,
+          "rarity": 5,
+          "restricted": true
+        }
+      ]
+    }
+  ],
+  "icebreakers": [
+    {
+      "name": "Athena",
+      "affects": "Barriers, Code Gates",
+      "strength": 5,
+      "price": 2600,
+      "rarity": 7,
+      "restricted": true
+    },
+    {
+      "name": "Battering Ram",
+      "affects": "Barriers",
+      "strength": 6,
+      "price": 400,
+      "rarity": 5
+    },
+    {
+      "name": "Corroder",
+      "affects": "Barriers",
+      "strength": 4,
+      "price": 350,
+      "rarity": 4,
+      "restricted": true
+    },
+    {
+      "name": "Crypsis",
+      "affects": "Barriers, Code Gates, Sentries",
+      "strength": 3,
+      "price": 450,
+      "rarity": 5,
+      "restricted": true
+    },
+    {
+      "name": "Faerie",
+      "affects": "Sentries",
+      "strength": 5,
+      "price": 300,
+      "rarity": 3
+    },
+    {
+      "name": "Femme Fatale",
+      "affects": "Sentries",
+      "strength": 4,
+      "price": 1200,
+      "rarity": 6,
+      "restricted": true
+    },
+    {
+      "name": "Garrote",
+      "affects": "Sentries",
+      "strength": 2,
+      "price": 225,
+      "rarity": 2
+    },
+    {
+      "name": "Gordian Blade",
+      "affects": "Code Gates",
+      "strength": 3,
+      "price": 400,
+      "rarity": 4
+    },
+    {
+      "name": "Remora",
+      "affects": "Code Gates, Sentries",
+      "strength": 0,
+      "price": 475,
+      "rarity": 3,
+      "restricted": true
+    },
+    {
+      "name": "Sagittarius A*",
+      "affects": "Barriers, Code Gates, Sentries",
+      "strength": 6,
+      "price": 2000,
+      "rarity": 8,
+      "restricted": true
+    },
+    {
+      "name": "Torch",
+      "affects": "Code Gates",
+      "strength": 9,
+      "price": 3000,
+      "rarity": 9,
+      "restricted": true
+    },
+    {
+      "name": "Yog.0",
+      "affects": "Code Gates",
+      "strength": 1,
+      "price": 550,
+      "rarity": 6,
+      "restricted": true
     }
   ]
 }

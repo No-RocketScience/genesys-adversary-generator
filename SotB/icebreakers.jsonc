@@ -1,0 +1,94 @@
+[
+  {
+    "name": "Athena",
+    "affects": "Barriers, Code Gates",
+    "strength": 5,
+    "price": 2600,
+    "rarity": 7,
+    "restricted": true
+  },
+  {
+    "name": "Battering Ram",
+    "affects": "Barriers",
+    "strength": 6,
+    "price": 400,
+    "rarity": 5
+  },
+  {
+    "name": "Corroder",
+    "affects": "Barriers",
+    "strength": 4,
+    "price": 350,
+    "rarity": 4,
+    "restricted": true
+  },
+  {
+    "name": "Crypsis",
+    "affects": "Barriers, Code Gates, Sentries",
+    "strength": 3,
+    "price": 450,
+    "rarity": 5,
+    "restricted": true
+  },
+  {
+    "name": "Faerie",
+    "affects": "Sentries",
+    "strength": 5,
+    "price": 300,
+    "rarity": 3
+  },
+  {
+    "name": "Femme Fatale",
+    "affects": "Sentries",
+    "strength": 4,
+    "price": 1200,
+    "rarity": 6,
+    "restricted": true
+  },
+  {
+    "name": "Garrote",
+    "affects": "Sentries",
+    "strength": 2,
+    "price": 225,
+    "rarity": 2
+  },
+  {
+    "name": "Gordian Blade",
+    "affects": "Code Gates",
+    "strength": 3,
+    "price": 400,
+    "rarity": 4
+  },
+  {
+    "name": "Remora",
+    "affects": "Code Gates, Sentries",
+    "strength": 0,
+    "price": 475,
+    "rarity": 3,
+    "restricted": true
+  },
+  {
+    "name": "Sagittarius A*",
+    "affects": "Barriers, Code Gates, Sentries",
+    "strength": 6,
+    "price": 2000,
+    "rarity": 8,
+    "restricted": true
+  },
+  {
+    "name": "Torch",
+    "affects": "Code Gates",
+    "strength": 9,
+    "price": 3000,
+    "rarity": 9,
+    "restricted": true
+  },
+  {
+    "name": "Yog.0",
+    "affects": "Code Gates",
+    "strength": 1,
+    "price": 550,
+    "rarity": 6,
+    "restricted": true
+  }
+]

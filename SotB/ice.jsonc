@@ -1,0 +1,118 @@
+[
+  {
+    "category": "Barrier",
+    "items": [
+      {
+        "name": "Fire Wall",
+        "strength": 6,
+        "price": 400,
+        "rarity": 3
+      },
+      {
+        "name": "Great Wall",
+        "strength": 6,
+        "price": 600,
+        "rarity": 4
+      },
+      {
+        "name": "Hadrian's Wall",
+        "strength": 8,
+        "price": 650,
+        "rarity": 5
+      },
+      {
+        "name": "Heimdall 1.0",
+        "strength": 7,
+        "price": 1000,
+        "rarity": 6,
+        "restricted": true
+      },
+      {
+        "name": "Ice Wall",
+        "strength": 5,
+        "price": 250,
+        "rarity": 2
+      }
+    ]
+  },
+  {
+    "category": "Sentry",
+    "items": [
+      {
+        "name": "Archer",
+        "strength": 5,
+        "price": 850,
+        "rarity": 5,
+        "restricted": true
+      },
+      {
+        "name": "Hawk's Eye",
+        "strength": 4,
+        "price": 475,
+        "rarity": 4
+      },
+      {
+        "name": "Janus 1.0",
+        "strength": 9,
+        "price": 5000,
+        "rarity": 8,
+        "restricted": true
+      },
+      {
+        "name": "Sentinel",
+        "strength": 3,
+        "price": 100,
+        "rarity": 2
+      },
+      {
+        "name": "Shinobi",
+        "strength": 3,
+        "price": 550,
+        "rarity": 3,
+        "restricted": true
+      }
+    ]
+  },
+  {
+    "category": "Code-Gate",
+    "items": [
+      {
+        "name": "Authenticator",
+        "strength": 3,
+        "price": 300,
+        "rarity": 2
+      },
+      {
+        "name": "Enigma",
+        "strength": 3,
+        "price": 400,
+        "rarity": 2
+      },
+      {
+        "name": "Pop-Up",
+        "strength": 2,
+        "price": 25,
+        "rarity": 1
+      },
+      {
+        "name": "Syn 2.2",
+        "strength": 6,
+        "price": 1250,
+        "rarity": 5
+      },
+      {
+        "name": "Tollbooth",
+        "strength": 3,
+        "price": 200,
+        "rarity": 2
+      },
+      {
+        "name": "Viktor 2.0",
+        "strength": 4,
+        "price": 1000,
+        "rarity": 5,
+        "restricted": true
+      }
+    ]
+  }
+]
