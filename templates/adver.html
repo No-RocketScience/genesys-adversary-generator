@@ -298,36 +298,7 @@
                   <td class="select">
                     <input type="checkbox" class="edit {{category['category']|lower}}" id="equipment-{{item_name}}"
                       name="equipment-{{item_name}}" onchange="update()">
-                    <span style="display: none;" id="text-equipment-{{item_name}}">
-                      {{ item['Name'] }};
-                      {% if 'Defense' in item %}
-                      Defense: {{ item['Defense']}};
-                      {% endif %}
-                      {% if 'Soak' in item %}
-                      Soak: {{ item['Soak']}};
-                      {% endif %}
-                      {% if 'Skill' in item %}
-                      Skill: {{ item['Skill']}};
-                      {% endif %}
-                      {% if 'Damage' in item %}
-                      Damage: {{ item['Damage']}};
-                      {% endif %}
-                      {% if 'Crit' in item %}
-                      Crit: {{ item['Crit']}};
-                      {% endif %}
-                      {% if 'Range' in item %}
-                      Range: {{ item['Range']}};
-                      {% endif %}
-                      Encumbrance: {{ item['Encumbrance'] }};
-                      {% if 'HardPoints' in item %}
-                      HardPoints: {{ item['HardPoints']}};
-                      {% endif %}
-                      Price: {{ item['Price'] }};
-                      Rarity: {{ item['Rarity'] }};
-                      {% if 'Special' in item %}
-                      Special: {{ item['Special']}};
-                      {% endif %}
-                    </span>
+                    <span style="display: none;" id="json-equipment-{{item_name}}">{{ item|replace("\'", '"') }}</span>
                   </td>
                   {% for key in item.keys() %}
                   <td><label>{{item[key]}}</label></td>
