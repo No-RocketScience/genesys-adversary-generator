@@ -293,8 +293,10 @@
               <table>
                 <tr>
                   <th></th>
-                  {% for header in group['items'][0].keys() %}
+                  {% for header, value in group['items'][0]|items %}
+                  {% if header != 'restricted'%}
                   <th>{{header|capitalize}}</th>
+                  {% endif %}
                   {% endfor %}
                 </tr>
                 {% for item in group['items'] %}
@@ -307,7 +309,10 @@
                       '"')|replace('True', 'true') }}</span>
                   </td>
                   {% for key in item.keys() %}
-                  <td><label>{{item[key]}}</label></td>
+                  {% if key != 'restricted'%}
+                  <td><label>{{item[key]}}{% if 'restricted' in item.keys() and key == 'price' %} (R){% endif %}</label>
+                  </td>
+                  {% endif %}
                   {% endfor %}
                 </tr>
                 {% endfor %}
@@ -315,6 +320,39 @@
               </table>
             </fieldset>
             {% endfor %}
+          </fieldset>
+          {% endfor %}
+        </fieldset>
+
+        <fieldset style="display: block;" class="body-mods">
+          <legend>Body-Mods</legend>
+          {% for body_mod in body_mods %}
+          <fieldset>
+            <legend>{{body_mod['category']}}</legend>
+            <table>
+              <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Rarity</th>
+                <th>Effect</th>
+              </tr>
+              {% for item in body_mod['items'] %}
+              {% set item_name = item['name']|lower()|replace(' ', '-') %}
+              <tr>
+                <td><input type="checkbox" class="edit {{body_mod['category']|lower}}" id="body-mod-{{item_name}}"
+                    name="body-mod-{{item_name}}" onchange="update()">
+                  <span style="display: none;" id="json-body-mod-{{item_name}}">{{ item|replace("\'",
+                    '"')|replace('True', 'true') }}</span>
+                </td>
+                <td>{{item['name']}}</td>
+                <td>{{item['price']}}{% if 'restricted' in item.keys() %} (R){% endif
+                  %}</td>
+                <td>{{item['rarity']}}</td>
+                <td>{{item['effect']}}</td>
+              </tr>
+              {% endfor %}
+            </table>
           </fieldset>
           {% endfor %}
         </fieldset>
@@ -329,7 +367,7 @@
   </article>
   <footer><a href="https://github.com/ytterbium/genesys-adversary-generator">Source code (license GPLv2+)</a>
     <br>
-    Data and descriptions coming from FFG books (Expanded Player Guide and Core Rulebook)
+    Data and descriptions coming from FFG books (Shadow of the Beanstalk, Expanded Player Guide and Core Rulebook)
   </footer>
 
 

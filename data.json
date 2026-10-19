@@ -4507,7 +4507,8 @@
               "Vigilance": 1
             }
           ],
-          "strain": -1
+          "strain": -1,
+          "effect": "Increases Coordination and Vigilance."
         },
         {
           "name": "Neuro-Regulator",

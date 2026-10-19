@@ -166,6 +166,7 @@ td {
 
 td {
     padding: 4px;
+    text-align: center;
 }
 
 th {
@@ -176,6 +177,7 @@ th {
     text-align: left;
     padding: 7px;
     font-size: 24px;
+    text-align: center;
 }
 
 td.icon {
@@ -213,6 +215,10 @@ table input.edit:not(type="checkbox") {
 input[type="radio"],
 input[type="checkbox"] {
     margin: 4px;
+}
+
+input.edit {
+    margin: auto;
 }
 
 /*
