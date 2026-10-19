@@ -3430,112 +3430,115 @@
           "name": "Slugthrowers",
           "items": [
             {
-              "Name": "Assault Rifle",
-              "Skill": "Ranged (Heavy)",
-              "Damage": 8,
-              "Crit": 3,
-              "Range": "Long",
-              "Encumbrance": 4,
-              "HardPoints": 3,
-              "Price": "1,000 (R)",
-              "Rarity": 7,
-              "Special": "Auto-fire"
+              "name": "Assault Rifle",
+              "skill": "Ranged (Heavy)",
+              "damage": 8,
+              "crit": 3,
+              "range": "Long",
+              "encumbrance": 4,
+              "hardpoints": 3,
+              "price": "1,000",
+              "restricted": true,
+              "rarity": 7,
+              "special": "Auto-fire"
             },
             {
-              "Name": "Bullpup Carbine",
-              "Skill": "Ranged (Heavy)",
-              "Damage": 7,
-              "Crit": 3,
-              "Range": "Medium",
-              "Encumbrance": 3,
-              "HardPoints": 2,
-              "Price": 825,
-              "Rarity": 7,
-              "Special": "Accurate 1, Auto-fire"
+              "name": "Bullpup Carbine",
+              "skill": "Ranged (Heavy)",
+              "damage": 7,
+              "crit": 3,
+              "range": "Medium",
+              "encumbrance": 3,
+              "hardpoints": 2,
+              "price": 825,
+              "rarity": 7,
+              "special": "Accurate 1, Auto-fire"
             },
             {
-              "Name": "Combat Shotgun",
-              "Skill": "Ranged (Heavy)",
-              "Damage": 8,
-              "Crit": 3,
-              "Range": "Short",
-              "Encumbrance": 4,
-              "HardPoints": 2,
-              "Price": "1,000 (R)",
-              "Rarity": 5,
-              "Special": "Auto-fire, Blast 5,Inaccurate 1, Vicious 2"
+              "name": "Combat Shotgun",
+              "skill": "Ranged (Heavy)",
+              "damage": 8,
+              "crit": 3,
+              "range": "Short",
+              "encumbrance": 4,
+              "hardpoints": 2,
+              "price": "1,000",
+              "restricted": true,
+              "rarity": 5,
+              "special": "Auto-fire, Blast 5,Inaccurate 1, Vicious 2"
             },
             {
-              "Name": "Hand Cannon",
-              "Skill": "Ranged (Light)",
-              "Damage": 7,
-              "Crit": 3,
-              "Range": "Medium",
-              "Encumbrance": 1,
-              "HardPoints": 3,
-              "Price": 345,
-              "Rarity": 3,
-              "Special": "Inaccurate 1, Limited Ammo 4"
+              "name": "Hand Cannon",
+              "skill": "Ranged (Light)",
+              "damage": 7,
+              "crit": 3,
+              "range": "Medium",
+              "encumbrance": 1,
+              "hardpoints": 3,
+              "price": 345,
+              "rarity": 3,
+              "special": "Inaccurate 1, Limited Ammo 4"
             },
             {
-              "Name": "Light Pistol",
-              "Skill": "Ranged (Light)",
-              "Damage": 5,
-              "Crit": 4,
-              "Range": "Short",
-              "Encumbrance": 1,
-              "HardPoints": 1,
-              "Price": 100,
-              "Rarity": 2,
-              "Special": ""
+              "name": "Light Pistol",
+              "skill": "Ranged (Light)",
+              "damage": 5,
+              "crit": 4,
+              "range": "Short",
+              "encumbrance": 1,
+              "hardpoints": 1,
+              "price": 100,
+              "rarity": 2,
+              "special": ""
             },
             {
-              "Name": "Pistol",
-              "Skill": "Ranged (Light)",
-              "Damage": 6,
-              "Crit": 3,
-              "Range": "Medium",
-              "Encumbrance": 1,
-              "HardPoints": 2,
-              "Price": 300,
-              "Rarity": 2,
-              "Special": ""
+              "name": "Pistol",
+              "skill": "Ranged (Light)",
+              "damage": 6,
+              "crit": 3,
+              "range": "Medium",
+              "encumbrance": 1,
+              "hardpoints": 2,
+              "price": 300,
+              "rarity": 2,
+              "special": ""
             },
             {
-              "Name": "Rifle",
-              "Skill": "Ranged (Heavy)",
-              "Damage": 8,
-              "Crit": 3,
-              "Range": "Long",
-              "Encumbrance": 4,
-              "HardPoints": 3,
-              "Price": 875,
-              "Rarity": 4,
-              "Special": "Accurate 1"
+              "name": "Rifle",
+              "skill": "Ranged (Heavy)",
+              "damage": 8,
+              "crit": 3,
+              "range": "Long",
+              "encumbrance": 4,
+              "hardpoints": 3,
+              "price": 875,
+              "rarity": 4,
+              "special": "Accurate 1"
             },
             {
-              "Name": "Shotgun",
-              "Skill": "Ranged (Heavy)",
-              "Damage": 8,
-              "Crit": 3,
-              "Range": "Short",
-              "Encumbrance": 3,
-              "HardPoints": 2,
-              "Price": 900,
-              "Rarity": 4,
-              "Special": "Blast 5, Knockdown, Vicious 2"
+              "name": "Shotgun",
+              "skill": "Ranged (Heavy)",
+              "damage": 8,
+              "crit": 3,
+              "range": "Short",
+              "encumbrance": 3,
+              "hardpoints": 2,
+              "price": 900,
+              "rarity": 4,
+              "special": "Blast 5, Knockdown, Vicious 2"
             },
             {
-              "Name": "Submachine Gun",
-              "Skill": "Ranged (Light)",
-              "Damage": 5,
-              "Crit": 3,
-              "Range": "Medium",
-              "Encumbrance": 2,
-              "HardPoints": 1,
-              "Price": "400 (R)",
-              "Rarity": 4,
-              "Special": "Auto-fire"
+              "name": "Submachine Gun",
+              "skill": "Ranged (Light)",
+              "damage": 5,
+              "crit": 3,
+              "range": "Medium",
+              "encumbrance": 2,
+              "hardpoints": 1,
+              "price": "400",
+              "restricted": true,
+              "rarity": 4,
+              "special": "Auto-fire"
             }
           ]
         },
@@ -3543,52 +3546,54 @@
           "name": "Mass Drivers",
           "items": [
             {
-              "Name": "Auto-Fletcher",
-              "Skill": "Ranged (Light)",
-              "Damage": 3,
-              "Crit": 2,
-              "Range": "Medium",
-              "Encumbrance": 2,
-              "HardPoints": 1,
-              "Price": 500,
-              "Rarity": 5,
-              "Special": "Auto-fire, Pierce 2, Vicious 2"
+              "name": "Auto-Fletcher",
+              "skill": "Ranged (Light)",
+              "damage": 3,
+              "crit": 2,
+              "range": "Medium",
+              "encumbrance": 2,
+              "hardpoints": 1,
+              "price": 500,
+              "rarity": 5,
+              "special": "Auto-fire, Pierce 2, Vicious 2"
             },
             {
-              "Name": "Fletcher",
-              "Skill": "Ranged (Heavy)",
-              "Damage": 4,
-              "Crit": 2,
-              "Range": "Medium",
-              "Encumbrance": 3,
-              "HardPoints": 3,
-              "Price": "675 (R)",
-              "Rarity": 5,
-              "Special": "Blast 4, Pierce 2, Vicious 3"
+              "name": "Fletcher",
+              "skill": "Ranged (Heavy)",
+              "damage": 4,
+              "crit": 2,
+              "range": "Medium",
+              "encumbrance": 3,
+              "hardpoints": 3,
+              "price": "675",
+              "restricted": true,
+              "rarity": 5,
+              "special": "Blast 4, Pierce 2, Vicious 3"
             },
             {
-              "Name": "Fletcher Pistol",
-              "Skill": "Ranged (Light)",
-              "Damage": 4,
-              "Crit": 2,
-              "Range": "Medium",
-              "Encumbrance": 1,
-              "HardPoints": 2,
-              "Price": 450,
-              "Rarity": 4,
-              "Special": "Pierce 2, Vicious 2"
+              "name": "Fletcher Pistol",
+              "skill": "Ranged (Light)",
+              "damage": 4,
+              "crit": 2,
+              "range": "Medium",
+              "encumbrance": 1,
+              "hardpoints": 2,
+              "price": 450,
+              "rarity": 4,
+              "special": "Pierce 2, Vicious 2"
             },
             {
-              "Name": "Gauss Rifle",
-              "Skill": "Ranged (Heavy)",
-              "Damage": 10,
-              "Crit": 2,
-              "Range": "Extreme",
-              "Encumbrance": 5,
-              "HardPoints": 3,
-              "Price": "2,000 (R)",
-              "Rarity": 7,
-              "Special": "Cumbersome 3, Pierce 5, Slow-Firing 1"
+              "name": "Gauss Rifle",
+              "skill": "Ranged (Heavy)",
+              "damage": 10,
+              "crit": 2,
+              "range": "Extreme",
+              "encumbrance": 5,
+              "hardpoints": 3,
+              "price": "2,000",
+              "restricted": true,
+              "rarity": 7,
+              "special": "Cumbersome 3, Pierce 5, Slow-Firing 1"
             }
           ]
         },
@@ -3596,40 +3601,41 @@
           "name": "Energy Weapons",
           "items": [
             {
-              "Name": "Laser Pistol",
-              "Skill": "Ranged (Light)",
-              "Damage": 6,
-              "Crit": 3,
-              "Range": "Short",
-              "Encumbrance": 1,
-              "HardPoints": 2,
-              "Price": 650,
-              "Rarity": 8,
-              "Special": "Accurate 1, Burn 1"
+              "name": "Laser Pistol",
+              "skill": "Ranged (Light)",
+              "damage": 6,
+              "crit": 3,
+              "range": "Short",
+              "encumbrance": 1,
+              "hardpoints": 2,
+              "price": 650,
+              "rarity": 8,
+              "special": "Accurate 1, Burn 1"
             },
             {
-              "Name": "Laser Rifle",
-              "Skill": "Ranged (Heavy)",
-              "Damage": 8,
-              "Crit": 3,
-              "Range": "Medium",
-              "Encumbrance": 4,
-              "HardPoints": 2,
-              "Price": "900 (R)",
-              "Rarity": 8,
-              "Special": "Accurate 1, Burn 1"
+              "name": "Laser Rifle",
+              "skill": "Ranged (Heavy)",
+              "damage": 8,
+              "crit": 3,
+              "range": "Medium",
+              "encumbrance": 4,
+              "hardpoints": 2,
+              "price": "900",
+              "restricted": true,
+              "rarity": 8,
+              "special": "Accurate 1, Burn 1"
             },
             {
-              "Name": "Synap Pistol",
-              "Skill": "Ranged (Light)",
-              "Damage": 5,
-              "Crit": 6,
-              "Range": "Short",
-              "Encumbrance": 1,
-              "HardPoints": 2,
-              "Price": 375,
-              "Rarity": 2,
-              "Special": "Disorient 4, Stun 3, Stun Damage"
+              "name": "Synap Pistol",
+              "skill": "Ranged (Light)",
+              "damage": 5,
+              "crit": 6,
+              "range": "Short",
+              "encumbrance": 1,
+              "hardpoints": 2,
+              "price": 375,
+              "rarity": 2,
+              "special": "Disorient 4, Stun 3, Stun damage"
             }
           ]
         },
@@ -3637,88 +3643,95 @@
           "name": "Fire Support Weapons",
           "items": [
             {
-              "Name": "Guided Missile Launcher",
-              "Skill": "Gunnery",
-              "Damage": 20,
-              "Crit": 3,
-              "Range": "Strategic",
-              "Encumbrance": 6,
-              "HardPoints": 3,
-              "Price": "25,000 (R)",
-              "Rarity": 8,
-              "Special": "Blast 10, Breach 2, Cumbersome 5, Guided 4, Limited Ammo 1, Prepare 1"
+              "name": "Guided Missile Launcher",
+              "skill": "Gunnery",
+              "damage": 20,
+              "crit": 3,
+              "range": "Strategic",
+              "encumbrance": 6,
+              "hardpoints": 3,
+              "price": "25,000",
+              "restricted": true,
+              "rarity": 8,
+              "special": "Blast 10, Breach 2, Cumbersome 5, Guided 4, Limited Ammo 1, Prepare 1"
             },
             {
-              "Name": "Heavy Fletcher",
-              "Skill": "Gunnery",
-              "Damage": 6,
-              "Crit": 2,
-              "Range": "Medium",
-              "Encumbrance": 6,
-              "HardPoints": 3,
-              "Price": "1,400 (R)",
-              "Rarity": 5,
-              "Special": "Cumbersome 3, Blast 6, Pierce 4, Vicious 3"
+              "name": "Heavy Fletcher",
+              "skill": "Gunnery",
+              "damage": 6,
+              "crit": 2,
+              "range": "Medium",
+              "encumbrance": 6,
+              "hardpoints": 3,
+              "price": "1,400",
+              "restricted": true,
+              "rarity": 5,
+              "special": "Cumbersome 3, Blast 6, Pierce 4, Vicious 3"
             },
             {
-              "Name": "Heavy Gauss Rifle",
-              "Skill": "Gunnery",
-              "Damage": 15,
-              "Crit": 2,
-              "Range": "Extreme",
-              "Encumbrance": 7,
-              "HardPoints": 3,
-              "Price": "4,000 (R)",
-              "Rarity": 8,
-              "Special": "Breach 1, Cumbersome 5, Slow-Firing 1"
+              "name": "Heavy Gauss Rifle",
+              "skill": "Gunnery",
+              "damage": 15,
+              "crit": 2,
+              "range": "Extreme",
+              "encumbrance": 7,
+              "hardpoints": 3,
+              "price": "4,000",
+              "restricted": true,
+              "rarity": 8,
+              "special": "Breach 1, Cumbersome 5, Slow-Firing 1"
             },
             {
-              "Name": "Laser Cannon",
-              "Skill": "Gunnery",
-              "Damage": 10,
-              "Crit": 3,
-              "Range": "Long",
-              "Encumbrance": 6,
-              "HardPoints": 2,
-              "Price": "1,675 (R)",
-              "Rarity": 9,
-              "Special": "Accurate 1, Burn 1, Cumbersome 4, Sunder"
+              "name": "Laser Cannon",
+              "skill": "Gunnery",
+              "damage": 10,
+              "crit": 3,
+              "range": "Long",
+              "encumbrance": 6,
+              "hardpoints": 2,
+              "price": "1,675",
+              "restricted": true,
+              "rarity": 9,
+              "special": "Accurate 1, Burn 1, Cumbersome 4, Sunder"
             },
             {
-              "Name": "Light Machine Gun",
-              "Skill": "Gunnery",
-              "Damage": 10,
-              "Crit": 3,
-              "Range": "Long",
-              "Encumbrance": 6,
-              "HardPoints": 4,
-              "Price": "1,750 (R)",
-              "Rarity": 6,
-              "Special": "Auto-fire, Cumbersome 3, Pierce 2, Vicious 2"
+              "name": "Light Machine Gun",
+              "skill": "Gunnery",
+              "damage": 10,
+              "crit": 3,
+              "range": "Long",
+              "encumbrance": 6,
+              "hardpoints": 4,
+              "price": "1,750",
+              "restricted": true,
+              "rarity": 6,
+              "special": "Auto-fire, Cumbersome 3, Pierce 2, Vicious 2"
             },
             {
-              "Name": "Maser",
-              "Skill": "Gunnery",
-              "Damage": 5,
-              "Crit": 3,
-              "Range": "Short",
-              "Encumbrance": 6,
-              "HardPoints": 2,
-              "Price": "1,275 (R)",
-              "Rarity": 6,
-              "Special": "Breach 1, Cumbersome 5, Unwieldy 2, Vicious 5"
+              "name": "Maser",
+              "skill": "Gunnery",
+              "damage": 5,
+              "crit": 3,
+              "range": "Short",
+              "encumbrance": 6,
+              "hardpoints": 2,
+              "price": "1,275",
+              "restricted": true,
+              "rarity": 6,
+              "special": "Breach 1, Cumbersome 5, Unwieldy 2, Vicious 5"
             },
             {
-              "Name": "Micro-Missile Launcher",
-              "Skill": "Gunnery",
-              "Damage": 12,
-              "Crit": 4,
-              "Range": "Long",
-              "Encumbrance": "5",
-              "HardPoints": 2,
-              "Price": "3,000 (R)",
-              "Rarity": 7,
-              "Special": "Blast 10, Cumbersome 4, Guided 3, Limited Ammo 3, Prepare 1"
+              "name": "Micro-Missile Launcher",
+              "skill": "Gunnery",
+              "damage": 12,
+              "crit": 4,
+              "range": "Long",
+              "encumbrance": "5",
+              "hardpoints": 2,
+              "price": "3,000",
+              "restricted": true,
+              "rarity": 7,
+              "special": "Blast 10, Cumbersome 4, Guided 3, Limited Ammo 3, Prepare 1"
             }
           ]
         },
@@ -3726,37 +3739,38 @@
           "name": "Explosives and Ordnance",
           "items": [
             {
-              "Name": "Glop Grenade",
-              "Skill": "Ranged (Light)",
-              "Damage": 1,
-              "Crit": 6,
-              "Range": "Short",
-              "Encumbrance": 1,
-              "Price": 50,
-              "Rarity": 5,
-              "Special": "Blast 1, Ensnare 4, Limited Ammo 1"
+              "name": "Glop Grenade",
+              "skill": "Ranged (Light)",
+              "damage": 1,
+              "crit": 6,
+              "range": "Short",
+              "encumbrance": 1,
+              "price": 50,
+              "rarity": 5,
+              "special": "Blast 1, Ensnare 4, Limited Ammo 1"
             },
             {
-              "Name": "Monofilament Grenade",
-              "Skill": "Ranged (Light)",
-              "Damage": 7,
-              "Crit": 3,
-              "Range": "Short",
-              "Encumbrance": 1,
-              "Price": "85 (R)",
-              "Rarity": 4,
-              "Special": "Blast 7, Limited Ammo 1, Vicious 2"
+              "name": "Monofilament Grenade",
+              "skill": "Ranged (Light)",
+              "damage": 7,
+              "crit": 3,
+              "range": "Short",
+              "encumbrance": 1,
+              "price": "85",
+              "restricted": true,
+              "rarity": 4,
+              "special": "Blast 7, Limited Ammo 1, Vicious 2"
             },
             {
-              "Name": "Stun Grenade",
-              "Skill": "Ranged (Light)",
-              "Damage": 8,
-              "Crit": 5,
-              "Range": "Short",
-              "Encumbrance": 1,
-              "Price": 70,
-              "Rarity": 4,
-              "Special": "Blast 8, Disorient 3, Limited Ammo 1, Stun Damage"
+              "name": "Stun Grenade",
+              "skill": "Ranged (Light)",
+              "damage": 8,
+              "crit": 5,
+              "range": "Short",
+              "encumbrance": 1,
+              "price": 70,
+              "rarity": 4,
+              "special": "Blast 8, Disorient 3, Limited Ammo 1, Stun damage"
             }
           ]
         },
@@ -3764,88 +3778,88 @@
           "name": "Melee Weapons",
           "items": [
             {
-              "Name": "Charged Crystal Katana",
-              "Skill": "Melee",
-              "Damage": "+3",
-              "Crit": 2,
-              "Range": "Engaged",
-              "Encumbrance": 3,
-              "HardPoints": 2,
-              "Price": 600,
-              "Rarity": 10,
-              "Special": "Defensive 1, Pierce 3, Reinforced, Unwieldy 3"
+              "name": "Charged Crystal Katana",
+              "skill": "Melee",
+              "damage": "+3",
+              "crit": 2,
+              "range": "Engaged",
+              "encumbrance": 3,
+              "hardpoints": 2,
+              "price": 600,
+              "rarity": 10,
+              "special": "Defensive 1, Pierce 3, Reinforced, Unwieldy 3"
             },
             {
-              "Name": "Monoblade",
-              "Skill": "Melee",
-              "Damage": "+1",
-              "Crit": 2,
-              "Range": "Engaged",
-              "Encumbrance": 1,
-              "HardPoints": 1,
-              "Price": 225,
-              "Rarity": 3,
-              "Special": "Pierce 2"
+              "name": "Monoblade",
+              "skill": "Melee",
+              "damage": "+1",
+              "crit": 2,
+              "range": "Engaged",
+              "encumbrance": 1,
+              "hardpoints": 1,
+              "price": 225,
+              "rarity": 3,
+              "special": "Pierce 2"
             },
             {
-              "Name": "Plasma Cutter",
-              "Skill": "Melee",
-              "Damage": 12,
-              "Crit": 3,
-              "Range": "Engaged",
-              "Encumbrance": 5,
-              "HardPoints": 3,
-              "Price": 725,
-              "Rarity": 5,
-              "Special": "Burn 1, Prepare 1, Sunder, Unwieldy 2"
+              "name": "Plasma Cutter",
+              "skill": "Melee",
+              "damage": 12,
+              "crit": 3,
+              "range": "Engaged",
+              "encumbrance": 5,
+              "hardpoints": 3,
+              "price": 725,
+              "rarity": 5,
+              "special": "Burn 1, Prepare 1, Sunder, Unwieldy 2"
             },
             {
-              "Name": "Sledgehammer",
-              "Skill": "Melee",
-              "Damage": "+4",
-              "Crit": 4,
-              "Range": "Engaged",
-              "Encumbrance": 4,
-              "HardPoints": 4,
-              "Price": 200,
-              "Rarity": 2,
-              "Special": "Cumbersome 2, Knockdown"
+              "name": "Sledgehammer",
+              "skill": "Melee",
+              "damage": "+4",
+              "crit": 4,
+              "range": "Engaged",
+              "encumbrance": 4,
+              "hardpoints": 4,
+              "price": 200,
+              "rarity": 2,
+              "special": "Cumbersome 2, Knockdown"
             },
             {
-              "Name": "Stun Baton",
-              "Skill": "Melee",
-              "Damage": "+2",
-              "Crit": 5,
-              "Range": "Engaged",
-              "Encumbrance": 1,
-              "HardPoints": 2,
-              "Price": 125,
-              "Rarity": 2,
-              "Special": "Disorient 3, Stun Damage"
+              "name": "Stun Baton",
+              "skill": "Melee",
+              "damage": "+2",
+              "crit": 5,
+              "range": "Engaged",
+              "encumbrance": 1,
+              "hardpoints": 2,
+              "price": 125,
+              "rarity": 2,
+              "special": "Disorient 3, Stun damage"
             },
             {
-              "Name": "Stun Gun",
-              "Skill": "Melee",
-              "Damage": 6,
-              "Crit": 5,
-              "Range": "Engaged",
-              "Encumbrance": 1,
-              "HardPoints": 1,
-              "Price": 200,
-              "Rarity": 3,
-              "Special": "Stun 4, Stun Damage"
+              "name": "Stun Gun",
+              "skill": "Melee",
+              "damage": 6,
+              "crit": 5,
+              "range": "Engaged",
+              "encumbrance": 1,
+              "hardpoints": 1,
+              "price": 200,
+              "rarity": 3,
+              "special": "Stun 4, Stun damage"
             },
             {
-              "Name": "Waterknife",
-              "Skill": "Melee",
-              "Damage": 10,
-              "Crit": 3,
-              "Range": "Engaged",
-              "Encumbrance": 4,
-              "HardPoints": 1,
-              "Price": 850,
-              "Rarity": 4,
-              "Special": "Prepare 1, Sunder, Unwieldy 3, Vicious 3"
+              "name": "Waterknife",
+              "skill": "Melee",
+              "damage": 10,
+              "crit": 3,
+              "range": "Engaged",
+              "encumbrance": 4,
+              "hardpoints": 1,
+              "price": 850,
+              "rarity": 4,
+              "special": "Prepare 1, Sunder, Unwieldy 3, Vicious 3"
             }
           ]
         },
@@ -3853,52 +3867,54 @@
           "name": "Brawl Weapons",
           "items": [
             {
-              "Name": "Brass Knuckles",
-              "Skill": "Brawl",
-              "Damage": "+1",
-              "Crit": 4,
-              "Range": "Engaged",
-              "Encumbrance": 1,
-              "HardPoints": 1,
-              "Price": 40,
-              "Rarity": 1,
-              "Special": "Disorient 3"
+              "name": "Brass Knuckles",
+              "skill": "Brawl",
+              "damage": "+1",
+              "crit": 4,
+              "range": "Engaged",
+              "encumbrance": 1,
+              "hardpoints": 1,
+              "price": 40,
+              "rarity": 1,
+              "special": "Disorient 3"
             },
             {
-              "Name": "Chromecrushers",
-              "Skill": "Brawl",
-              "Damage": "+3",
-              "Crit": 4,
-              "Range": "Engaged",
-              "Encumbrance": 2,
-              "HardPoints": 1,
-              "Price": "250 (R)",
-              "Rarity": 3,
-              "Special": "Linked 1"
+              "name": "Chromecrushers",
+              "skill": "Brawl",
+              "damage": "+3",
+              "crit": 4,
+              "range": "Engaged",
+              "encumbrance": 2,
+              "hardpoints": 1,
+              "price": "250",
+              "restricted": true,
+              "rarity": 3,
+              "special": "Linked 1"
             },
             {
-              "Name": "Palm Stunner",
-              "Skill": "Brawl",
-              "Damage": 5,
-              "Crit": 5,
-              "Range": "Engaged",
-              "Encumbrance": 0,
-              "HardPoints": 0,
-              "Price": 70,
-              "Rarity": 3,
-              "Special": "Disorient 2, Slow-Firing 2, Stun Damage"
+              "name": "Palm Stunner",
+              "skill": "Brawl",
+              "damage": 5,
+              "crit": 5,
+              "range": "Engaged",
+              "encumbrance": 0,
+              "hardpoints": 0,
+              "price": 70,
+              "rarity": 3,
+              "special": "Disorient 2, Slow-Firing 2, Stun damage"
             },
             {
-              "Name": "Power Gauntlet",
-              "Skill": "Brawl",
-              "Damage": "+4",
-              "Crit": 4,
-              "Range": "Engaged",
-              "Encumbrance": 3,
-              "HardPoints": 2,
-              "Price": "1,120 (R)",
-              "Rarity": 6,
-              "Special": "Concussive 2, Knockdown, Prepare 1"
+              "name": "Power Gauntlet",
+              "skill": "Brawl",
+              "damage": "+4",
+              "crit": 4,
+              "range": "Engaged",
+              "encumbrance": 3,
+              "hardpoints": 2,
+              "price": "1,120",
+              "restricted": true,
+              "rarity": 6,
+              "special": "Concussive 2, Knockdown, Prepare 1"
             }
           ]
         }
@@ -3911,40 +3927,41 @@
           "name": "Clothing",
           "items": [
             {
-              "Name": "Durable Clothing",
-              "Defense": 0,
-              "Soak": 1,
-              "Encumbrance": 1,
-              "HardPoints": 1,
-              "Price": 50,
-              "Rarity": 1
+              "name": "Durable Clothing",
+              "defense": 0,
+              "soak": 1,
+              "encumbrance": 1,
+              "hardpoints": 1,
+              "price": 50,
+              "rarity": 1
             },
             {
-              "Name": "Concealed Buckyweave",
-              "Defense": 1,
-              "Soak": 1,
-              "Encumbrance": 1,
-              "HardPoints": 2,
-              "Price": 320,
-              "Rarity": 5
+              "name": "Concealed Buckyweave",
+              "defense": 1,
+              "soak": 1,
+              "encumbrance": 1,
+              "hardpoints": 2,
+              "price": 320,
+              "rarity": 5
             },
             {
-              "Name": "Environmental Hardsuit",
-              "Defense": 0,
-              "Soak": 1,
-              "Encumbrance": 4,
-              "HardPoints": 2,
-              "Price": 260,
-              "Rarity": 4
+              "name": "Environmental Hardsuit",
+              "defense": 0,
+              "soak": 1,
+              "encumbrance": 4,
+              "hardpoints": 2,
+              "price": 260,
+              "rarity": 4
             },
             {
-              "Name": "Optical Camouflage Suit",
-              "Defense": 2,
-              "Soak": 0,
-              "Encumbrance": 2,
-              "HardPoints": 1,
-              "Price": "580 (R)",
-              "Rarity": 7
+              "name": "Optical Camouflage Suit",
+              "defense": 2,
+              "soak": 0,
+              "encumbrance": 2,
+              "hardpoints": 1,
+              "price": "580",
+              "restricted": true,
+              "rarity": 7
             }
           ]
         },
@@ -3952,40 +3969,42 @@
           "name": "Armor",
           "items": [
             {
-              "Name": "Light Body Armor",
-              "Defense": 0,
-              "Soak": 2,
-              "Encumbrance": 2,
-              "HardPoints": 1,
-              "Price": 500,
-              "Rarity": 5
+              "name": "Light Body Armor",
+              "defense": 0,
+              "soak": 2,
+              "encumbrance": 2,
+              "hardpoints": 1,
+              "price": 500,
+              "rarity": 5
             },
             {
-              "Name": "Personal Exosuit",
-              "Defense": 0,
-              "Soak": 3,
-              "Encumbrance": 5,
-              "HardPoints": 4,
-              "Price": "5,000 (R)",
-              "Rarity": 6
+              "name": "Personal Exosuit",
+              "defense": 0,
+              "soak": 3,
+              "encumbrance": 5,
+              "hardpoints": 4,
+              "price": "5,000",
+              "restricted": true,
+              "rarity": 6
             },
             {
-              "Name": "Plasteel Carapace",
-              "Defense": 1,
-              "Soak": 2,
-              "Encumbrance": 4,
-              "HardPoints": 3,
-              "Price": "750 (R)",
-              "Rarity": 5
+              "name": "Plasteel Carapace",
+              "defense": 1,
+              "soak": 2,
+              "encumbrance": 4,
+              "hardpoints": 3,
+              "price": "750",
+              "restricted": true,
+              "rarity": 5
             },
             {
-              "Name": "Riot Armor",
-              "Defense": 0,
-              "Soak": 2,
-              "Encumbrance": 3,
-              "HardPoints": 2,
-              "Price": 550,
-              "Rarity": 5
+              "name": "Riot Armor",
+              "defense": 0,
+              "soak": 2,
+              "encumbrance": 3,
+              "hardpoints": 2,
+              "price": 550,
+              "rarity": 5
             }
           ]
         }
@@ -3998,34 +4017,34 @@
           "name": "Carrying and Storage",
           "items": [
             {
-              "Name": "Cross-Body Bag",
-              "Encumbrance": 3,
-              "Price": 30,
-              "Rarity": 1
+              "name": "Cross-Body Bag",
+              "encumbrance": 3,
+              "price": 30,
+              "rarity": 1
             },
             {
-              "Name": "Load-Bearing Gear",
-              "Encumbrance": 3,
-              "Price": 45,
-              "Rarity": 3
+              "name": "Load-Bearing Gear",
+              "encumbrance": 3,
+              "price": 45,
+              "rarity": 3
             },
             {
-              "Name": "MAL Container",
-              "Encumbrance": 15,
-              "Price": "10,000",
-              "Rarity": 8
+              "name": "MAL Container",
+              "encumbrance": 15,
+              "price": "10,000",
+              "rarity": 8
             },
             {
-              "Name": "Modular Backpack",
-              "Encumbrance": 5,
-              "Price": 100,
-              "Rarity": 3
+              "name": "Modular Backpack",
+              "encumbrance": 5,
+              "price": 100,
+              "rarity": 3
             },
             {
-              "Name": "Utility Belt",
-              "Encumbrance": 2,
-              "Price": 20,
-              "Rarity": 1
+              "name": "Utility Belt",
+              "encumbrance": 2,
+              "price": 20,
+              "rarity": 1
             }
           ]
         },
@@ -4033,34 +4052,34 @@
           "name": "Clandestine and Black Ops",
           "items": [
             {
-              "Name": "Disguise Kit",
-              "Encumbrance": 4,
-              "Price": 250,
-              "Rarity": 5
+              "name": "Disguise Kit",
+              "encumbrance": 4,
+              "price": 250,
+              "rarity": 5
             },
             {
-              "Name": "Infiltrator Goggles",
-              "Encumbrance": 1,
-              "Price": 300,
-              "Rarity": 6
+              "name": "Infiltrator Goggles",
+              "encumbrance": 1,
+              "price": 300,
+              "rarity": 6
             },
             {
-              "Name": "Lockbreaker",
-              "Encumbrance": 1,
-              "Price": 125,
-              "Rarity": 5
+              "name": "Lockbreaker",
+              "encumbrance": 1,
+              "price": 125,
+              "rarity": 5
             },
             {
-              "Name": "Lockpick Set",
-              "Encumbrance": 1,
-              "Price": 75,
-              "Rarity": 5
+              "name": "Lockpick Set",
+              "encumbrance": 1,
+              "price": 75,
+              "rarity": 5
             },
             {
-              "Name": "Snap-Locks",
-              "Encumbrance": 0,
-              "Price": 5,
-              "Rarity": 3
+              "name": "Snap-Locks",
+              "encumbrance": 0,
+              "price": 5,
+              "rarity": 3
             }
           ]
         },
@@ -4068,22 +4087,22 @@
           "name": "Comms",
           "items": [
             {
-              "Name": "Burst Transmitter",
-              "Encumbrance": 1,
-              "Price": 440,
-              "Rarity": 6
+              "name": "Burst Transmitter",
+              "encumbrance": 1,
+              "price": 440,
+              "rarity": 6
             },
             {
-              "Name": "Field Radio",
-              "Encumbrance": 1,
-              "Price": 250,
-              "Rarity": 5
+              "name": "Field Radio",
+              "encumbrance": 1,
+              "price": 250,
+              "rarity": 5
             },
             {
-              "Name": "Personal Comlink",
-              "Encumbrance": 0,
-              "Price": 25,
-              "Rarity": 4
+              "name": "Personal Comlink",
+              "encumbrance": 0,
+              "price": 25,
+              "rarity": 4
             }
           ]
         },
@@ -4091,46 +4110,46 @@
           "name": "Computers and Computer Accessories",
           "items": [
             {
-              "Name": "Big Rig",
-              "Encumbrance": 8,
-              "Price": "2,000",
-              "Rarity": 7
+              "name": "Big Rig",
+              "encumbrance": 8,
+              "price": "2,000",
+              "rarity": 7
             },
             {
-              "Name": "BMI",
-              "Encumbrance": 0,
-              "Price": 480,
-              "Rarity": 4
+              "name": "BMI",
+              "encumbrance": 0,
+              "price": 480,
+              "rarity": 4
             },
             {
-              "Name": "Monocam",
-              "Encumbrance": 0,
-              "Price": 120,
-              "Rarity": 2
+              "name": "Monocam",
+              "encumbrance": 0,
+              "price": 120,
+              "rarity": 2
             },
             {
-              "Name": "PAD",
-              "Encumbrance": 1,
-              "Price": 200,
-              "Rarity": 2
+              "name": "PAD",
+              "encumbrance": 1,
+              "price": 200,
+              "rarity": 2
             },
             {
-              "Name": "Portable Rig",
-              "Encumbrance": 3,
-              "Price": 750,
-              "Rarity": 5
+              "name": "Portable Rig",
+              "encumbrance": 3,
+              "price": 750,
+              "rarity": 5
             },
             {
-              "Name": "Reader",
-              "Encumbrance": 0,
-              "Price": 175,
-              "Rarity": 2
+              "name": "Reader",
+              "encumbrance": 0,
+              "price": 175,
+              "rarity": 2
             },
             {
-              "Name": "Smartspecs",
-              "Encumbrance": 1,
-              "Price": 90,
-              "Rarity": 3
+              "name": "Smartspecs",
+              "encumbrance": 1,
+              "price": 90,
+              "rarity": 3
             }
           ]
         },
@@ -4138,46 +4157,46 @@
           "name": "Meds and Drugs",
           "items": [
             {
-              "Name": "Emergency Medkit",
-              "Encumbrance": 1,
-              "Price": 100,
-              "Rarity": 2
+              "name": "Emergency Medkit",
+              "encumbrance": 1,
+              "price": 100,
+              "rarity": 2
             },
             {
-              "Name": "Happy Patch",
-              "Encumbrance": 0,
-              "Price": 10,
-              "Rarity": 1
+              "name": "Happy Patch",
+              "encumbrance": 0,
+              "price": 10,
+              "rarity": 1
             },
             {
-              "Name": "Low-Fi",
-              "Encumbrance": 0,
-              "Price": 50,
-              "Rarity": 2
+              "name": "Low-Fi",
+              "encumbrance": 0,
+              "price": 50,
+              "rarity": 2
             },
             {
-              "Name": "Portable Clinic Kit",
-              "Encumbrance": 3,
-              "Price": 700,
-              "Rarity": 4
+              "name": "Portable Clinic Kit",
+              "encumbrance": 3,
+              "price": 700,
+              "rarity": 4
             },
             {
-              "Name": "Slap-Patch",
-              "Encumbrance": 0,
-              "Price": 25,
-              "Rarity": 2
+              "name": "Slap-Patch",
+              "encumbrance": 0,
+              "price": 25,
+              "rarity": 2
             },
             {
-              "Name": "Stim",
-              "Encumbrance": 0,
-              "Price": 5,
-              "Rarity": 1
+              "name": "Stim",
+              "encumbrance": 0,
+              "price": 5,
+              "rarity": 1
             },
             {
-              "Name": "Sting",
-              "Encumbrance": 0,
-              "Price": 50,
-              "Rarity": 3
+              "name": "Sting",
+              "encumbrance": 0,
+              "price": 50,
+              "rarity": 3
             }
           ]
         },
@@ -4185,88 +4204,88 @@
           "name": "Tools and General Gear",
           "items": [
             {
-              "Name": "Airbelt Pack",
-              "Encumbrance": 1,
-              "Price": 650,
-              "Rarity": 3
+              "name": "Airbelt Pack",
+              "encumbrance": 1,
+              "price": 650,
+              "rarity": 3
             },
             {
-              "Name": "Climbing Harness",
-              "Encumbrance": 2,
-              "Price": 400,
-              "Rarity": 4
+              "name": "Climbing Harness",
+              "encumbrance": 2,
+              "price": 400,
+              "rarity": 4
             },
             {
-              "Name": "Emergency Repair Patch",
-              "Encumbrance": 0,
-              "Price": 25,
-              "Rarity": 2
+              "name": "Emergency Repair Patch",
+              "encumbrance": 0,
+              "price": 25,
+              "rarity": 2
             },
             {
-              "Name": "Flashlight",
-              "Encumbrance": 0,
-              "Price": 10,
-              "Rarity": 1
+              "name": "Flashlight",
+              "encumbrance": 0,
+              "price": 10,
+              "rarity": 1
             },
             {
-              "Name": "Forensic Kit",
-              "Encumbrance": 4,
-              "Price": 475,
-              "Rarity": 5
+              "name": "Forensic Kit",
+              "encumbrance": 4,
+              "price": 475,
+              "rarity": 5
             },
             {
-              "Name": "Handheld Scanner",
-              "Encumbrance": 1,
-              "Price": 100,
-              "Rarity": 2
+              "name": "Handheld Scanner",
+              "encumbrance": 1,
+              "price": 100,
+              "rarity": 2
             },
             {
-              "Name": "Las-Scanner",
-              "Encumbrance": 1,
-              "Price": 170,
-              "Rarity": 4
+              "name": "Las-Scanner",
+              "encumbrance": 1,
+              "price": 170,
+              "rarity": 4
             },
             {
-              "Name": "Makerbox",
-              "Encumbrance": 5,
-              "Price": "1,000",
-              "Rarity": 6
+              "name": "Makerbox",
+              "encumbrance": 5,
+              "price": "1,000",
+              "rarity": 6
             },
             {
-              "Name": "Micro-Welder",
-              "Encumbrance": 1,
-              "Price": 80,
-              "Rarity": 2
+              "name": "Micro-Welder",
+              "encumbrance": 1,
+              "price": 80,
+              "rarity": 2
             },
             {
-              "Name": "O2 Bottle",
-              "Encumbrance": 1,
-              "Price": 35,
-              "Rarity": 2
+              "name": "O2 Bottle",
+              "encumbrance": 1,
+              "price": 35,
+              "rarity": 2
             },
             {
-              "Name": "Portable Toolkit",
-              "Encumbrance": 4,
-              "Price": 200,
-              "Rarity": 2
+              "name": "Portable Toolkit",
+              "encumbrance": 4,
+              "price": 200,
+              "rarity": 2
             },
             {
-              "Name": "Respirator",
-              "Encumbrance": 1,
-              "Price": 40,
-              "Rarity": 1
+              "name": "Respirator",
+              "encumbrance": 1,
+              "price": 40,
+              "rarity": 1
             },
             {
-              "Name": "Rope",
-              "Encumbrance": 1,
-              "Price": 5,
-              "Rarity": 1
+              "name": "Rope",
+              "encumbrance": 1,
+              "price": 5,
+              "rarity": 1
             },
             {
-              "Name": "Space Suit",
-              "Encumbrance": 6,
-              "Price": 500,
-              "Rarity": 3
+              "name": "Space Suit",
+              "encumbrance": 6,
+              "price": 500,
+              "rarity": 3
             }
           ]
         }

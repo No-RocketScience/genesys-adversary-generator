@@ -65,44 +65,44 @@ function update() {
   document.querySelectorAll(".equipment input.edit.weapons:checked")
     .forEach(w => {
       let weapon = JSON.parse(document.getElementById("json-" + w.id).textContent.trim());
-      let damage = String(weapon['Damage']).includes("+") ?
-        result['caracteristics']['brawn'] + Number(weapon['Damage']) : weapon['Damage'];
-      weapons += weapon['Name'] + '; '
-        + 'Skill: ' + weapon['Skill'] + '; '
+      let damage = String(weapon['damage']).includes("+") ?
+        result['caracteristics']['brawn'] + Number(weapon['damage']) : weapon['damage'];
+      weapons += weapon['name'] + '; '
+        + 'Skill: ' + weapon['skill'] + '; '
         + 'Damage: ' + damage + '; '
-        + 'Crit: ' + weapon['Crit'] + '; '
-        + 'Range: ' + weapon['Range'] + '; '
-        + 'Encumbrance: ' + weapon['Encumbrance'] + '; '
-        + 'HardPoints: ' + weapon['HardPoints'] + '; '
-        + 'Price: ' + weapon['Price'] + '; '
-        + 'Rarity: ' + weapon['Rarity'] + '; '
-        + 'Special: ' + weapon['Special'] + '; '
+        + 'Crit: ' + weapon['crit'] + '; '
+        + 'Range: ' + weapon['range'] + '; '
+        + 'Encumbrance: ' + weapon['encumbrance'] + '; '
+        + 'HardPoints: ' + weapon['hardpoints'] + '; '
+        + 'Price: ' + weapon['price'] + '; '
+        + 'Rarity: ' + weapon['rarity'] + '; '
+        + 'Special: ' + weapon['special'] + '; '
         + " | \n";
     });
   equipment = "";
   document.querySelectorAll(".equipment input.edit.armor:checked")
     .forEach(e => {
       let armor = JSON.parse(document.getElementById("json-" + e.id).textContent.trim());
-      result['defense']['soak'] += Number(armor['Soak']);
-      result['defense']['melee_defense'] += Number(armor['Defense']);
-      result['defense']['ranged_defense'] += Number(armor['Defense']);
+      result['defense']['soak'] += Number(armor['soak']);
+      result['defense']['melee_defense'] += Number(armor['defense']);
+      result['defense']['ranged_defense'] += Number(armor['defense']);
 
-      equipment += armor['Name'] + '; '
-        + 'Defense: ' + armor['Defense'] + '; '
-        + 'Soak: ' + armor['Soak'] + '; '
-        + 'Encumbrance: ' + armor['Encumbrance'] + '; '
-        + 'HardPoints: ' + armor['HardPoints'] + '; '
-        + 'Price: ' + armor['Price'] + '; '
-        + 'Rarity: ' + armor['Rarity'] + '; '
+      equipment += armor['name'] + '; '
+        + 'Defense: ' + armor['defense'] + '; '
+        + 'Soak: ' + armor['soak'] + '; '
+        + 'Encumbrance: ' + armor['encumbrance'] + '; '
+        + 'HardPoints: ' + armor['hardpoints'] + '; '
+        + 'Price: ' + armor['price'] + '; '
+        + 'Rarity: ' + armor['rarity'] + '; '
         + " | \n";
     });
   document.querySelectorAll(".equipment input.edit.gear:checked")
     .forEach(e => {
       let gear = JSON.parse(document.getElementById("json-" + e.id).textContent.trim());
-      equipment += gear['Name'] + '; '
-        + 'Encumbrance: ' + gear['Encumbrance'] + '; '
-        + 'Price: ' + gear['Price'] + '; '
-        + 'Rarity: ' + gear['Rarity'] + '; '
+      equipment += gear['name'] + '; '
+        + 'Encumbrance: ' + gear['encumbrance'] + '; '
+        + 'Price: ' + gear['price'] + '; '
+        + 'Rarity: ' + gear['rarity'] + '; '
         + " | \n";
 
     });

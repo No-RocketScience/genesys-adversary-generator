@@ -289,16 +289,17 @@
                 <tr>
                   <th></th>
                   {% for header in group['items'][0].keys() %}
-                  <th>{{header}}</th>
+                  <th>{{header|capitalize}}</th>
                   {% endfor %}
                 </tr>
                 {% for item in group['items'] %}
-                {% set item_name = item['Name']|lower()|replace(' ', '-') %}
+                {% set item_name = item['name']|lower()|replace(' ', '-') %}
                 <tr>
                   <td class="select">
                     <input type="checkbox" class="edit {{category['category']|lower}}" id="equipment-{{item_name}}"
                       name="equipment-{{item_name}}" onchange="update()">
-                    <span style="display: none;" id="json-equipment-{{item_name}}">{{ item|replace("\'", '"') }}</span>
+                    <span style="display: none;" id="json-equipment-{{item_name}}">{{ item|replace("\'",
+                      '"')|replace('True', 'true') }}</span>
                   </td>
                   {% for key in item.keys() %}
                   <td><label>{{item[key]}}</label></td>
