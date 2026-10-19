@@ -99,6 +99,8 @@ svg.defense {
 body {
     background: #FAF6F2;
     font-family: "genesys", serif;
+    max-width: 1920px;
+    margin: auto;
     /*font-family: 'Minion Pro', serif;*/
 }
 
@@ -123,6 +125,26 @@ a {
     min-width: 400px;
     max-width: 600px;
     margin: 6px;
+}
+
+#reset {
+    position: sticky;
+    top: 92.5%;
+    min-width: 400px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#reset a {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+    background-color: #F68712;
+    color: #ffffff;
+    padding: 10px;
+    line-height: 1;
 }
 
 #defense {
